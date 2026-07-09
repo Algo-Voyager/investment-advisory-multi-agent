@@ -1,0 +1,23 @@
+# secrets — never commit
+.env
+
+# local state
+.chroma/
+.checkpoints/
+.cache/
+
+# python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# notebooks / tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# OS
+.DS_Store

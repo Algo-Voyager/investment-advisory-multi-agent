@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xzy-copilot"
+version = "0.1.0"
+description = "XZY Capital Investment Advisory Co-Pilot — multi-agent LangGraph system (Gemini-only)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # --- orchestration ---
+    "langgraph",
+    "langgraph-checkpoint-sqlite",
+    "langchain",
+    "langchain-google-genai",     # the ONLY LLM/embeddings provider in this project
+    "langchain-community",
+    "google-generativeai",
+    # --- knowledge base ---
+    "chromadb",
+    # --- config / models / logging ---
+    "pydantic",
+    "pydantic-settings",
+    "python-dotenv",
+    "structlog",
+    # --- data ---
+    "pandas",
+    "numpy",
+    "openpyxl",                   # required: portfolios.xlsx
+    "yfinance",
+    "requests",
+    # --- ui / viz ---
+    "streamlit",
+    "matplotlib",
+    # --- notebooks ---
+    "jupyterlab",
+    "ipykernel",
+    "nbformat",
+    # --- tests ---
+    "pytest",
+    "pytest-asyncio",
+]
+# Later phases add: pandas-ta (P4), ragas + langsmith (P13), PyPortfolioOpt (P12), pandas_datareader (P2 optional)
+
+[project.optional-dependencies]
+dev = ["ruff"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
