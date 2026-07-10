@@ -26,5 +26,5 @@ make notebook                # open the per-phase notebooks (start with phase00)
 ## Status
 
 - [x] **Phase 0** — scaffold, settings, Gemini factory, logging, exceptions, data in place
-- [ ] Phase 1 — data access + Portfolio agent
+- [x] **Phase 1** — data models, Excel repository (union), portfolio tools, Portfolio agent, graph + CLI
 - [ ] Phases 2–15 — see `docs/01_claude_code_prompts.md`

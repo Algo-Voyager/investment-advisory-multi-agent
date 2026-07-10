@@ -9,8 +9,10 @@ from pathlib import Path
 
 import pytest
 
-# Make settings importable even when no .env is present (CI, fresh clones).
-os.environ.setdefault("GOOGLE_API_KEY", "test-key-not-real")
+# Make settings importable when no .env exists (CI, fresh clones). Only then —
+# an env var would OVERRIDE a real .env in pydantic-settings and break live tests.
+if not Path(__file__).resolve().parents[1].joinpath(".env").exists():
+    os.environ.setdefault("GOOGLE_API_KEY", "test-key-not-real")
 
 from app.config import Settings, settings  # noqa: E402
 from app.errors.exceptions import (  # noqa: E402
