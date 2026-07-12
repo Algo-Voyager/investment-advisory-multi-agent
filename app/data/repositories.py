@@ -20,10 +20,15 @@ from app.logging import get_logger
 
 log = get_logger(__name__)
 
-PORTFOLIOS_XLSX = Path("data/portfolios/portfolios.xlsx")
-SUPPLEMENT_XLSX = Path("data/portfolios/synthetic_supplement.xlsx")
+# Anchor all data paths to the project root (this file lives at <root>/app/data/),
+# so the repository works no matter where Python is launched from — terminal at the
+# root, a notebook whose cwd is notebooks/, or a test runner.
+_ROOT = Path(__file__).resolve().parents[2]
+
+PORTFOLIOS_XLSX = _ROOT / "data/portfolios/portfolios.xlsx"
+SUPPLEMENT_XLSX = _ROOT / "data/portfolios/synthetic_supplement.xlsx"
 SHEET_NAME = "Potfolios"  # sic — the typo is in the source file; read as-is
-PROFILES_DIR = Path("data/profiles")
+PROFILES_DIR = _ROOT / "data/profiles"
 
 
 class PortfolioRepository(ABC):

@@ -9,7 +9,7 @@ Pre/post handle the boring-but-important parts uniformly: log context binding,
 timing, and persisting tool outputs into `state.tool_results` so later phases
 (guardrails, synthesizer) can audit exactly what the tools really said.
 
-Note for react-style agents: `create_react_agent(...)` returns a compiled graph.
+Note for react-style agents: `create_agent(...)` (langchain.agents) returns a compiled graph.
 The Template Method wraps the *invocation* of that executor — it does not
 replace the react loop.
 """
@@ -44,7 +44,7 @@ class BaseAgent(ABC):
 
     @abstractmethod
     def _invoke(self, state: AgentState) -> dict:
-        """Do the actual work; return {'messages': [...]} in create_react_agent shape."""
+        """Do the actual work; return {'messages': [...]} in create_agent shape."""
 
     def _postprocess(self, state: AgentState, result: dict, elapsed: float) -> dict:
         new_messages = result.get("messages", [])[len(state.get("messages", [])):]

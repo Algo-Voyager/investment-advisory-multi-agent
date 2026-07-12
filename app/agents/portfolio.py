@@ -5,8 +5,8 @@ job is to pick tools and explain their results — every number in an answer mus
 come from a tool, never from the model's memory.
 """
 
+from langchain.agents import create_agent
 from langchain_core.messages import SystemMessage
-from langgraph.prebuilt import create_react_agent
 
 from app.agents.base import BaseAgent
 from app.graph.state import AgentState
@@ -35,7 +35,7 @@ class PortfolioAgent(BaseAgent):
     tools = PORTFOLIO_TOOLS
 
     def __init__(self):
-        self._executor = create_react_agent(get_llm(), tools=self.tools, prompt=SYSTEM_PROMPT)
+        self._executor = create_agent(get_llm(), tools=self.tools, system_prompt=SYSTEM_PROMPT)
 
     def _invoke(self, state: AgentState) -> dict:
         client_note = SystemMessage(
