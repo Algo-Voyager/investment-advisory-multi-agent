@@ -41,6 +41,8 @@ class YFinanceAdapter(MarketDataAdapter):
             "ticker": ticker,
             "dates": [d.date().isoformat() for d in hist.index],
             "closes": [round(float(c), 4) for c in hist["Close"]],
+            "highs": [round(float(h), 4) for h in hist["High"]],   # ATR needs OHLC
+            "lows": [round(float(low), 4) for low in hist["Low"]],
             "volumes": [int(v) for v in hist["Volume"]],
             "source": self.name,
         }

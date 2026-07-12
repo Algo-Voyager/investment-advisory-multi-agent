@@ -57,6 +57,8 @@ class AlphaVantageAdapter(MarketDataAdapter):
             "ticker": ticker,
             "dates": dates,
             "closes": [round(float(series[d]["4. close"]), 4) for d in dates],
+            "highs": [round(float(series[d]["2. high"]), 4) for d in dates],
+            "lows": [round(float(series[d]["3. low"]), 4) for d in dates],
             "volumes": [int(series[d]["5. volume"]) for d in dates],
             "source": self.name,
         }

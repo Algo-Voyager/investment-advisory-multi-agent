@@ -29,4 +29,5 @@ make notebook                # open the per-phase notebooks (start with phase00)
 - [x] **Phase 1** — data models, Excel repository (union), portfolio tools, Portfolio agent, graph + CLI
 - [x] **Phase 2** — supervisor + router (LLM/keyword strategies), Market Research agent, streaming CLI
 - [x] **Phase 3** — adapter chain (Finnhub/AlphaVantage/yfinance/SEC EDGAR), tool registry, cached+retry+rate-limited decorators, Gemini rate limiter
+- [x] **Phase 4** — Securities Analysis agent: RSI/SMA/EMA/MACD/Bollinger/ATR indicators (Strategy + Factory), technical_analysis + compare_indicators tools
 - [ ] Phases 2–15 — see `docs/01_claude_code_prompts.md`

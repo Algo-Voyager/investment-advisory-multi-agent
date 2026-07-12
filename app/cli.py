@@ -14,7 +14,8 @@ from langchain_core.messages import AIMessage, HumanMessage
 from app.agents.base import _text
 from app.graph.builder import GraphBuilder
 
-AGENT_ICONS = {"portfolio": "📊", "market_research": "🔎", "supervisor": "🧭"}
+AGENT_ICONS = {"portfolio": "📊", "market_research": "🔎", "securities_analysis": "📈",
+               "supervisor": "🧭"}
 
 
 def main() -> None:
@@ -23,11 +24,7 @@ def main() -> None:
     parser.add_argument("query", help="your question, in quotes")
     args = parser.parse_args()
 
-    graph = (GraphBuilder()
-             .with_supervisor()
-             .with_portfolio_agent()
-             .with_market_research_agent()
-             .build())
+    graph = GraphBuilder().with_all().build()
 
     # Until the Phase 8 synthesizer exists, the honest output is each specialist's
     # own answer, in the order they ran — not just whichever message came last.
