@@ -16,6 +16,8 @@ class AgentState(TypedDict, total=False):
     client_id: str    # raw "CLT-XXX" — set from the authenticated selection, NEVER from chat input
     session_id: str
     route: Optional[str]              # supervisor's routing decision (Phase 2)
+    hops: int                         # agent turns taken this run — supervisor's loop guard (Phase 2)
+    visited: list[str]                # agents already dispatched this run — one turn each until Phase 8's planner
     plan: Optional[list[str]]         # planner's sub-goals (Phase 8)
     retrieved_context: list[str]      # RAG chunks (Phase 5)
     tool_results: dict                # raw tool outputs, keyed by agent — guardrails audit these (Phase 9)

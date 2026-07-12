@@ -30,7 +30,8 @@ class Settings(BaseSettings):
 
     # --- Gemini model config (provider is locked) ---
     LLM_PROVIDER: str = "gemini"
-    MODEL_NAME: str = "gemini-2.5-flash"           # worker tier: fast, cheap, free-tier eligible
+    MODEL_NAME: str = "gemini-3.1-flash-lite"      # worker tier: fast, cheap, free-tier eligible
+    # (gemini-2.5-flash allows only ~20 req/day on new free keys; 2.5-flash-lite is closed to new users)
     REASONING_MODEL_NAME: str = "gemini-3.5-flash"  # reasoning tier (NOT Pro — Pro is off the free tier)
     EMBEDDING_MODEL: str = "gemini-embedding-001"   # text-embedding-004 was deprecated Jan 2026
     EMBEDDING_DIM: int = 768                        # never change after Chroma ingestion
