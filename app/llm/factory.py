@@ -11,12 +11,17 @@ There is deliberately NO OpenAI/Anthropic code path — `Settings` already rejec
 any `LLM_PROVIDER` other than "gemini", and we re-assert it here (belt and braces).
 """
 
+import time
 from functools import lru_cache
 
 from langchain_core.rate_limiters import InMemoryRateLimiter
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 
 from app.config import settings
+from app.errors.exceptions import RateLimitError
+from app.logging import get_logger
+
+log = get_logger(__name__)
 
 
 class GeminiEmbeddings(GoogleGenerativeAIEmbeddings):
@@ -28,13 +33,43 @@ class GeminiEmbeddings(GoogleGenerativeAIEmbeddings):
     TODO(phase5): normalize truncated vectors (Google recommends it for dims < 3072).
     """
 
+    # Free-tier reality (observed): ~100 embed-content requests/min. Bulk ingestion
+    # must therefore sub-batch and back off on 429 instead of dying mid-filing.
+    _BATCH = 50
+    _MAX_RETRIES = 6
+
     def embed_documents(self, texts, **kwargs):  # type: ignore[override]
         kwargs.setdefault("output_dimensionality", settings.EMBEDDING_DIM)
-        return super().embed_documents(texts, **kwargs)
+        vectors: list = []
+        for start in range(0, len(texts), self._BATCH):
+            batch = texts[start:start + self._BATCH]
+            for attempt in range(1, self._MAX_RETRIES + 1):
+                try:
+                    vectors.extend(super().embed_documents(batch, **kwargs))
+                    break
+                except Exception as exc:
+                    if "RESOURCE_EXHAUSTED" not in str(exc) and "429" not in str(exc):
+                        raise
+                    if attempt == self._MAX_RETRIES:
+                        raise RateLimitError(
+                            f"Gemini embedding quota still exhausted after "
+                            f"{self._MAX_RETRIES} backoffs") from exc
+                    delay = min(15 * attempt, 60)
+                    log.warning("embedding_backoff", batch_start=start,
+                                attempt=attempt, sleep_s=delay)
+                    time.sleep(delay)
+        return vectors
 
     def embed_query(self, text, **kwargs):  # type: ignore[override]
         kwargs.setdefault("output_dimensionality", settings.EMBEDDING_DIM)
-        return super().embed_query(text, **kwargs)
+        for attempt in range(1, 4):
+            try:
+                return super().embed_query(text, **kwargs)
+            except Exception as exc:
+                if "RESOURCE_EXHAUSTED" not in str(exc) and "429" not in str(exc) or attempt == 3:
+                    raise
+                log.warning("embedding_query_backoff", attempt=attempt)
+                time.sleep(10 * attempt)
 
 
 def _assert_gemini() -> None:

@@ -29,6 +29,7 @@ dependencies = [
     "openpyxl",                   # required: portfolios.xlsx
     "yfinance",
     "requests",
+    "beautifulsoup4",           # strip SEC filing HTML during RAG ingestion (Phase 5)
     # --- ui / viz ---
     "streamlit",
     "matplotlib",

@@ -30,4 +30,5 @@ make notebook                # open the per-phase notebooks (start with phase00)
 - [x] **Phase 2** — supervisor + router (LLM/keyword strategies), Market Research agent, streaming CLI
 - [x] **Phase 3** — adapter chain (Finnhub/AlphaVantage/yfinance/SEC EDGAR), tool registry, cached+retry+rate-limited decorators, Gemini rate limiter
 - [x] **Phase 4** — Securities Analysis agent: RSI/SMA/EMA/MACD/Bollinger/ATR indicators (Strategy + Factory), technical_analysis + compare_indicators tools
+- [x] **Phase 5** — RAG knowledge base: SEC EDGAR ingestion → ChromaDB (Gemini embeddings, 768d), Retriever facade, search_filings with citations + freshness disclosure
 - [ ] Phases 2–15 — see `docs/01_claude_code_prompts.md`

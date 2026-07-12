@@ -8,10 +8,12 @@ supervisor sequences the two agents; they share findings via AgentState only.
 from langchain.agents import create_agent
 from langchain_core.messages import HumanMessage, SystemMessage
 
+import app.tools.market_tools  # noqa: F401 — registers this agent's market tools
+import app.tools.rag_tools  # noqa: F401 — registers search_filings / search_news_archive
 from app.agents.base import BaseAgent
 from app.graph.state import AgentState
 from app.llm.factory import get_llm
-from app.tools.market_tools import MARKET_TOOLS
+from app.tools.registry import tool_registry
 
 SYSTEM_PROMPT = """You are the Market Research agent at XZY Capital, a boutique investment advisory firm.
 
@@ -25,6 +27,10 @@ Rules you must always follow:
 - If asked about economic indicators and the tool reports the feed is unavailable, say so honestly.
 - You have NO access to client holdings; if the question needs portfolio data, answer only the market
   part and note that the portfolio specialist covers the rest.
+- For questions about what a company SAID or REPORTED (filings, guidance, risks), use search_filings.
+  Cite every filing-based claim inline using the tool's citation string, e.g. [source: 10-Q NVDA 2026-05-28].
+- When you used search_filings, END your answer with the tool's freshness_disclosure line VERBATIM,
+  e.g. "(Filing data as of 2026-05-28)". Never write that line from memory.
 - Be concise and factual, like a morning market brief."""
 
 
@@ -34,9 +40,10 @@ class MarketResearchAgent(BaseAgent):
         "Analyses current market conditions: price snapshots, recent news for a symbol, "
         "sector performance, and economic indicators. Knows nothing about the client's holdings."
     )
-    tools = MARKET_TOOLS
-
     def __init__(self):
+        # Toolbox resolved at construction time from the registry, so it includes
+        # everything registered for this agent (market tools + RAG tools).
+        self.tools = tool_registry.tools_for(self.name)
         self._executor = create_agent(get_llm(), tools=self.tools, system_prompt=SYSTEM_PROMPT)
 
     def _invoke(self, state: AgentState) -> dict:
