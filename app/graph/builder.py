@@ -20,6 +20,7 @@ from langgraph.graph import END, START, StateGraph
 from app.agents.base import BaseAgent
 from app.agents.market_research import MarketResearchAgent
 from app.agents.portfolio import PortfolioAgent
+from app.agents.risk import RiskAssessmentAgent
 from app.agents.securities_analysis import SecuritiesAnalysisAgent
 from app.agents.supervisor import SupervisorAgent
 from app.graph.router import AgentSpec, RoutingStrategy
@@ -49,12 +50,17 @@ class GraphBuilder:
         self._agents.append(SecuritiesAnalysisAgent())
         return self
 
+    def with_risk_agent(self) -> "GraphBuilder":
+        self._agents.append(RiskAssessmentAgent())
+        return self
+
     def with_all(self) -> "GraphBuilder":
         """Everything built so far — what the CLI/UI/notebooks use."""
         return (self.with_supervisor()
                 .with_portfolio_agent()
                 .with_market_research_agent()
-                .with_securities_analysis_agent())
+                .with_securities_analysis_agent()
+                .with_risk_agent())
 
     def build(self):
         if not self._agents:

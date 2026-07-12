@@ -15,7 +15,7 @@ from app.agents.base import _text
 from app.graph.builder import GraphBuilder
 
 AGENT_ICONS = {"portfolio": "📊", "market_research": "🔎", "securities_analysis": "📈",
-               "supervisor": "🧭"}
+               "risk": "🛡️", "supervisor": "🧭"}
 
 
 def main() -> None:

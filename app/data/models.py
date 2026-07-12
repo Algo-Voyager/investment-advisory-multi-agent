@@ -60,9 +60,13 @@ class Portfolio(BaseModel):
 
 
 class ClientProfile(BaseModel):
-    """Synthetic in this project — the source file has holdings only (Phase 6 seeds these)."""
+    """Synthetic in this project — the source file has holdings only (Phase 6 seeds
+    data/profiles/CLT-XXX.json, each marked "synthetic — not provided in source data")."""
 
     client_id: str
     name: str
     risk_tolerance: Literal["conservative", "moderate", "aggressive"]
     goals: str
+    risk_score: int  # 1 (capital preservation) … 10 (max risk appetite)
+    time_horizon_years: int
+    income_needs: bool

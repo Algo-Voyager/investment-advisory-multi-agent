@@ -1,0 +1,10 @@
+{
+  "_note": "synthetic \u2014 not provided in source data",
+  "client_id": "CLT-004",
+  "name": "Tom Becker",
+  "risk_tolerance": "moderate",
+  "risk_score": 5,
+  "time_horizon_years": 15,
+  "income_needs": false,
+  "goals": "Balanced index-fund accumulation for mid-career wealth building"
+}

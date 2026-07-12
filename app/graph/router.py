@@ -49,6 +49,9 @@ class KeywordRoutingStrategy(RoutingStrategy):
     SECURITIES_KEYWORDS = ("technical", "rsi", "macd", "moving average", "sma", "ema",
                            "bollinger", "atr", "indicator", "momentum", "overbought",
                            "oversold", "crossover")
+    RISK_KEYWORDS = ("risk", "volatil", "beta", "value at risk", "var", "drawdown",
+                     "concentr", "diversif", "tolerance", "exposure", "compliance",
+                     "regulatory", "wash sale")
 
     def route(self, state: AgentState, agents: list[AgentSpec]) -> str:
         query = _last_human_text(state).lower()
@@ -56,15 +59,19 @@ class KeywordRoutingStrategy(RoutingStrategy):
         names = {a.name for a in agents}
 
         wants_securities = any(k in query for k in self.SECURITIES_KEYWORDS)
+        wants_risk = any(k in query for k in self.RISK_KEYWORDS)
         wants_portfolio = any(k in query for k in self.PORTFOLIO_KEYWORDS)
         wants_market = any(k in query for k in self.MARKET_KEYWORDS)
-        if not (wants_portfolio or wants_market or wants_securities):
+        if not (wants_portfolio or wants_market or wants_securities or wants_risk):
             wants_portfolio = True  # client questions default to their portfolio
 
-        # Securities first: "technical analysis of my NVDA position" contains
-        # portfolio words too, but the technical ask is the point of the query.
+        # Specialist buckets outrank the generic portfolio bucket: "technical analysis
+        # of my NVDA position" / "risk exposure of my portfolio" contain portfolio
+        # words too, but the specialist ask is the point of the query.
         if wants_securities and "securities_analysis" in names and "securities_analysis" not in ran:
             return "securities_analysis"
+        if wants_risk and "risk" in names and "risk" not in ran:
+            return "risk"
         if wants_portfolio and "portfolio" in names and "portfolio" not in ran:
             return "portfolio"
         if wants_market and "market_research" in names and "market_research" not in ran:
