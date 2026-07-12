@@ -1,50 +1,52 @@
 """Portfolio tools — the Portfolio agent's only way to touch data.
 
-Layout: each capability is a plain, directly-callable Python function (easy to
-test and to use from notebooks), and `PORTFOLIO_TOOLS` at the bottom wraps them
-as LangChain tools for the agent.
+Phase 3 shape: every network call goes through the adapter CHAIN (vendor-agnostic,
+falls back automatically), is CACHED to disk, RETRIED on transient failures, and
+each tool REGISTERS itself with the ToolRegistry.
 
 Money rules (docs/data_assumptions.md): cash is valued at quantity × 1 (its
 `quantity` IS the dollar balance); performance/YTD are undefined for cash;
-market-cap buckets apply to individual stocks only (a fund has no single
-company market cap).
+market-cap buckets apply to individual stocks only.
 """
 
 from datetime import datetime
 
-import yfinance as yf
-from langchain_core.tools import tool
-
+from app.config import settings
 from app.data.repositories import portfolio_repo
 from app.errors.exceptions import ToolError
+from app.integrations.chain import market_data
 from app.logging import get_logger
+from app.tools.decorators import cached, retry
+from app.tools.registry import tool_registry
 
 log = get_logger(__name__)
 
-# Per-process quote cache so one question doesn't hit yfinance N times for the
-# same symbol. Proper TTL-file caching arrives with the Phase 3 decorators.
-_price_cache: dict[str, float] = {}
+
+# --- shared, resilient data helpers (not tools themselves) -------------------
+@cached(ttl_seconds=settings.CACHE_TTL_QUOTES)
+@retry(max_attempts=3)
+def _quote(symbol: str) -> dict:
+    return market_data.get_quote(symbol)
 
 
 def _current_price(symbol: str) -> float:
-    """Latest price for a symbol via yfinance (fast_info, history fallback)."""
-    if symbol in _price_cache:
-        return _price_cache[symbol]
-    try:
-        ticker = yf.Ticker(symbol)
-        # NOTE: attribute access — fast_info.get("last_price") returns None in current yfinance.
-        price = getattr(ticker.fast_info, "last_price", None)
-        if not price:
-            hist = ticker.history(period="5d")
-            if hist.empty:
-                raise ValueError("no price history")
-            price = float(hist["Close"].iloc[-1])
-        _price_cache[symbol] = float(price)
-        return _price_cache[symbol]
-    except Exception as exc:
-        raise ToolError(f"Could not fetch a price for symbol '{symbol}': {exc}") from exc
+    return float(_quote(symbol)["price"])
 
 
+@cached(ttl_seconds=settings.CACHE_TTL_QUOTES)
+@retry(max_attempts=3)
+def _history(symbol: str, period: str) -> dict:
+    return market_data.get_price_history(symbol, period)
+
+
+@cached(ttl_seconds=settings.CACHE_TTL_FUNDAMENTALS)
+@retry(max_attempts=3)
+def _fundamentals(symbol: str) -> dict:
+    return market_data.get_fundamentals(symbol)
+
+
+# --- the tools ----------------------------------------------------------------
+@tool_registry.register(agent="portfolio")
 def get_holdings(client_id: str) -> list[dict]:
     """List every holding for a client: symbol, security_name, asset_class, quantity, purchase_price, sector."""
     portfolio = portfolio_repo.get(client_id)
@@ -61,6 +63,7 @@ def get_holdings(client_id: str) -> list[dict]:
     ]
 
 
+@tool_registry.register(agent="portfolio")
 def get_portfolio_value(client_id: str) -> dict:
     """Total portfolio market value, marked to market. Cash is valued at quantity × 1."""
     portfolio = portfolio_repo.get(client_id)
@@ -82,6 +85,7 @@ def get_portfolio_value(client_id: str) -> dict:
     return result
 
 
+@tool_registry.register(agent="portfolio")
 def get_position(client_id: str, symbol: str) -> dict:
     """One position's detail: quantity, cost basis, current price, and market value."""
     portfolio = portfolio_repo.get(client_id)
@@ -110,15 +114,13 @@ def get_position(client_id: str, symbol: str) -> dict:
     return detail
 
 
+@tool_registry.register(agent="portfolio")
 def get_position_performance(client_id: str, symbol: str) -> dict:
     """Total return of one position since purchase (current price vs purchase price). N/A for cash."""
     portfolio = portfolio_repo.get(client_id)
     h = portfolio.position(symbol)
     if h is None:
-        return {
-            "held": False,
-            "message": f"Client {client_id} does not hold '{symbol}'.",
-        }
+        return {"held": False, "message": f"Client {client_id} does not hold '{symbol}'."}
     if h.is_cash:
         return {"held": True, "symbol": h.symbol, "message": "N/A — cash position (return = 0)."}
     price = _current_price(h.symbol)
@@ -134,6 +136,7 @@ def get_position_performance(client_id: str, symbol: str) -> dict:
     }
 
 
+@tool_registry.register(agent="portfolio")
 def get_ytd_returns(client_id: str) -> dict:
     """Year-to-date return per holding (vs the first trading day of this year). Skips cash."""
     portfolio = portfolio_repo.get(client_id)
@@ -142,15 +145,17 @@ def get_ytd_returns(client_id: str) -> dict:
         if h.is_cash:
             continue
         try:
-            hist = yf.Ticker(h.symbol).history(period="ytd")
-            if hist.empty:
-                raise ValueError("no YTD history")
-            first, last = float(hist["Close"].iloc[0]), float(hist["Close"].iloc[-1])
-            returns.append({"symbol": h.symbol, "ytd_return_pct": round((last / first - 1) * 100, 2)})
-        except Exception:
+            hist = _history(h.symbol, "ytd")
+            closes = hist["closes"]
+            if len(closes) < 2:
+                raise ToolError("insufficient YTD history")
+            returns.append({"symbol": h.symbol,
+                            "ytd_return_pct": round((closes[-1] / closes[0] - 1) * 100, 2)})
+        except ToolError:
             failed.append(h.symbol)
     returns.sort(key=lambda r: r["ytd_return_pct"], reverse=True)
-    result = {"client_id": client_id, "as_of": datetime.now().date().isoformat(), "ytd_returns": returns}
+    result = {"client_id": client_id, "as_of": datetime.now().date().isoformat(),
+              "ytd_returns": returns}
     if returns:
         result["best"] = returns[0]
         result["worst"] = returns[-1]
@@ -174,25 +179,29 @@ def _allocation(client_id: str, key_fn) -> dict:
     return {
         "client_id": client_id,
         "total_value": round(total, 2),
-        "allocation_pct": {k: round(v / total * 100, 2) for k, v in sorted(buckets.items(), key=lambda kv: -kv[1])},
+        "allocation_pct": {k: round(v / total * 100, 2)
+                           for k, v in sorted(buckets.items(), key=lambda kv: -kv[1])},
     }
 
 
+@tool_registry.register(agent="portfolio")
 def get_allocation_by_sector(client_id: str) -> dict:
     """Portfolio allocation percentages grouped by sector."""
     return _allocation(client_id, lambda h: h.sector)
 
 
+@tool_registry.register(agent="portfolio")
 def get_allocation_by_asset_class(client_id: str) -> dict:
     """Allocation by asset class — distinguishes Individual Stock vs the ETF types vs Cash Equivalent."""
     return _allocation(client_id, lambda h: h.asset_class)
 
 
+@tool_registry.register(agent="portfolio")
 def get_allocation_by_market_cap(client_id: str) -> dict:
     """Market-cap buckets (mega/large/mid/small) for INDIVIDUAL STOCKS only.
 
-    ETFs and cash have no single-company market cap — their share of the portfolio
-    is reported separately as 'not_classified_pct' instead of being silently mislabelled.
+    ETFs and cash have no single-company market cap — their share is reported
+    separately as 'not_classified_pct' instead of being silently mislabelled.
     """
     portfolio = portfolio_repo.get(client_id)
     buckets: dict[str, float] = {}
@@ -208,9 +217,8 @@ def get_allocation_by_market_cap(client_id: str) -> dict:
             unclassified += value
             continue
         try:
-            t = yf.Ticker(h.symbol)
-            cap = getattr(t.fast_info, "market_cap", None) or t.info.get("marketCap")
-        except Exception:
+            cap = _fundamentals(h.symbol).get("market_cap")
+        except ToolError:
             cap = None
         if not cap:
             unclassified += value
@@ -232,14 +240,6 @@ def get_allocation_by_market_cap(client_id: str) -> dict:
     }
 
 
-# --- LangChain tool wrappers (what the agent binds to) ---
-PORTFOLIO_TOOLS = [
-    tool(get_holdings),
-    tool(get_portfolio_value),
-    tool(get_position),
-    tool(get_position_performance),
-    tool(get_ytd_returns),
-    tool(get_allocation_by_sector),
-    tool(get_allocation_by_asset_class),
-    tool(get_allocation_by_market_cap),
-]
+# Agent-facing toolbox — discovered from the registry (Registry pattern), so this
+# list maintains itself as tools register above.
+PORTFOLIO_TOOLS = tool_registry.tools_for("portfolio")

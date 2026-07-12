@@ -37,6 +37,13 @@ class Settings(BaseSettings):
     EMBEDDING_DIM: int = 768                        # never change after Chroma ingestion
     LLM_TEMPERATURE: float = 0.0
 
+    # --- resilience knobs (Phase 3) ---
+    CACHE_TTL_QUOTES: int = 60           # seconds — prices go stale fast
+    CACHE_TTL_NEWS: int = 300
+    CACHE_TTL_FUNDAMENTALS: int = 3600
+    CACHE_TTL_FILINGS: int = 86400       # filings change quarterly
+    GEMINI_CALLS_PER_MINUTE: int = 8     # stay under the free tier's ~10 RPM
+
     # --- logging / local paths ---
     LOG_LEVEL: str = "INFO"
     CHROMA_PERSIST_DIR: str = ".chroma"

@@ -97,6 +97,11 @@ class JsonClientProfileRepository(ClientProfileRepository):
         return ClientProfile(**json.loads(path.read_text()))
 
 
-# Shared default instance — tools import this instead of constructing their own.
+# Shared default instances — tools import these instead of constructing their own.
 portfolio_repo = ExcelPortfolioRepository()
 profile_repo = JsonClientProfileRepository()
+
+# Market data is also a repository from the agents' point of view — but it's backed
+# by the adapter fallback chain (Chain of Responsibility, app/integrations/chain.py):
+# Finnhub → Alpha Vantage → yfinance, skipping any adapter whose key is missing.
+from app.integrations.chain import market_data as market_data_repo  # noqa: E402,F401

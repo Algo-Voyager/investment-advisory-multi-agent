@@ -13,6 +13,7 @@ any `LLM_PROVIDER` other than "gemini", and we re-assert it here (belt and brace
 
 from functools import lru_cache
 
+from langchain_core.rate_limiters import InMemoryRateLimiter
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 
 from app.config import settings
@@ -51,6 +52,12 @@ def get_llm(reasoning: bool = False) -> ChatGoogleGenerativeAI:
         model=model,
         temperature=settings.LLM_TEMPERATURE,
         google_api_key=settings.GOOGLE_API_KEY,
+        # Rate-limit Gemini itself (Phase 3): the free tier is ~10 req/min — LangChain
+        # throttles BEFORE sending, so we queue briefly instead of eating a 429.
+        rate_limiter=InMemoryRateLimiter(
+            requests_per_second=settings.GEMINI_CALLS_PER_MINUTE / 60,
+            check_every_n_seconds=0.1,
+        ),
     )
 
 
