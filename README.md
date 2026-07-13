@@ -2,8 +2,6 @@
 
 A multi-agent investment advisory system built on **LangGraph**, powered exclusively by **Google Gemini** (chat + embeddings). Take-home assignment prototype for a fictional boutique advisory firm.
 
-> **Start here → [`docs/00_prerequisites_and_setup.md`](docs/00_prerequisites_and_setup.md)** — everything you must provide (TL;DR: a free `GOOGLE_API_KEY`, plus `SEC_USER_AGENT` for the RAG phase).
-
 ## Quickstart
 
 ```bash
@@ -25,19 +23,7 @@ SEC_USER_AGENT=Your Name your-email@example.com                  # required once
 
 Everything else (`ALPHA_VANTAGE_API_KEY`, `FINNHUB_API_KEY`, `LANGSMITH_API_KEY`) is optional and the system degrades gracefully without it — market data falls back to keyless `yfinance`, and tracing simply doesn't activate. Full details, model-tier rationale, and observed free-tier rate-limit gotchas: [`docs/00_prerequisites_and_setup.md`](docs/00_prerequisites_and_setup.md) §4–5.
 
-## Project docs
-
-| Doc | What it is |
-|---|---|
-| [`docs/00_prerequisites_and_setup.md`](docs/00_prerequisites_and_setup.md) | What you must provide; Gemini model choices; data facts |
-| [`docs/data_assumptions.md`](docs/data_assumptions.md) | Documented assumptions about the portfolio data |
-| [`docs/architecture.md`](docs/architecture.md) | C4 system/container diagrams, live agent graph, inter-agent protocol, data-flow tables, worked example, integrations |
-| [`docs/design_patterns.md`](docs/design_patterns.md) | Every design pattern applied, verified against the actual file/line it lives in |
-| [`docs/production_plan.md`](docs/production_plan.md) | Postgres/Chroma Cloud migration, Cloud Run deployment, observability, security/SOC-2, staged rollout, Gemini cost model |
-| [`docs/evaluation_report.md`](docs/evaluation_report.md) | Latest Gemini-RAGAS + deterministic eval scores (`make eval` to regenerate) |
-| `notebooks/phaseXX_*.ipynb` | Runnable companion notebook per phase — see the table below |
-
-### Phase notebooks
+## Phase notebooks
 
 | Phase | Notebook |
 |---|---|

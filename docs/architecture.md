@@ -25,7 +25,7 @@ graph TD
     copilot -->|"10-K / 10-Q filings<br/>(RAG ingestion)"| secedgar
     copilot -.->|"trace spans<br/>(observability)"| langsmith
 
-    classDef ext fill:#f2f0ff
+    classDef ext fill:#f2f0ff,color:#1a1a2e,stroke:#6b6b9e,stroke-width:1px
     class gemini,yfinance,finnhub,alphavantage,secedgar,langsmith ext
 ```
 
@@ -41,7 +41,7 @@ graph TD
     end
 
     subgraph core["LangGraph Application (single Python process)"]
-        graph["Compiled StateGraph<br/>app/graph/builder.py<br/>15 nodes — see §3"]
+        core_graph["Compiled StateGraph<br/>app/graph/builder.py<br/>15 nodes — see §3"]
         agents["4 specialist agents<br/>app/agents/*.py<br/>react-style, LangChain create_agent"]
         tools["Tool registry<br/>app/tools/registry.py<br/>25 tools across 3 agents"]
         guardrails["Guardrail pipelines<br/>app/guardrails/*.py<br/>input + hallucination"]
@@ -61,18 +61,18 @@ graph TD
         edgar_ext["SEC EDGAR"]
     end
 
-    cli --> graph
-    ui -->|"AsyncSqliteSaver via<br/>a background event loop"| graph
-    graph --> agents
-    graph --> guardrails
+    cli --> core_graph
+    ui -->|"AsyncSqliteSaver via<br/>a background event loop"| core_graph
+    core_graph --> agents
+    core_graph --> guardrails
     agents --> tools
     tools --> excel
     tools --> chroma
     tools -->|"adapter chain +<br/>circuit breaker"| market_ext
     tools --> edgar_ext
     tools --> filecache
-    graph <-->|"checkpoint every step"| sqlite_ckpt
-    graph <-->|"read on entry,<br/>write on exit"| sqlite_mem
+    core_graph <-->|"checkpoint every step"| sqlite_ckpt
+    core_graph <-->|"read on entry,<br/>write on exit"| sqlite_mem
     agents --> gemini_ext
     guardrails -->|"LLM-judge guards"| gemini_ext
     chroma -.->|"embeddings"| gemini_ext
@@ -131,9 +131,9 @@ graph TD;
 	synthesizer -.-> reflector;
 	synthesizer -.-> safe_exit;
 	memory_write --> __end__;
-	classDef default fill:#f2f0ff,line-height:1.2
-	classDef first fill-opacity:0
-	classDef last fill:#bfb6fc
+	classDef default fill:#f2f0ff,color:#1a1a2e,line-height:1.2
+	classDef first fill:#ffffff,color:#1a1a2e,stroke:#333333,stroke-width:2px
+	classDef last fill:#bfb6fc,color:#1a1a2e
 ```
 
 Solid edges (`-->`) are static `add_edge`s; dashed edges (`-.->`) are dynamic `Command(goto=...)` routing decisions made at runtime. Almost every node in this graph routes dynamically — `safe_exit` is reachable from nearly everywhere because (Phase 11) every node is wrapped so an uncaught exception becomes a routed `Command` instead of a raw traceback.
