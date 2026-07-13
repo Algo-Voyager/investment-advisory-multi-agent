@@ -21,3 +21,11 @@ dist/
 
 # OS
 .DS_Store
+
+# internal build process / generated docs — kept locally, not part of the submission
+docs/01_claude_code_prompts.md
+docs/02_step_by_step_guide.md
+docs/graph_phase*.mmd
+docs/graph_final.mmd
+docs/evaluation_results.json
+docs/demo_script.md
