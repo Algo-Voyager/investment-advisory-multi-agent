@@ -1,0 +1,10 @@
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+filing_date: 2026-05-20
+form: 10-Q
+section: Item 1
+---
+Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998.
+Recent Developments, Future Objectives and Challenges
+Revenue growth in the first quarter was driven by data center products for accelerated computing and AI solutions. Blackwell continued to account for the majority of our system shipments.

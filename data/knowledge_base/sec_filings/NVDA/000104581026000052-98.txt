@@ -1,0 +1,12 @@
+form: 10-Q
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+section: Item 7
+filing_date_int: 20260520
+ticker: NVDA
+---
+Operating Expenses
+The increase in research and development expenses for the first quarter of fiscal year 2027 was primarily driven by a 112% increase in compute and infrastructure, a 31% increase in compensation and benefits, including stock-based compensation, reflecting employee growth and compensation increases, and a 204% increase in engineering development materials for new product introductions.
+27
+The increase in sales, general and administrative expenses for the first quarter of fiscal year 2027 was primarily driven by compensation and benefits, including stock-based compensation, reflecting employee growth and compensation increases.
+Total Other Income, Net

@@ -1,0 +1,64 @@
+filing_date_int: 20260520
+form: 10-Q
+ticker: NVDA
+accession: 0001045810-26-000052
+section: unknown
+filing_date: 2026-05-20
+---
+nvda:ComputeAndNetworkingMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:CustomerOneMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:SalesRevenueNetMember
+nvda:ComputeAndNetworkingMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:CustomerTwoMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:SalesRevenueNetMember
+nvda:ComputeAndNetworkingMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:DataCenterMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:DataCenterMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:HyperscaleMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:HyperscaleMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:AICloudsIndustrialEnterpriseMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:AICloudsIndustrialEnterpriseMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:EdgeComputingMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:EdgeComputingMember
+2025-01-27
+2025-04-27
+0001045810
+us-gaap:OperatingLeaseLeaseNotYetCommencedMember
+2026-04-26
+0001045810
+srt:MinimumMember
+2026-04-26
+0001045810
+srt:MaximumMember

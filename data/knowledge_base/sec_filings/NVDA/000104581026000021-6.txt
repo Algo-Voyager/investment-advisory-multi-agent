@@ -1,0 +1,50 @@
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+form: 10-K
+filing_date: 2026-02-25
+ticker: NVDA
+section: unknown
+---
+2026-01-25
+0001045810
+nvda:ComputeAndNetworkingSegmentMember
+2025-01-26
+0001045810
+nvda:GraphicsSegmentMember
+2025-01-26
+0001045810
+nvda:IntangibleAssetsArisingFromBusinessCombinationMember
+2026-01-25
+0001045810
+nvda:IntangibleAssetsArisingFromBusinessCombinationMember
+2025-01-26
+0001045810
+nvda:PatentsAndLicensedTechnologyMember
+2026-01-25
+0001045810
+nvda:PatentsAndLicensedTechnologyMember
+2025-01-26
+0001045810
+us-gaap:USTreasurySecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+2026-01-25
+0001045810
+us-gaap:USTreasurySecuritiesMember
+nvda:MarketableSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+2026-01-25
+0001045810
+us-gaap:USTreasurySecuritiesMember
+us-gaap:OtherNoncurrentAssetsMember
+us-gaap:FairValueInputsLevel2Member
+2026-01-25
+0001045810
+us-gaap:CorporateDebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+2026-01-25
+0001045810
+us-gaap:CorporateDebtSecuritiesMember
+nvda:MarketableSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+2026-01-25
+0001045810

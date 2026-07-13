@@ -1,0 +1,16 @@
+filing_date: 2026-04-29
+accession: 0001193125-26-191507
+form: 10-Q
+section: Item 1
+ticker: MSFT
+filing_date_int: 20260429
+---
+•
+LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions.
+•
+Dynamics products and cloud services, including Dynamics 365, comprising a set of intelligent, cloud-based applications across ERP, CRM, Power Apps, and Power Automate; and on-premises ERP and CRM applications.
+Intelligent Cloud
+Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that power modern business and developers. This segment primarily comprises:
+•
+Server products and cloud services, including Azure and other cloud services, comprising cloud and AI consumption-based services, GitHub cloud services, Nuance Healthcare cloud services, virtual desktop offerings, and other cloud services; and Server products, comprising SQL Server, Windows Server, Visual Studio, System Center, related Client Access Licenses, and other on-premises offerings.
+•

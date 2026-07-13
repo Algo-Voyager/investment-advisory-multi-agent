@@ -1,0 +1,8 @@
+filing_date_int: 20260128
+form: 10-Q
+ticker: MSFT
+filing_date: 2026-01-28
+accession: 0001193125-26-027207
+section: Item 1
+---
+plans to sell the security or it is more likely than not that we will be required to sell the security before recovery, then a decline in fair value below cost is recorded as an impairment charge in other income (expense), net and a new cost basis in the investment is established. If market, industry, and/or investee conditions deteriorate, we may incur future impairments.

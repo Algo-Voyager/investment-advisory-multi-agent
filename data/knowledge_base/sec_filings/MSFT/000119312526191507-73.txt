@@ -1,0 +1,13 @@
+form: 10-Q
+section: Item 1
+filing_date: 2026-04-29
+filing_date_int: 20260429
+accession: 0001193125-26-191507
+ticker: MSFT
+---
+Foreign currency risks related to certain Euro-denominated debt are hedged using foreign exchange forward contracts that are designated as cash flow hedging instruments.
+Certain options and forwards not designated as hedging instruments are also used to manage the variability in foreign exchange rates on certain balance sheet amounts and to manage other foreign currency exposures.
+ 
+Interest Rate
+ 
+Interest rate risks related to certain fixed-rate debt are hedged using interest rate swaps that are designated as fair value hedging instruments to effectively convert the fixed interest rates to floating interest rates.

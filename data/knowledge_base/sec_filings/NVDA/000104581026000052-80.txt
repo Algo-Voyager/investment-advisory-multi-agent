@@ -1,0 +1,12 @@
+form: 10-Q
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+ticker: NVDA
+filing_date_int: 20260520
+section: Item 1
+---
+Overview
+Our Company and Our Businesses
+NVIDIA pioneered accelerated computing to help solve the most challenging computational problems. Since our original focus on PC graphics, we have expanded to several other large and important computationally intensive fields. Fueled by the sustained demand for exceptional 3D graphics and the scale of the gaming market, NVIDIA has leveraged its GPU architecture to create platforms for scientific computing, AI, data science, autonomous vehicles, robotics, and digital twin applications. NVIDIA is now a data center-scale AI infrastructure company reshaping all industries.
+Our two operating segments are “Compute & Networking” and “Graphics.” Refer to Note 13 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q for additional information.
+Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998.

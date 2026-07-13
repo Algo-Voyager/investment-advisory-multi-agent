@@ -146,8 +146,16 @@ class TestRegistry:
         assert {"portfolio", "market_research"} <= agents
         portfolio_tools = [r["tool"] for r in table if r["agent"] == "portfolio"]
         assert "get_ytd_returns" in portfolio_tools
+        market_tools = [r["tool"] for r in table if r["agent"] == "market_research"]
         assert len(tool_registry.tools_for("portfolio")) == 8
-        assert len(tool_registry.tools_for("market_research")) == 4
+        # market_research always has its 4 own tools; it may ALSO have Phase 5's
+        # search_filings/search_news_archive if rag_tools has been imported by
+        # another test module in this process (import order isn't guaranteed) —
+        # so assert the base 4 are present rather than an exact total count.
+        base_market_tools = {"get_market_snapshot", "get_recent_news",
+                             "get_sector_performance", "get_economic_indicators"}
+        assert base_market_tools <= set(market_tools)
+        assert len(tool_registry.tools_for("market_research")) >= 4
 
     def test_registered_functions_stay_directly_callable(self):
         from app.tools.market_tools import get_economic_indicators

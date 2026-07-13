@@ -1,0 +1,10 @@
+filing_date: 2026-02-25
+form: 10-K
+filing_date_int: 20260225
+section: Item 1
+ticker: NVDA
+accession: 0001045810-26-000021
+---
+Data Center
+The NVIDIA Data Center platform is focused on accelerating compute-intensive workloads, such as AI, data processing, graphics, robotics, and scientific computing, delivering superior total cost of ownership relative to conventional CPU-only approaches. It is deployed in cloud, hyperscale, on-premises and edge data centers. The platform consists of data center compute and networking infrastructure offerings typically delivered to customers as rack-scale systems, subsystems, or modules, along with software and services.
+Our Data Center infrastructure systems include supercomputing platforms and servers, bringing together our higher performance, energy efficient GPUs, CPUs, interconnects, and fully optimized AI and HPC software stacks. In addition, they include a growing body of acceleration libraries, AI models and training data sets, APIs, SDKs, and domain-specific application frameworks.

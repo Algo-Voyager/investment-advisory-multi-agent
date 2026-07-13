@@ -1,0 +1,8 @@
+filing_date_int: 20260225
+section: Item 1A
+ticker: NVDA
+accession: 0001045810-26-000021
+form: 10-K
+filing_date: 2026-02-25
+---
+We have entered into an intellectual property license arrangement with Groq, Inc., or Groq, that required significant, nonrefundable payments. Successfully incorporating the licensed technology into our architectures and product roadmaps requires significant engineering effort and may not occur on expected timelines or at all. The licensed technology may not achieve the desired results as designed or achieve customer or ecosystem adoption. The economic outcomes of this arrangement depend on our ability to translate the licensed technology into commercially viable products and services over time, and we may be unable to recover the associated costs or realize an adequate return on this spend. If our efforts to use the licensed technology are delayed or unsuccessful, our business, operating results, and financial condition could be negatively impacted.

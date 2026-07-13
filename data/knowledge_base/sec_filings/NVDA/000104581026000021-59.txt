@@ -1,0 +1,9 @@
+form: 10-K
+accession: 0001045810-26-000021
+section: Item 1
+filing_date_int: 20260225
+ticker: NVDA
+filing_date: 2026-02-25
+---
+Extending our technology and platform leadership in AI.
+ We provide a complete, end-to-end accelerated computing platform for AI, addressing both training and inferencing. This includes full-stack data center-scale compute and networking solutions across processing units, interconnects, systems, and software. Our compute solutions include all three major processing units in AI servers – GPUs, CPUs, and DPUs. GPUs are uniquely suited to AI, and we will continue to add AI-specific features to our GPU architecture to further extend our leadership position.

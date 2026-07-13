@@ -1,0 +1,55 @@
+section: unknown
+accession: 0001193125-26-191507
+filing_date: 2026-04-29
+ticker: MSFT
+filing_date_int: 20260429
+form: 10-Q
+---
+msft:IssuanceOfLongTermDebtSixMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+2025-12-31
+0000789019
+msft:IntelligentCloudMember
+2025-01-01
+2025-03-31
+0000789019
+msft:LinkedInCorporationMember
+2025-07-01
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtOneMember
+2025-06-30
+0000789019
+msft:IssuanceOfLongTermDebtTenMember
+2026-03-31
+0000789019
+us-gaap:EquityContractMember
+us-gaap:NondesignatedMember
+2026-03-31
+0000789019
+msft:NotesThreePointOneTwoFivePercentDueDecemberSixTwentyTwentyEightMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:NonoperatingIncomeExpenseMember
+us-gaap:ForeignExchangeContractMember
+2024-07-01
+2025-03-31
+0000789019
+us-gaap:USTreasuryAndGovernmentMember
+2026-03-31
+0000789019
+us-gaap:TechnologyBasedIntangibleAssetsMember
+2026-03-31
+0000789019
+msft:OpenAIGlobalLlcMember
+2024-07-01
+2025-03-31
+0000789019
+msft:ShareRepurchaseProgramTwentyTwentyOneMember
+2024-07-01
+2025-03-31
+0000789019

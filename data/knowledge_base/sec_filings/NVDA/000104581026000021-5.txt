@@ -1,0 +1,64 @@
+filing_date_int: 20260225
+form: 10-K
+section: unknown
+accession: 0001045810-26-000021
+ticker: NVDA
+filing_date: 2026-02-25
+---
+0001045810
+us-gaap:EmployeeStockMember
+2024-01-28
+0001045810
+srt:MinimumMember
+us-gaap:EmployeeStockMember
+2025-01-27
+2026-01-25
+0001045810
+srt:MaximumMember
+us-gaap:EmployeeStockMember
+2025-01-27
+2026-01-25
+0001045810
+srt:MinimumMember
+us-gaap:EmployeeStockMember
+2024-01-29
+2025-01-26
+0001045810
+srt:MaximumMember
+us-gaap:EmployeeStockMember
+2024-01-29
+2025-01-26
+0001045810
+srt:MinimumMember
+us-gaap:EmployeeStockMember
+2023-01-30
+2024-01-28
+0001045810
+srt:MaximumMember
+us-gaap:EmployeeStockMember
+2023-01-30
+2024-01-28
+0001045810
+nvda:RSUsPSUsandMarketbasedPSUsMember
+2026-01-25
+0001045810
+us-gaap:PerformanceSharesMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:MarketbasedPerformanceShareUnitsMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:ComputeAndNetworkingSegmentMember
+2026-01-25
+0001045810
+nvda:GraphicsSegmentMember
+2026-01-25
+0001045810
+nvda:ComputeAndNetworkingSegmentMember
+2025-01-26
+0001045810
+nvda:GraphicsSegmentMember
+2025-01-26
+0001045810

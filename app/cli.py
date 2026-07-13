@@ -14,6 +14,7 @@ import argparse
 from datetime import datetime
 
 from langchain_core.messages import AIMessage, HumanMessage
+from langgraph.types import Command
 
 from app.agents.base import _text
 from app.graph.builder import GraphBuilder
@@ -40,57 +41,75 @@ def main() -> None:
 
     graph = GraphBuilder().with_all().build()
 
-    # The synthesizer (when it runs) produces the single final answer; otherwise we
-    # fall back to showing each specialist's own reply, in the order they ran.
-    specialist_answers: dict[str, str] = {}
-    final_answer = None
     print(f"\n[client {args.client} | thread {thread_id}] {args.query}\n" + "─" * 60)
-    for chunk in graph.stream(
-        {
-            "messages": [HumanMessage(content=args.query)],
-            "client_id": args.client,
-            "session_id": session_id,
-        },
-        config,
-        stream_mode="updates",
-    ):
-        for node, update in chunk.items():
-            icon = AGENT_ICONS.get(node, "•")
-            if node == "planner":
-                plan = (update or {}).get("plan")
-                if plan:
-                    print(f"{icon} planner: decomposed into {len(plan)} steps")
-                    for i, step in enumerate(plan, 1):
-                        print(f"     {i}. {step['agent']} — {step['goal']}")
-                else:
-                    print(f"{icon} planner: simple query, no plan")
-                continue
-            if node == "supervisor":
-                route = (update or {}).get("route")
-                print(f"{icon} supervisor: {'done' if route == 'END' else f'→ {route}'}")
-                continue
-            if node in ("synthesizer", "safe_exit"):
-                final_answer = (update or {}).get("final_answer") or final_answer
-                print(f"{icon} {node} composed the final answer")
-                continue
-            if node == "reflector":
-                print(f"{icon} reflector: checking answer against evidence")
-                continue
-            if node in ("input_guard", "memory_read", "memory_write"):
-                continue
-            print(f"{icon} {node} finished its part")
-            for message in (update or {}).get("messages", []):
-                if isinstance(message, AIMessage) and message.content and _text(message.content).strip():
-                    specialist_answers[node] = _text(message.content)
+    run_input = {
+        "messages": [HumanMessage(content=args.query)],
+        "client_id": args.client,
+        "session_id": session_id,
+    }
 
-    print("─" * 60)
-    if final_answer:
-        print(final_answer)
-    elif specialist_answers:
-        for node, answer in specialist_answers.items():
-            print(f"\n[{AGENT_ICONS.get(node, '•')} {node}]\n{answer}")
-    else:
-        print("(no answer produced)")
+    # A turn may pause for clarification any number of times (rare, but the loop
+    # doesn't assume just one) — keep streaming/resuming until it truly finishes.
+    while True:
+        specialist_answers: dict[str, str] = {}
+        final_answer = None
+        interrupt_payload = None
+
+        for chunk in graph.stream(run_input, config, stream_mode="updates"):
+            if "__interrupt__" in chunk:
+                interrupt_payload = chunk["__interrupt__"][0].value
+                break
+            for node, update in chunk.items():
+                icon = AGENT_ICONS.get(node, "•")
+                if node == "planner":
+                    plan = (update or {}).get("plan")
+                    if plan:
+                        print(f"{icon} planner: decomposed into {len(plan)} steps")
+                        for i, step in enumerate(plan, 1):
+                            print(f"     {i}. {step['agent']} — {step['goal']}")
+                    else:
+                        print(f"{icon} planner: simple query, no plan")
+                    continue
+                if node == "supervisor":
+                    route = (update or {}).get("route")
+                    print(f"{icon} supervisor: {'done' if route == 'END' else f'→ {route}'}")
+                    continue
+                if node in ("synthesizer", "safe_exit"):
+                    final_answer = (update or {}).get("final_answer") or final_answer
+                    print(f"{icon} {node} composed the final answer")
+                    continue
+                if node == "reflector":
+                    print(f"{icon} reflector: checking answer against evidence")
+                    continue
+                if node in ("input_guard", "memory_read", "memory_write", "clarifier"):
+                    continue
+                print(f"{icon} {node} finished its part")
+                for message in (update or {}).get("messages", []):
+                    if isinstance(message, AIMessage) and message.content and _text(message.content).strip():
+                        specialist_answers[node] = _text(message.content)
+
+        if interrupt_payload is not None:
+            print(f"\n⚠️  Clarification needed: {interrupt_payload['question']}")
+            options = interrupt_payload.get("options") or []
+            if options:
+                for i, opt in enumerate(options, 1):
+                    print(f"     {i}. {opt}")
+                raw = input("Your choice (number or free text): ").strip()
+                answer = options[int(raw) - 1] if raw.isdigit() and 1 <= int(raw) <= len(options) else raw
+            else:
+                answer = input("Your answer: ").strip()
+            run_input = Command(resume=answer)
+            continue  # resume the same thread with the answer
+
+        print("─" * 60)
+        if final_answer:
+            print(final_answer)
+        elif specialist_answers:
+            for node, answer in specialist_answers.items():
+                print(f"\n[{AGENT_ICONS.get(node, '•')} {node}]\n{answer}")
+        else:
+            print("(no answer produced)")
+        break
 
 
 if __name__ == "__main__":

@@ -1,0 +1,54 @@
+filing_date: 2026-02-25
+form: 10-K
+ticker: NVDA
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+section: unknown
+---
+0001045810
+us-gaap:AllowanceForCreditLossMember
+2025-01-26
+0001045810
+us-gaap:AllowanceForCreditLossMember
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:AllowanceForCreditLossMember
+2026-01-25
+0001045810
+nvda:SECSchedule1209AllowanceSalesReturnsMember
+2025-01-26
+0001045810
+nvda:SECSchedule1209AllowanceSalesReturnsMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:SECSchedule1209AllowanceSalesReturnsMember
+2026-01-25
+0001045810
+us-gaap:ValuationAllowanceOfDeferredTaxAssetsMember
+2025-01-26
+0001045810
+us-gaap:ValuationAllowanceOfDeferredTaxAssetsMember
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:ValuationAllowanceOfDeferredTaxAssetsMember
+2026-01-25
+0001045810
+us-gaap:AllowanceForCreditLossMember
+2024-01-28
+0001045810
+us-gaap:AllowanceForCreditLossMember
+2024-01-29
+2025-01-26
+0001045810
+nvda:SECSchedule1209AllowanceSalesReturnsMember
+2024-01-28
+0001045810
+nvda:SECSchedule1209AllowanceSalesReturnsMember
+2024-01-29
+2025-01-26
+0001045810
+us-gaap:ValuationAllowanceOfDeferredTaxAssetsMember
+2024-01-28

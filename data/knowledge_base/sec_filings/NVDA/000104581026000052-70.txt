@@ -1,0 +1,19 @@
+filing_date: 2026-05-20
+ticker: NVDA
+form: 10-Q
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+section: Item 1
+---
+19
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Reconciliation of segment operating income to consolidated income before income tax for the first quarter of fiscal years 2027 and 2026 was as follows:
+Revenue by geographic area is based upon the location of the customers’ headquarters. The end customer and shipping location may be different from our customers’ headquarters location.
+Revenue from sales to customers headquartered outside of the United States accounted for 
+22
+% of total revenue for the first quarter of fiscal year 2027 and 
+42
+% of total revenue for the first quarter of fiscal year 2026
+.

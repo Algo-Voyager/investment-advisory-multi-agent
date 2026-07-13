@@ -1,0 +1,11 @@
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+filing_date: 2026-05-20
+form: 10-Q
+section: Item 7
+---
+For the first quarter of fiscal year 2026, sales to two direct customers represented 16% and 14% of total revenue, which were attributable to the Compute & Networking segment.
+Indirect Customers
+ – Indirect customer revenue is an estimation based upon multiple factors including customer purchase order information, product specifications, internal sales data, and other sources. Indirect customers primarily purchase our products through system integrators and distributors.
+We generate a significant amount of our revenue from a limited number of indirect customers, some individually representing 10% or more of our revenue. Certain companies purchase cloud and related services through various direct and indirect customers. We estimate that one AI research and deployment company contributed to a meaningful amount of our revenue by purchasing cloud services from our customers in the first quarter of fiscal year 2027.

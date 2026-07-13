@@ -1,0 +1,18 @@
+section: Item 1A
+form: 10-K
+ticker: NVDA
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+filing_date_int: 20260225
+---
+•
+Issues relating to the responsible use of our technologies, including AI, may result in reputational or financial harm and liability. 
+•
+Adequately protecting our IP rights could be costly, and our ability to compete could be harmed if we are unsuccessful or if we are prohibited from making or selling our products. 
+•
+We are subject to stringent and changing data privacy and security laws, rules, regulations, and other obligations. These areas could damage our reputation, deter customers, affect product design, or result in legal or regulatory proceedings and liability. 
+•
+Our operating results may be adversely impacted by additional tax liabilities, higher than expected tax rates, changes in tax laws, and other tax-related factors. 
+•
+Our business is exposed to the burden and risks associated with litigation, investigations, and regulatory proceedings. 
+•

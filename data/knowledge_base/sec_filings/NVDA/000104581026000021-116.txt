@@ -1,0 +1,9 @@
+ticker: NVDA
+form: 10-K
+accession: 0001045810-26-000021
+section: Item 1A
+filing_date_int: 20260225
+filing_date: 2026-02-25
+---
+We entered into multi-year cloud service agreements to support our research and development activities. The timing and availability of these cloud services have changed and may continue to shift, impacting our revenue, expenses, and development timelines, and these arrangements may not deliver anticipated benefits. We also offer or plan to offer standalone software solutions, including NVIDIA AI Enterprise, NVIDIA Omniverse, NVIDIA DRIVE, and other software products. These business models or strategies may not be successful, and we may fail to sell any meaningful standalone software or services. We may incur significant costs and may not achieve any significant revenue from these offerings.
+Competition could adversely impact our market share and financial results.

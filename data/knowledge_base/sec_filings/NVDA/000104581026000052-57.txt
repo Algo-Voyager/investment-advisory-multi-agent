@@ -1,0 +1,8 @@
+accession: 0001045810-26-000052
+form: 10-Q
+filing_date: 2026-05-20
+section: Item 1
+ticker: NVDA
+filing_date_int: 20260520
+---
+The putative derivative lawsuit pending in the United States District Court for the Northern District of California, captioned 4:19-cv-00341-HSG, initially filed January 18, 2019 and titled In re NVIDIA Corporation Consolidated Derivative Litigation, was stayed pending resolution of the plaintiffs’ appeal in the In Re NVIDIA Corporation Securities Litigation action. On February 22, 2022, the court administratively closed the case, but stated that it would reopen the case once the appeal in the In Re NVIDIA Corporation Securities Litigation action is resolved. The case has not yet been reopened by the court. The lawsuit asserts claims, purportedly on behalf of us, against certain officers and directors of the Company for breach of fiduciary duty, unjust enrichment, waste of corporate assets, and violations of Sections 14(a), 10(b), and 20(a) of the Exchange Act based on the dissemination of allegedly false and misleading statements related to channel inventory and the impact of

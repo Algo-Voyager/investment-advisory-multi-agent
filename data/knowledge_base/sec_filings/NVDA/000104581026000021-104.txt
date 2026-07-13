@@ -1,0 +1,10 @@
+form: 10-K
+filing_date_int: 20260225
+section: Item 1A
+accession: 0001045810-26-000021
+ticker: NVDA
+filing_date: 2026-02-25
+---
+Debora Shoquist
+ joined NVIDIA in 2007 as Senior Vice President of Operations and in 2009 became Executive Vice President of Operations. Prior to NVIDIA, Ms. Shoquist served from 2004 to 2007 as Executive Vice President of Operations at JDS Uniphase Corp., a provider of communications test and measurement solutions and optical products for the telecommunications industry. She served from 2002 to 2004 as Senior Vice President and General Manager of the Electro-Optics business at Coherent, Inc., a manufacturer of commercial and scientific laser equipment. Previously, she worked at Quantum Corp., a data protection company, as President of the Personal Computer Hard Disk Drive Division, and at Hewlett-Packard. Ms. Shoquist holds a B.S. degree in Electrical Engineering from Kansas State University and a B.S. degree in Biology from Santa Clara University.
+Timothy S. Teter

@@ -1,0 +1,40 @@
+filing_date: 2026-04-29
+filing_date_int: 20260429
+form: 10-Q
+accession: 0001193125-26-191507
+section: Item 1
+ticker: MSFT
+---
+NOTE 6 — PROPERTY AND EQUIPMENT
+The 
+components of property and equipment were as follows:
+ 
+ 
+
+ 
+Depreciation expense was $
+9.0
+ billion and $
+24.0
+ billion for the three and nine months ended March 31, 2026, respectively, and $
+5.8
+ billion and $
+15.7
+ billion for the three and nine months ended March 31, 2025, respectively.
+ 
+As of March 31, 2026 and June 30, 2025, purchases of property and equipment remaining in accounts payable were $
+22.6
+ billion and $
+6.9
+ billion, respectively.
+ 
+
+18
+
+PART I
+Item 1
+ 
+
+NOTE 7 
+— GOODWILL
+Changes in the carrying amount of goodwill were as follows:

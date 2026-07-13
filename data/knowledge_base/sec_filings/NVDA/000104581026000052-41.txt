@@ -1,0 +1,27 @@
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+form: 10-Q
+section: Item 1
+filing_date: 2026-05-20
+---
+5.3
+ billion and $
+396
+ million, and cumulative gross unrealized losses and impairments of $
+199
+ million and $
+110
+ million as of April 26, 2026 and April 27, 2025, respectively.
+Equity Method Investments
+We have $
+1.0
+ billion of investments in infrastructure funds accounted for using the equity method as of April 26, 2026. Our maximum loss exposure under these investments, including invested and future committed amounts, was $
+2.3
+ billion as of April 26, 2026.
+Investment Commitments
+Total Investment commitments were $
+27
+ billion as of April 26, 2026, subject to certain contingencies, which we expect will be made through the remainder of fiscal year 2027.
+Note 7 - 
+Balance Sheet Components

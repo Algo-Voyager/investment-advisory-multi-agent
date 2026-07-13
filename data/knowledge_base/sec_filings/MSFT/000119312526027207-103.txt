@@ -1,0 +1,22 @@
+section: Item 1
+filing_date_int: 20260128
+filing_date: 2026-01-28
+accession: 0001193125-26-027207
+form: 10-Q
+ticker: MSFT
+---
+Basis for Review Results
+This interim financial information is the responsibility of the Company's management. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+ 
+We conducted our reviews in accordance with standards of the PCAOB. A review of interim financial information consists principally of applying analytical procedures and making inquiries of persons responsible for financial and accounting matters. It is substantially less in scope than an audit conducted in accordance with the standards of the PCAOB, the objective of which is the expression of an opinion regarding the financial statements taken as a whole. Accordingly, we do not express such an opinion.
+ 
+/
+S
+/ D
+ELOITTE
+ & T
+OUCHE
+ LLP
+ 
+Seattle, Washington
+January 28, 2026

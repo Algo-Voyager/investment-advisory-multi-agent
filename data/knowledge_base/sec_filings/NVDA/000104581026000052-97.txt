@@ -1,0 +1,9 @@
+accession: 0001045810-26-000052
+section: Item 7
+filing_date: 2026-05-20
+ticker: NVDA
+filing_date_int: 20260520
+form: 10-Q
+---
+Provisions for inventory and excess inventory purchase obligations totaled $1.1 billion and $5.3 billion for the first quarter of fiscal years 2027 and 2026, respectively. The first quarter of fiscal year 2026 includes $4.5 billion associated with H20 excess inventory and purchase obligations. Sales of previously reserved inventory and settlements of excess inventory purchase obligations resulted in a provision release of $103 million and $436 million for the first quarter of fiscal years 2027 and 2026, respectively. The net effect on our gross margin was an unfavorable impact of 1.2% and 11.0% in the first quarter of fiscal years 2027 and 2026, respectively.
+Operating Expenses

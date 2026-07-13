@@ -1,0 +1,16 @@
+filing_date_int: 20260429
+accession: 0001193125-26-191507
+section: Item 1
+filing_date: 2026-04-29
+form: 10-Q
+ticker: MSFT
+---
+28.9
+ billion plus penalties and interest. As of March 31, 2026, we believe our allowances for income tax contingencies are adequate. We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS’s administrative appeals office and, if necessary, judicial proceedings. We do not expect a final resolution of these issues in the next 12 months. Based on the information currently available, we do not anticipate a significant increase or decrease to our income tax contingencies for these issues within the next 12 months.
+ 
+We are subject to income tax in many jurisdictions outside the U.S., some of which are currently under audit by local tax authorities. The resolution of these audits is not expected to be material to our consolidated financial statements. Our operations in Ireland remain subject to examination for tax years 
+2021 and thereafter
+.
+NOTE 11 — UNEARNED REVENUE
+ 
+Unearned revenue by segment was as follows:

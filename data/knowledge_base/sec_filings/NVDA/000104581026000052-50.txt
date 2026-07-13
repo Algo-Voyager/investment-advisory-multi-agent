@@ -1,0 +1,33 @@
+accession: 0001045810-26-000052
+section: Item 1
+filing_date: 2026-05-20
+ticker: NVDA
+filing_date_int: 20260520
+form: 10-Q
+---
+25.0
+ billion, with 
+no
+ amounts outstanding.
+Note 10 - 
+Commitments and Contingencies
+Commitments
+Manufacturing, supply, and capacity commitments reflect data center-scale production and longer future ordering horizons across current and future product architectures. We enter into agreements with our supply vendors that allow them to procure inventory based upon our defined criteria, and in certain instances, these agreements are cancellable, able to be rescheduled, or adjustable for our business needs prior to placing firm orders. Changes to these agreements may result in additional costs. As of April 26, 2026, these commitments were $
+119
+ billion for which $
+95
+ billion will be paid in the remainder of fiscal year 2027 and the remaining balance will be paid in fiscal years 2028 through 2031.
+Multi-year cloud service agreement commitments as of April 26, 2026, were $
+30
+ billion for which $
+6
+ billion, $
+7
+ billion, $
+7
+ billion, $
+5
+ billion, $
+3
+ billion, and $
+2

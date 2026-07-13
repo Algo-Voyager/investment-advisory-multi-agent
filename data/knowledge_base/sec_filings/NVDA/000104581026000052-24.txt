@@ -1,0 +1,53 @@
+ticker: NVDA
+filing_date_int: 20260520
+form: 10-Q
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+section: unknown
+---
+0001045810
+us-gaap:OperatingLeaseLeaseNotYetCommencedMember
+2026-04-26
+0001045810
+srt:MinimumMember
+2026-04-26
+0001045810
+srt:MaximumMember
+2026-04-26
+0001045810
+nvda:TenchCoxeMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:TenchCoxeMember
+2026-04-26
+0001045810
+nvda:ColetteM.KressMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:ColetteM.KressMember
+2026-04-26
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM 
+10-Q
+For the quarterly period ended 
+April 26, 2026
+OR
+Commission File Number: 
+0-23985
+ 
+NVIDIA CORP
+ORATION
+(Exact name of registrant as specified in its charter) 
+(
+408
+) 
+486-2000
+ 
+(Registrant's telephone number, including area code)
+N/A
+(Former name, former address and former fiscal year, if changed since last report)
+Securities registered pursuant to Section 12(b) of the Act:

@@ -35,4 +35,6 @@ make notebook                # open the per-phase notebooks (start with phase00)
 - [x] **Phase 7** — persistent memory (SQLite checkpointer + long-term store), thread-id isolation, access-control interceptor (bonus: session isolation + data privacy)
 - [x] **Phase 8** — planner (complexity Strategy + decomposition), supervisor plan-walk, Chain-of-Thought synthesizer with conflict handling
 - [x] **Phase 9** — guardrail pipeline (input: PII/injection/scope; output: numeric/citation/groundedness/conflict), reflection revise-loop, safe exit
-- [ ] Phases 10–15 — see `docs/01_claude_code_prompts.md`
+- [x] **Phase 10** — human-in-the-loop clarification via `interrupt()`/`Command(resume=...)`, CLI prompt/resume flow
+- [x] **Phase 11** — per-adapter circuit breakers, Fallback helper (Retriever→keyword search, market adapters→yfinance), global node exception wrapping (no stack trace ever reaches the user)
+- [ ] Phases 12–15 — see `docs/01_claude_code_prompts.md`

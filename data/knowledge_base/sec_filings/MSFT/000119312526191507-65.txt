@@ -1,0 +1,11 @@
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+filing_date: 2026-04-29
+form: 10-Q
+section: Item 1
+ticker: MSFT
+---
+Recent Accounting Guidance
+Income Taxes – Improvements to Income Tax Disclosures
+In December 2023, the Financial Accounting Standards Board (“FASB”) issued a new standard to improve income tax disclosures. The guidance requires additional disclosure of disaggregated income taxes paid and prescribes standardized categories for the components of the effective tax rate reconciliation. We will adopt the standard prospectively on the effective date in our annual reporting for fiscal year 2026.
+Income Statement – Disaggregation of Income Statement Expenses

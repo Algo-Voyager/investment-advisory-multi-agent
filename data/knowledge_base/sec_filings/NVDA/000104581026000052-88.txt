@@ -1,0 +1,12 @@
+filing_date: 2026-05-20
+section: Item 1A
+ticker: NVDA
+filing_date_int: 20260520
+form: 10-Q
+accession: 0001045810-26-000052
+---
+24
+while ACIE addresses our growth opportunity in diverse AI purpose-built data centers and AI factories across industries and countries.
+Edge Computing highlights devices for agentic and physical AI including PCs, game consoles, workstations, AI-RAN base stations, robotics and automotive.
+(1) In the first quarter of fiscal year 2027, we changed our presentation of revenue by market platform and the comparable periods have been recast.
+Revenue was $81.6 billion, up 85% from a year ago and up 20% sequentially.

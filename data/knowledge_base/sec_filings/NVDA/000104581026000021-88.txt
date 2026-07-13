@@ -1,0 +1,8 @@
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+filing_date_int: 20260225
+ticker: NVDA
+section: Item 1
+form: 10-K
+---
+The export controls applicable to China are complex and address a variety of parameters, including the total processing performance of a chip, the “performance density” of a chip, the interconnect bandwidth of a chip, and the memory bandwidth of a chip. Under the current rules and geopolitical landscape, we are unable to create and deliver a competitive product for China’s data center market that receives approval from both the USG and the Chinese government. As of the end of fiscal year 2026, we were effectively foreclosed from competing in China's data center computing/compute market, and our effective foreclosure from the China market helped our competitors build larger developer and customer ecosystems to challenge us worldwide. Unless we are able to return with a product that meets the approval of both the USG and the Chinese government, our lost opportunity and the benefit to our competitors will have a material and adverse impact on our business, operating results, and

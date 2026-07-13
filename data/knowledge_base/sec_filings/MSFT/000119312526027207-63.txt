@@ -1,0 +1,14 @@
+ticker: MSFT
+section: Item 1
+accession: 0001193125-26-027207
+filing_date: 2026-01-28
+form: 10-Q
+filing_date_int: 20260128
+---
+, 2025 and June 30, 2025, our financing receivables, net were $
+2.7
+ billion and $
+4.3
+ billion, respectively, for short-term and long-term financing receivables, which are included in other current assets and other long-term assets in our consolidated balance sheets.
+ 
+We record an allowance for doubtful accounts which reflects our best estimate of credit losses inherent in the accounts receivable and financing receivable balances. We determine the allowance based on known troubled accounts, historical experience, and other currently available evidence.

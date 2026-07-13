@@ -1,0 +1,26 @@
+filing_date: 2026-04-29
+form: 10-Q
+section: Item 1
+accession: 0001193125-26-191507
+ticker: MSFT
+filing_date_int: 20260429
+---
+The following table outlines maturities of our lease liabilities as of March 31, 2026:
+ 
+
+ 
+As of March 31, 2026, we had additional leases, primarily for datacenters, that had not yet commenced of $
+196.6
+ billion. These leases will commence between fiscal year 2026 and fiscal year 2031 with lease terms of 
+1
+ year to 
+21
+ years.
+NOTE 13 — CONTINGENCIES
+Irish Data Protection Commission Matter
+In 2018, the Irish Data Protection Commission (“IDPC”) began investigating a complaint against LinkedIn as to whether LinkedIn’s targeted advertising practices violated the recently implemented European Union General Data Protection Regulation (“GDPR”). Microsoft cooperated throughout the period of inquiry. In October 2024, the IDPC provided LinkedIn with a final decision alleging GDPR violations and assessing a fine. In November 2024, LinkedIn appealed the final decision to the Irish courts. A preliminary hearing was held in December 2025.
+
+23
+
+PART I
+Item 1

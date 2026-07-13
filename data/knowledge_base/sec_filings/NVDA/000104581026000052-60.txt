@@ -1,0 +1,8 @@
+filing_date: 2026-05-20
+ticker: NVDA
+filing_date_int: 20260520
+form: 10-Q
+accession: 0001045810-26-000052
+section: Item 1
+---
+cv-01798-MN), were stayed pending resolution of the plaintiffs’ appeal in the In Re NVIDIA Corporation Securities Litigation action. On March 7, 2025, after the Supreme Court issued its judgment dismissing the Company’s petition for writ of certiorari as improvidently granted in the In Re NVIDIA Securities Litigation action, the district court adopted the parties' stipulation to extend the stay until the final and complete resolution of the In Re NVIDIA Corporation Securities Litigation action. The lawsuits assert claims, purportedly on behalf of us, against certain officers and directors of the Company for breach of fiduciary duty, unjust enrichment, insider trading, misappropriation of information, corporate waste and violations of Sections 14(a), 10(b), and 20(a) of the Exchange Act based on the dissemination of allegedly false and misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand. The plaintiffs seek unspecified damages and

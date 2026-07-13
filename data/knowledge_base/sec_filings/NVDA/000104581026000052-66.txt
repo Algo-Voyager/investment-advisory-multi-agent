@@ -1,0 +1,29 @@
+form: 10-Q
+ticker: NVDA
+filing_date: 2026-05-20
+section: Item 1
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+---
+38.5
+ billion of our common stock.
+On May 18, 2026, our Board of Directors approved an additional $
+80.0
+ billion in share repurchase authorization, without expiration.
+18
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+We paid cash dividends to our shareholders of $
+243
+ million and $
+244
+ million during the first quarter of fiscal years 2027 and 2026, respectively. On May 18, 2026, we increased our quarterly cash dividend from $
+0.01
+ per share to $
+0.25
+ per share to all shareholders of record on June 4, 2026. Our quarterly cash dividend will be paid on June 26, 2026.
+The payment of future cash dividends is subject to our Board of Directors' continuing determination that the declaration of dividends is in the best interests of our shareholders.
+ 
+Note 13 - 
+Segment Information

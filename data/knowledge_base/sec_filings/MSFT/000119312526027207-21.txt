@@ -1,0 +1,55 @@
+ticker: MSFT
+filing_date_int: 20260128
+filing_date: 2026-01-28
+section: unknown
+form: 10-Q
+accession: 0001193125-26-027207
+---
+0000789019
+msft:IssuanceOfLongTermDebtThirteenMember
+2025-07-01
+2025-12-31
+0000789019
+msft:UnrecognizedTaxBenefitsAndOtherIncomeTaxLiabilitiesMember
+2025-06-30
+0000789019
+us-gaap:ForeignGovernmentDebtSecuritiesMember
+2025-06-30
+0000789019
+msft:WindowsAndDevicesMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:CashMember
+2025-06-30
+0000789019
+us-gaap:EquitySecuritiesMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:AssetBackedSecuritiesMember
+2025-06-30
+0000789019
+msft:IssuanceOfLongTermDebtTenMember
+srt:MaximumMember
+2025-12-31
+0000789019
+msft:MicrosoftThreeSixFiveConsumerProductsAndCloudServicesMember
+2025-10-01
+2025-12-31
+0000789019
+us-gaap:EquityContractMember
+us-gaap:NonoperatingIncomeExpenseMember
+2024-07-01
+2024-12-31
+0000789019
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+us-gaap:NonoperatingIncomeExpenseMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:ShortTermInvestmentsMember
+2025-12-31
+0000789019

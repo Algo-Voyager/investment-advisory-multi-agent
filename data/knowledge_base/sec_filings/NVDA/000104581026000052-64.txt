@@ -1,0 +1,20 @@
+filing_date_int: 20260520
+form: 10-Q
+filing_date: 2026-05-20
+section: Item 1
+accession: 0001045810-26-000052
+ticker: NVDA
+---
+Note 11 - 
+Income Taxes
+Income tax expense was $
+11.6
+ billion and $
+3.1
+ billion for the first quarter of fiscal years 2027 and 2026, respectively. Income tax as a percentage of income before income tax was 
+16.6
+% and 
+14.3
+% for the first quarter of fiscal years 2027 and 2026, respectively.
+The effective tax rate increased primarily due to a lower percentage of tax benefits from stock-based compensation relative to the increase in income before income tax.
+Our effective tax rates for the first quarter of fiscal years 2027 and 2026 were lower than the U.S. federal statutory rate of 21% primarily due to tax benefits from foreign-derived deduction eligible income, income earned in jurisdictions that were subject to taxes at rates lower than the U.S. federal statutory tax rate, stock-based compensation, and the U.S. federal research tax credit.

@@ -1,0 +1,15 @@
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+section: Item 1
+ticker: NVDA
+filing_date: 2026-05-20
+form: 10-Q
+---
+Certain prior fiscal year balances have been reclassified to conform to the current period presentation.
+Significant Accounting Policies
+There have been no material changes to our significant accounting policies disclosed in Note 1 - Organization and Summary of Significant Accounting Policies, of the Notes to the Consolidated Financial Statements included in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026.
+Fiscal Year
+Fiscal year 2027 is a 53-week year and fiscal year 2026 was a 52-week year, both ending on the last Sunday in January. The first quarters of fiscal years 2027 and 2026 were both 13-week quarters. The fourth quarter of fiscal year 2027 will be a 14-week quarter.
+Principles of Consolidation
+Our condensed consolidated financial statements include the accounts of NVIDIA Corporation and our wholly owned subsidiaries. All intercompany balances and transactions have been eliminated in consolidation.
+Use of Estimates

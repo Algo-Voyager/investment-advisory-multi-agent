@@ -1,0 +1,13 @@
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+form: 10-Q
+section: Item 1
+filing_date_int: 20260520
+ticker: NVDA
+---
+We have made, and expect to continue making, investments in our ecosystem to enhance our growth opportunities, cultivate our ecosystem, and strengthen our competitive position. In the first quarter of fiscal year 2027, we made the following investments:
+•
+$18.6 billion in private companies and infrastructure funds. Some of these investments include AI model makers that may indirectly purchase or use our products in the cloud. 
+•
+We made investments in publicly-held equity securities where the value may fluctuate significantly and could adversely affect our financial results.
+Our global supply chain for our networking products, including our Israel operations of approximately 5,900 employees supporting research and development, operations, and sales and marketing, has not been significantly impacted by the conflict in the Middle East. If the conflict escalates or extends, it could affect future product development, supply chain, and revenue, and create business uncertainty.

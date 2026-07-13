@@ -1,0 +1,25 @@
+filing_date: 2026-01-28
+form: 10-Q
+ticker: MSFT
+section: Item 1
+accession: 0001193125-26-027207
+filing_date_int: 20260128
+---
+Our other current financial assets and current financial liabilities have fair values that approximate their carrying values.
+Contract Balances and Other Receivables
+ 
+As of December 31, 2025 and June 30, 2025, long-term accounts receivable, net of allowance for doubtful accounts, was $
+5.3
+ billion and $
+5.2
+ billion, respectively, and is included in other long-term assets in our consolidated balance sheets.
+As of December 31, 2025 and June 30, 2025, other receivables related to activities to facilitate the purchase of server components were $
+15.1
+ billion and $
+8.2
+ billion, respectively, and are included in other current assets in our consolidated balance sheets.
+We record financing receivables when we offer certain customers the option to acquire our software products and services offerings through a financing program in a limited number of countries. As of December 31
+, 2025 and June 30, 2025, our financing receivables, net were $
+2.7
+ billion and $
+4.3

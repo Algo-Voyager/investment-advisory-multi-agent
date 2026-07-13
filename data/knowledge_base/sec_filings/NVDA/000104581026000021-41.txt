@@ -1,0 +1,8 @@
+form: 10-K
+filing_date: 2026-02-25
+ticker: NVDA
+filing_date_int: 20260225
+section: Item 1
+accession: 0001045810-26-000021
+---
+to include networking, enabled our platforms to be data center scale, and led to the introduction of a new processor class – the data processing unit, or DPU. Over the past 5 years, we have built full software stacks that run on top of our GPUs and CUDA to bring AI to the world’s largest industries, including NVIDIA DRIVE stack for autonomous driving, Clara for healthcare, Omniverse for physical AI applications, and NVIDIA AI Enterprise software – essentially an operating system for enterprise AI applications. In 2023, we introduced our first data center CPU, Grace, built for giant-scale AI and high-performance computing, or HPC. In 2024, we launched the NVIDIA Blackwell architecture – connecting 36 Grace CPUs and 72 Blackwell GPUs in a data center scale, liquid-cooled design – for real-time trillion-parameter inference and training. In fiscal year 2026, we launched and scaled the NVIDIA Blackwell Ultra platform, optimized for agentic, reasoning, and physical AI. Building on the

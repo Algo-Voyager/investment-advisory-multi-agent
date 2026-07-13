@@ -1,0 +1,30 @@
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+form: 10-Q
+ticker: NVDA
+section: Item 1
+filing_date: 2026-05-20
+---
+160
+ million of customer advances, respectively.
+(1) Primarily comprised of unrecognized tax benefits and related interest and penalties.
+(2) Includes unearned revenue related to hardware and software support and cloud services.
+Deferred Revenue
+The following table shows the changes in short- and long-term deferred revenue during the first quarter of fiscal years 2027 and 2026:
+(1) Includes $
+1.7
+ billion and $
+6.2
+ billion of customer advances for the first quarter of fiscal years 2027 and 2026, respectively.
+(2) Includes $
+1.6
+ billion and $
+6.0
+ billion related to customer advances for the first quarter of fiscal years 2027 and 2026, respectively.
+We recognized revenue of $
+451
+ million and $
+265
+ million in the first quarter of fiscal years 2027 and 2026, respectively, that was included in the prior year-end deferred revenue balance.
+As of April 26, 2026, revenue related to remaining performance obligations from contracts greater than one year in length was $
+2.6

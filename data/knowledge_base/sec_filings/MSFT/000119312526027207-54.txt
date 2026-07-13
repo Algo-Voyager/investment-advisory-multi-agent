@@ -1,0 +1,14 @@
+filing_date: 2026-01-28
+accession: 0001193125-26-027207
+filing_date_int: 20260128
+form: 10-Q
+section: Item 1
+ticker: MSFT
+---
+27
+ percent of OpenAI on an as-converted basis accounted for under the equity method of accounting. As a result of the OpenAI Recapitalization, we had a decrease in our proportionate ownership of OpenAI and recorded a dilution gain in other income (expense), net. Refer to Note 3 – Other Income (Expense), Net for additional information. We calculate our equity method income or loss using the hypothetical liquidation at book value (“HLBV”) method because our liquidation rights and priorities differ from our underlying ownership interest. Under the HLBV method, we recognize income or loss based on the change in the amount we would receive if the net assets of the investee were distributed at book value. We have made total funding commitments of $
+13
+ billion, of which $
+11.7
+ billion has been funded as of December 31, 2025.
+Derivatives

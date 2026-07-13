@@ -1,0 +1,12 @@
+filing_date: 2026-05-20
+ticker: NVDA
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+section: Item 1
+form: 10-Q
+---
+The putative derivative actions initially filed September 24, 2019 and pending in the United States District Court for the District of Delaware, Lipchitz v. Huang, et al. (Case No. 1:19-cv-01795-MN) and Nelson v. Huang, et. al. (Case No. 1:19-
+17
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)

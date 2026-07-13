@@ -1,0 +1,10 @@
+section: Item 1
+filing_date_int: 20260225
+filing_date: 2026-02-25
+accession: 0001045810-26-000021
+form: 10-K
+ticker: NVDA
+---
+At the foundation of the NVIDIA accelerated computing platform are our GPUs, which excel at parallel workloads such as the training and inferencing of neural networks. These Data Center systems are extreme co-designed with the GPU, CPU, NVLink switch, DPU, NIC, and scale-out networking along with software stacks and algorithms to deliver data center-scale computing solutions.
+While our approach starts with powerful chips, what makes it a full-stack computing platform is our large body of software, including the CUDA development platform, the CUDA-X collection of acceleration libraries, AI models and training data sets, APIs, SDKs, and domain-specific application frameworks.
+In addition to software delivered to customers as an integral part of our data center computing and networking platform, we offer paid licenses to NVIDIA AI Enterprise, a comprehensive suite of enterprise-grade AI software and NVIDIA vGPU software for graphics-rich virtual desktops and workstations.

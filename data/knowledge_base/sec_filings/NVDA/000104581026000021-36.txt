@@ -1,0 +1,8 @@
+section: Item 1
+filing_date_int: 20260225
+ticker: NVDA
+form: 10-K
+filing_date: 2026-02-25
+accession: 0001045810-26-000021
+---
+Introduced with the Blackwell architecture, our data-center-scale offerings feature extreme co-design where the infrastructure’s chips, networking, systems, software, and algorithms are holistically architected and optimized to maximize performance and scale. Hundreds of thousands of GPUs can be interconnected to function as a single giant computer. This type of data center architecture and scale is needed for the development and deployment of modern AI and accelerated computing applications.

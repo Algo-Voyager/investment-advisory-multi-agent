@@ -1,0 +1,8 @@
+section: Item 1
+form: 10-K
+filing_date_int: 20260225
+filing_date: 2026-02-25
+ticker: NVDA
+accession: 0001045810-26-000021
+---
+Enterprises and startups across a broad range of industries use our accelerated computing platforms to build new generative and agentic AI-enabled products and services, and/or to dramatically accelerate and reduce the costs of their workloads and workflows. The enterprise software industry uses them for new AI assistants, chatbots, and agents; the transportation industry for autonomous driving; the healthcare industry for accelerated and computer-aided drug discovery; and the financial services industry for customer support and fraud detection.

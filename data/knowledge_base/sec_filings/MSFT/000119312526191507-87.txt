@@ -1,0 +1,25 @@
+accession: 0001193125-26-191507
+section: Item 1
+form: 10-Q
+ticker: MSFT
+filing_date_int: 20260429
+filing_date: 2026-04-29
+---
+25
+% of our commercial remaining performance obligation revenue over the next 
+12
+ months and the remainder thereafter.
+NOTE 12
+ 
+—
+ LEASES
+We have operating and finance leases for datacenters, corporate offices, research and development facilities, and certain equipment. Our leases have remaining lease terms of less than 
+1
+ year to 
+19 
+years, some of which include options to extend the leases for up to 
+5
+ years, and some of which include options to terminate the leases within 
+1
+ year.
+The components of lease expense were as follows:

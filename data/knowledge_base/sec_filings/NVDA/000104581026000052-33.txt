@@ -1,0 +1,12 @@
+ticker: NVDA
+form: 10-Q
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+section: Item 1
+filing_date_int: 20260520
+---
+Use of Estimates
+The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosures of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reporting period. Actual results could differ materially from our estimates.
+ 
+Recently Issued Accounting Pronouncements
+Recent Accounting Pronouncements Not Yet Adopted

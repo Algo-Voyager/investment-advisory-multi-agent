@@ -1,0 +1,9 @@
+accession: 0001193125-26-191507
+ticker: MSFT
+filing_date: 2026-04-29
+section: Item 1
+filing_date_int: 20260429
+form: 10-Q
+---
+For derivative instruments designated as cash flow hedges, gains and losses are initially reported as a component of other comprehensive income and subsequently recognized in other income (expense), net with the corresponding hedged item. Gains and losses representing hedge components excluded from the assessment of effectiveness are recognized in other income (expense), net.
+For derivative instruments that are not designated as hedges, gains and losses from changes in fair values are primarily recognized in other income (expense), net.

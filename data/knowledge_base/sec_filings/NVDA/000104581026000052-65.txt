@@ -1,0 +1,22 @@
+ticker: NVDA
+filing_date: 2026-05-20
+form: 10-Q
+section: Item 1
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+---
+While we believe that we have adequately provided for all uncertain tax positions, or tax positions where we believe it is not more-likely-than-not that the position will be sustained upon review, amounts asserted by tax authorities could be greater or less than our accrued position. Accordingly, our provisions on federal, state and foreign tax related matters to be recorded in the future may change as revised estimates are made or the underlying matters are settled or otherwise resolved with the respective tax authorities.
+We are currently under examination by the Internal Revenue Service for our fiscal years 2023 and 2024.
+Note 12 - 
+Shareholders’ Equity
+Capital Return Program
+We repurchased 
+108
+ million and 
+126
+ million shares of our common stock for $
+20.2
+ billion and $
+14.5
+ billion during the first quarter of fiscal years 2027 and 2026, respectively. As of April 26, 2026, we were authorized, subject to certain specifications, to repurchase up to $
+38.5

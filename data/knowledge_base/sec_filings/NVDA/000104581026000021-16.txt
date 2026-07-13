@@ -1,0 +1,63 @@
+filing_date_int: 20260225
+ticker: NVDA
+section: unknown
+form: 10-K
+filing_date: 2026-02-25
+accession: 0001045810-26-000021
+---
+2026-01-25
+0001045810
+stpr:CA
+2026-01-25
+0001045810
+nvda:OtherStatesMember
+2026-01-25
+0001045810
+us-gaap:DomesticCountryMember
+us-gaap:CapitalLossCarryforwardMember
+2026-01-25
+0001045810
+2025-08-26
+2025-08-26
+0001045810
+us-gaap:SubsequentEventMember
+2026-01-26
+2026-02-20
+0001045810
+us-gaap:OperatingSegmentsMember
+nvda:ComputeAndNetworkingSegmentMember
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:OperatingSegmentsMember
+nvda:GraphicsSegmentMember
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:OperatingSegmentsMember
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:OperatingSegmentsMember
+nvda:ComputeAndNetworkingSegmentMember
+2024-01-29
+2025-01-26
+0001045810
+us-gaap:OperatingSegmentsMember
+nvda:GraphicsSegmentMember
+2024-01-29
+2025-01-26
+0001045810
+us-gaap:OperatingSegmentsMember
+2024-01-29
+2025-01-26
+0001045810
+us-gaap:OperatingSegmentsMember
+nvda:ComputeAndNetworkingSegmentMember
+2023-01-30
+2024-01-28
+0001045810
+us-gaap:OperatingSegmentsMember
+nvda:GraphicsSegmentMember
+2023-01-30
+2024-01-28

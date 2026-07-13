@@ -1,0 +1,17 @@
+section: Item 1
+filing_date: 2026-04-29
+form: 10-Q
+ticker: MSFT
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+---
+Changes in unearned revenue were as follows:
+ 
+ 
+
+ 
+
+21
+
+PART I
+Item 1

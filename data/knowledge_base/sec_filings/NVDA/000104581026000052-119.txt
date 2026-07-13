@@ -1,0 +1,8 @@
+section: Item 1A
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+ticker: NVDA
+filing_date: 2026-05-20
+form: 10-Q
+---
+which could harm our business. Some of our customers are developing their own ASICs and other products, including designs optimized for certain workloads that may not require all of the features and functionality our data center systems provide. Others may offer cloud-based services that compete with our AI cloud service offerings, and we may not be able to establish market share sufficient to achieve the scale necessary to meet our business objectives. If we are unable to successfully compete in this environment, demand for our products, services, and technologies could decrease, which may negatively impact our business.

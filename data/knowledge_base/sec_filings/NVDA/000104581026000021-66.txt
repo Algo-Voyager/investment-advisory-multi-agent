@@ -1,0 +1,8 @@
+section: Item 1
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+form: 10-K
+ticker: NVDA
+---
+as well as to re-simulate their operation prior to any over-the-air software updates. We believe our comprehensive, top-to-bottom and end-to-end approach will enable the transportation industry to solve the complex problems arising from the shift to autonomous driving.

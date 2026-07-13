@@ -1,0 +1,52 @@
+filing_date_int: 20260520
+form: 10-Q
+ticker: NVDA
+section: unknown
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+---
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:CustomerThreeMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:CustomerOneMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:CustomerTwoMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:CustomerThreeMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:InventoryPurchaseObligationsInExcessOfProjectionsMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:InventoryPurchaseObligationsInExcessOfProjectionsMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:NatureOfExpenseCustomerAdvancesAndDeferralsMember
+2026-04-26
+0001045810
+nvda:NatureOfExpenseCustomerAdvancesAndDeferralsMember
+2026-01-25
+0001045810
+2026-04-27
+2026-04-26

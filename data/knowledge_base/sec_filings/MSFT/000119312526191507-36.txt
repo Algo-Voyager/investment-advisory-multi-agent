@@ -1,0 +1,61 @@
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+ticker: MSFT
+filing_date: 2026-04-29
+section: unknown
+form: 10-Q
+---
+srt:MaximumMember
+2025-07-01
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtNineMember
+srt:MinimumMember
+2025-07-01
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtTenMember
+2025-06-30
+0000789019
+us-gaap:ProductMember
+2025-01-01
+2025-03-31
+0000789019
+msft:MicrosoftCloudMember
+2026-01-01
+2026-03-31
+0000789019
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+2026-03-31
+0000789019
+msft:MorePersonalComputingMember
+2025-01-01
+2025-03-31
+0000789019
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2024-06-30
+0000789019
+msft:AccumulatedTranslationAdjustmentAndOtherMember
+2025-03-31
+0000789019
+msft:SatyaNadellaMember
+2026-01-01
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtFourMember
+2025-06-30
+0000789019
+us-gaap:ContractualRightsMember
+2025-06-30
+0000789019
+msft:WindowsAndDevicesMember
+2025-07-01
+2026-03-31
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtElevenMember
+2026-03-31
+0000789019
+msft:ProductivityAndBusinessProcessesMember
+2025-06-30
+0000789019

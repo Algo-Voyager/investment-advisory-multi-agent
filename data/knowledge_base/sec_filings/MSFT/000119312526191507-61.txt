@@ -1,0 +1,11 @@
+filing_date: 2026-04-29
+ticker: MSFT
+accession: 0001193125-26-191507
+form: 10-Q
+section: Item 1
+filing_date_int: 20260429
+---
+•
+Level 3
+ – inputs are generally unobservable and typically reflect management’s estimates of assumptions that market participants would use in pricing the asset or liability. The fair values are therefore determined using model-based techniques, including option pricing models and discounted cash flow models. Our Level 3 assets and liabilities include investments in corporate notes and bonds, municipal securities, and goodwill and intangible assets, when they are recorded at fair value due to an impairment charge. Unobservable inputs used in the models are significant to the fair values of the assets and liabilities.
+We measure equity investments without readily determinable fair values on a nonrecurring basis. The fair values of these investments are determined based on valuation techniques using the best information available, and may include quoted market prices, market comparables, and discounted cash flow projections.

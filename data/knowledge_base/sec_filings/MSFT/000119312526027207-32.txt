@@ -1,0 +1,56 @@
+accession: 0001193125-26-027207
+form: 10-Q
+ticker: MSFT
+filing_date_int: 20260128
+section: unknown
+filing_date: 2026-01-28
+---
+0000789019
+msft:ShareRepurchaseProgramTwentyTwentyFourMember
+2025-07-01
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtThreeMember
+2025-07-01
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtTenMember
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtNineMember
+srt:MinimumMember
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtFourMember
+2025-06-30
+0000789019
+us-gaap:USStatesAndPoliticalSubdivisionsMember
+2025-12-31
+0000789019
+us-gaap:OtherContractMember
+us-gaap:NondesignatedMember
+us-gaap:ShortMember
+2025-06-30
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:USStatesAndPoliticalSubdivisionsMember
+2025-12-31
+0000789019
+us-gaap:OtherContractMember
+us-gaap:LongMember
+us-gaap:NondesignatedMember
+2025-12-31
+0000789019
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+2025-12-31
+0000789019
+msft:GamingMember
+2024-10-01
+2024-12-31
+0000789019
+srt:MaximumMember
+msft:IssuanceOfLongTermDebtSevenMember
+2025-12-31
+0000789019
+us-gaap:DebtSecuritiesMember

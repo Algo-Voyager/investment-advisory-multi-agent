@@ -1,0 +1,9 @@
+filing_date: 2026-02-25
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+section: Item 1
+ticker: NVDA
+form: 10-K
+---
+Our AI technology leadership is reinforced by our large and expanding ecosystem. Our computing platforms are available from virtually every major server maker and CSP, as well as on our own AI supercomputers. There are over 7.5 million developers worldwide using CUDA and our other software tools to help deploy our technology in our target markets. We are the leader in accelerating and releasing open AI models which enterprises, sovereigns, and startups can leverage to develop and run applications on our platform. We evangelize AI through partnerships with hundreds of universities and tens of thousands of startups through our Inception program. Additionally, our Deep Learning Institute provides instruction on the latest techniques on how to design, train, and deploy neural networks in applications using our accelerated computing platform.
+Extending our technology and platform leadership in computer graphics.

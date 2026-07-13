@@ -1,0 +1,8 @@
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+filing_date_int: 20260225
+form: 10-K
+ticker: NVDA
+section: Item 1
+---
+We believe the advent of autonomous vehicles, or AV, and electric vehicles, or EV, is revolutionizing the transportation industry. The algorithms required for autonomous driving - such as reasoning, perception, localization, and planning - are too complex for legacy hand-coded approaches and will use multiple neural networks instead. Therefore, we provide an AI-based hardware and software solution, designed and implemented from the ground up based on automotive safety standards, for the AV and EV market under the DRIVE brand, which we are bringing to market through our partnerships across the transportation industry including with automotive OEMs, mobility service providers, robotaxis, tier-1 suppliers, and start-ups. Our AV solution also includes the GPU-based hardware required to train the neural networks before their in-vehicle deployment, as well as to re-simulate their operation prior to any over-the-air software updates. We believe our comprehensive, top-to-bottom and end-to-end

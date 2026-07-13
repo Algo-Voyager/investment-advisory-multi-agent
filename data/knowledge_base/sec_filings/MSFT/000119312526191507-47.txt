@@ -1,0 +1,8 @@
+filing_date_int: 20260429
+accession: 0001193125-26-191507
+form: 10-Q
+section: Item 1
+ticker: MSFT
+filing_date: 2026-04-29
+---
+positions that have been recognized in our consolidated financial statements or tax returns; and determining the timing and amount of impairments for investments. Actual results and outcomes may differ from management’s estimates and assumptions due to risks and uncertainties.

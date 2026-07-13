@@ -1,0 +1,10 @@
+filing_date_int: 20260225
+section: Item 1A
+ticker: NVDA
+filing_date: 2026-02-25
+accession: 0001045810-26-000021
+form: 10-K
+---
+Ajay K. Puri 
+joined NVIDIA in 2005 as Senior Vice President, Worldwide Sales and became Executive Vice President, Worldwide Field Operations in 2009. Prior to NVIDIA, he held positions in sales, marketing, and general management over a 22-year career at Sun Microsystems, Inc., a computing systems company. Mr. Puri previously held marketing, management consulting, and product development positions at Hewlett-Packard, an information technology company, Booz Allen Hamilton Inc., a management and technology consulting company, and Texas Instruments Incorporated. Mr. Puri holds a B.S.E.E. degree from the University of Minnesota, an M.S.E.E. degree from the California Institute of Technology and an M.B.A. degree from Harvard Business School.
+Debora Shoquist

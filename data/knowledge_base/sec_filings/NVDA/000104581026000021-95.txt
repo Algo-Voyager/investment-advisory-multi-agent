@@ -1,0 +1,8 @@
+ticker: NVDA
+form: 10-K
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+filing_date_int: 20260225
+section: Item 1A
+---
+While we work to enhance the resiliency and redundancy of our supply chain, which is currently concentrated in Asia, new and existing export controls or changes to existing export controls could limit alternative manufacturing locations and negatively impact our business. Refer to “Item 1A. Risk Factors – Risks Related to Regulatory, Legal, Our Stock, and Other Matters” for a discussion of this potential impact.

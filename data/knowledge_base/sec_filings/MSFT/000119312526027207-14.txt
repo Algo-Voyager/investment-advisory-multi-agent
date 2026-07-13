@@ -1,0 +1,58 @@
+section: unknown
+filing_date_int: 20260128
+accession: 0001193125-26-027207
+form: 10-Q
+ticker: MSFT
+filing_date: 2026-01-28
+---
+msft:IssuanceOfLongTermDebtSixMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:OtherNoncurrentLiabilitiesMember
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtTwoMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:AssetBackedSecuritiesMember
+2025-12-31
+0000789019
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2024-09-30
+0000789019
+msft:MorePersonalComputingMember
+2025-06-30
+0000789019
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:DebtSecuritiesMember
+2024-10-01
+2024-12-31
+0000789019
+msft:IssuanceOfLongTermDebtThreeMember
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtTwelveMember
+srt:MaximumMember
+2025-07-01
+2025-12-31
+0000789019
+msft:CommercialCustomersMember
+2025-12-31
+0000789019
+us-gaap:InternalRevenueServiceIRSMember
+2023-09-26
+2023-09-26
+0000789019
+us-gaap:ServiceOtherMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:ShortTermInvestmentsMember
+2025-06-30

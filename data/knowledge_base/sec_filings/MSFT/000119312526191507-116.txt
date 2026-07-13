@@ -1,0 +1,8 @@
+filing_date_int: 20260429
+filing_date: 2026-04-29
+form: 10-Q
+section: Item 2
+ticker: MSFT
+accession: 0001193125-26-191507
+---
+for which there are very few qualified suppliers. Extended disruptions at these suppliers could impact our ability to manufacture devices on time to meet consumer demand.

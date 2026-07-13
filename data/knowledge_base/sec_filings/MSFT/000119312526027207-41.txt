@@ -1,0 +1,11 @@
+filing_date_int: 20260128
+accession: 0001193125-26-027207
+ticker: MSFT
+section: unknown
+filing_date: 2026-01-28
+form: 10-Q
+---
+Yes
+ ☒ No 
+☐
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.

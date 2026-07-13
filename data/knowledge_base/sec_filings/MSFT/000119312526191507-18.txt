@@ -1,0 +1,63 @@
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+ticker: MSFT
+filing_date: 2026-04-29
+form: 10-Q
+section: unknown
+---
+2024-07-01
+2025-03-31
+0000789019
+us-gaap:FairValueInputsLevel3Member
+2025-06-30
+0000789019
+2026-04-01
+msft:CommercialCustomersMember
+2026-03-31
+0000789019
+msft:AccumulatedTranslationAdjustmentAndOtherMember
+2024-06-30
+0000789019
+srt:MaximumMember
+msft:IssuanceOfLongTermDebtSixMember
+2025-07-01
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtThreeMember
+2026-03-31
+0000789019
+2026-03-31
+0000789019
+msft:OperatingLeaseMember
+2026-03-31
+0000789019
+us-gaap:CorporateDebtSecuritiesMember
+2025-06-30
+0000789019
+us-gaap:AssetBackedSecuritiesMember
+2025-06-30
+0000789019
+msft:IssuanceOfLongTermDebtNineMember
+2026-03-31
+0000789019
+msft:MicrosoftCloudMember
+2025-01-01
+2025-03-31
+0000789019
+2025-06-30
+0000789019
+us-gaap:NondesignatedMember
+us-gaap:ForeignExchangeContractMember
+2026-03-31
+0000789019
+us-gaap:ForeignExchangeContractMember
+us-gaap:CashFlowHedgingMember
+2024-07-01
+2025-03-31
+0000789019
+us-gaap:CorporateDebtSecuritiesMember
+2026-03-31
+0000789019
+srt:MinimumMember
+2025-07-01
+2026-03-31

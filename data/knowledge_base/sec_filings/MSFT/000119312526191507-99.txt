@@ -1,0 +1,17 @@
+filing_date: 2026-04-29
+filing_date_int: 20260429
+ticker: MSFT
+accession: 0001193125-26-191507
+section: Item 1
+form: 10-Q
+---
+(a)
+Includes billings to OEMs and certain multinational organizations because of the nature of these businesses and the impracticability of determining the geographic source of the revenue.
+
+28
+
+PART I
+Item 1
+ 
+
+Revenue, classified by significant product and service offerings, was as follows:

@@ -1,0 +1,11 @@
+section: Item 1
+filing_date: 2026-04-29
+accession: 0001193125-26-191507
+ticker: MSFT
+filing_date_int: 20260429
+form: 10-Q
+---
+NOTE 2 — EARNINGS PER SHARE
+Basic earnings per share (“EPS”) is computed based on the weighted average number of shares of common stock outstanding during the period. Diluted EPS is computed based on the weighted average number of shares of common stock plus the effect of dilutive potential common shares outstanding during the period using the treasury stock method. Dilutive potential common shares include outstanding stock options and stock awards.
+ 
+The components of basic and diluted EPS were as follows:

@@ -1,0 +1,19 @@
+form: 10-Q
+filing_date: 2026-04-29
+filing_date_int: 20260429
+section: Item 1
+accession: 0001193125-26-191507
+ticker: MSFT
+---
+NOTE 5 — DERIVATIVES
+We use derivative instruments to manage risks related to foreign currencies, interest rates, equity prices, and credit; to enhance investment returns; and to facilitate portfolio diversification. Our objectives for holding derivatives include reducing, eliminating, and efficiently managing the economic impact of these exposures as effectively as possible. Our derivative programs include strategies that both qualify and do not qualify for hedge accounting treatment.
+ 
+Foreign Currencies
+ 
+Certain forecasted transactions, assets, and liabilities are exposed to foreign currency risk. We monitor our foreign currency exposures daily to maximize the economic effectiveness of our foreign currency hedge positions.
+ 
+
+15
+
+PART I
+Item 1

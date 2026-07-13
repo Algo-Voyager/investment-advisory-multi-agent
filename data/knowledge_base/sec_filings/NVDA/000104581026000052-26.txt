@@ -1,0 +1,21 @@
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+ticker: NVDA
+section: unknown
+filing_date_int: 20260520
+form: 10-Q
+---
+Yes
+ ☒ No ☐
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No 
+☒
+The number of shares of common stock, $0.001 par value, outstanding as of May 15, 2026, was 
+24.2
+ billion.
+NVIDIA Corporation
+Form 10-Q
+For the Quarter Ended April 26, 2026 
+Table of Contents
+Where You Can Find More Information

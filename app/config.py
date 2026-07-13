@@ -48,6 +48,11 @@ class Settings(BaseSettings):
     COMPLEXITY_STRATEGY: str = "heuristic"   # "heuristic" (free) or "llm" classifier
     ENABLE_LLM_GUARDRAILS: bool = True       # LLM-judge guards; disable to save quota in evals
     MAX_REVISIONS: int = 2                    # reflector's revise-loop cap
+    ENABLE_CLARIFICATION: bool = True         # eval runs set False to avoid blocking on human input
+
+    # --- resilience: circuit breaker (Phase 11) ---
+    CIRCUIT_BREAKER_THRESHOLD: int = 3        # consecutive failures before opening
+    CIRCUIT_BREAKER_COOLDOWN: int = 60        # seconds the circuit stays open
 
     # --- logging / local paths ---
     LOG_LEVEL: str = "INFO"

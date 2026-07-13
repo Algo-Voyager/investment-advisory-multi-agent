@@ -1,0 +1,27 @@
+filing_date: 2026-05-20
+ticker: NVDA
+filing_date_int: 20260520
+section: Item 1
+accession: 0001045810-26-000052
+form: 10-Q
+---
+NVIDIA Instagram (instagram.com/nvidia)
+NVIDIA X (x.com/nvidia)
+NVIDIA Investor Relations (investor.nvidia.com)
+NVIDIA YouTube (YouTube.com/nvidia)
+The information we post through these social media channels may be deemed material. Accordingly, investors should monitor these channels, in addition to following our press releases, SEC filings and public conference calls and webcasts. This list may be updated from time to time. The information we post through these channels is not a part of this Quarterly Report on Form 10-Q.
+2
+Part I. Financial Information
+Item 1. Financial Statements (Unaudited)
+NVIDIA Corporation and Subsidiaries
+Condensed Consolidated Statements of Income
+(In millions, except per share data)
+(Unaudited)
+See accompanying Notes to Condensed Consolidated Financial Statements.
+3
+NVIDIA Corporation and Subsidiaries
+Condensed Consolidated Statements of Comprehensive Income
+(In millions)
+(Unaudited)
+See accompanying Notes to Condensed Consolidated Financial Statements.
+4

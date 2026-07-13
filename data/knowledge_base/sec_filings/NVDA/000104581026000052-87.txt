@@ -1,0 +1,15 @@
+ticker: NVDA
+form: 10-Q
+filing_date: 2026-05-20
+section: Item 1A
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+---
+Refer to Part II, Item 1A, "Risk Factors" for a discussion of these factors and other risks.
+First Quarter of Fiscal Year 2027 Summary
+We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. 
+Following the rapid evolution in our businesses, we are transitioning to a new reporting framework that better reflects our current and future growth drivers. 
+We will have two market platforms – Data Center and Edge Computing.
+Within Data Center, we will report two sub-markets, Hyperscale and ACIE which incorporates AI Clouds, Industrial, and Enterprise. Hyperscale will include revenue from the public clouds and the world’s largest consumer internet companies, 
+24
+while ACIE addresses our growth opportunity in diverse AI purpose-built data centers and AI factories across industries and countries.

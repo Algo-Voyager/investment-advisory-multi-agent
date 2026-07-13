@@ -1,0 +1,13 @@
+filing_date: 2026-01-28
+accession: 0001193125-26-027207
+filing_date_int: 20260128
+section: Item 1
+ticker: MSFT
+form: 10-Q
+---
+We have recast certain prior period amounts on our consolidated cash flows statements to conform to the current period presentation. The recast of these prior period amounts had no impact on our consolidated balance sheets, consolidated income statements, or net cash from (used in) operations, investing, or financing on our consolidated cash flows statements.
+Principles of Consolidation
+ 
+The consolidated financial statements include the accounts of Microsoft Corporation and its subsidiaries. Intercompany transactions and balances have been eliminated.
+ 
+Estimates and Assumptions

@@ -1,0 +1,8 @@
+ticker: MSFT
+form: 10-Q
+section: Item 1
+filing_date_int: 20260128
+filing_date: 2026-01-28
+accession: 0001193125-26-027207
+---
+bonds, and municipal securities. Our Level 2 derivative assets and liabilities include certain cleared swap contracts and over-the-counter forward, option, and swap contracts.

@@ -1,0 +1,23 @@
+form: 10-K
+ticker: NVDA
+section: unknown
+filing_date: 2026-02-25
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+---
+Table of Contents
+NVIDIA Corporation
+Table of Contents
+2
+Table of Contents
+Where You Can Find More Information
+Investors and others should note that we announce material financial information to our investors using our investor relations website, press releases, SEC filings and public conference calls and webcasts. We also use the following social media channels as a means of disclosing information about the company, our products, our planned financial and other announcements and attendance at upcoming investor and industry conferences, and other matters and for complying with our disclosure obligations under Regulation FD:
+NVIDIA Corporate Blog (blogs.nvidia.com/)
+NVIDIA Technical Blog (developer.nvidia.com/blog/)
+NVIDIA LinkedIn (linkedin.com/company/nvidia)
+NVIDIA Facebook (facebook.com/nvidia)
+NVIDIA Instagram (instagram.com/nvidia)
+NVIDIA X (x.com/nvidia)
+NVIDIA Threads (threads.com/@nvidia)
+NVIDIA Investor Relations (investor.nvidia.com)
+NVIDIA YouTube (YouTube.com/nvidia).

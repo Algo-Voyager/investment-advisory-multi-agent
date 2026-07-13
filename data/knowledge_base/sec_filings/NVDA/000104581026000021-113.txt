@@ -1,0 +1,21 @@
+ticker: NVDA
+section: Item 1A
+filing_date_int: 20260225
+form: 10-K
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+---
+•
+develop or secure access to new products and technologies through investments in research and development; 
+•
+launch new offerings with new business models including software, services, and cloud solutions, as well as software-, infrastructure-, or platform-as-a-service solutions; 
+•
+expand the ecosystem for our products and technologies; 
+•
+meet evolving and prevailing customer and industry safety, security, reliability expectations, and compliance standards; 
+•
+manage product and software lifecycles to maintain customer and end-user satisfaction; 
+•
+develop, acquire, maintain, and secure access to the internal and external infrastructure needed to scale our business, including sufficient energy for powering data centers using our products, acquisition integrations, customer support, e-commerce, IP licensing capabilities, and cloud service capacity; and
+•
+complete technical, financial, operational, compliance, sales and marketing investments for the above activities.

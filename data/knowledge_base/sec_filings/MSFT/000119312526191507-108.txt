@@ -1,0 +1,10 @@
+form: 10-Q
+filing_date_int: 20260429
+filing_date: 2026-04-29
+ticker: MSFT
+section: Item 1
+accession: 0001193125-26-191507
+---
+The following Management’s Discussion and Analysis of Financial Condition and Results of Operations (“MD&A”) is intended to help the reader understand the results of operations and financial condition of Microsoft Corporation. MD&A is provided as a supplement to, and should be read in conjunction with, our Annual Report on Form 10-K for the year ended June 30, 2025, and our consolidated financial statements and the accompanying Notes to Financial Statements (Part I, Item 1 of this Form 10-Q).
+OVERVIEW
+Microsoft is a technology company committed to making digital technology and artificial intelligence (“AI”) available broadly and doing so responsibly, with a mission to empower every person and every organization on the planet to achieve more. We create platforms and tools, powered by AI, that deliver innovative solutions that meet the evolving needs of our customers.

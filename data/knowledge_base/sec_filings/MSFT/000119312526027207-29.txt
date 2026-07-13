@@ -1,0 +1,61 @@
+filing_date_int: 20260128
+ticker: MSFT
+section: unknown
+form: 10-Q
+filing_date: 2026-01-28
+accession: 0001193125-26-027207
+---
+2024-12-31
+0000789019
+msft:IssuanceOfLongTermDebtThirteenMember
+2025-06-30
+0000789019
+msft:IntelligentCloudMember
+2024-07-01
+2024-12-31
+0000789019
+us-gaap:AssetBackedSecuritiesMember
+2025-12-31
+0000789019
+msft:GamingMember
+2025-10-01
+2025-12-31
+0000789019
+msft:IntelligentCloudMember
+2025-10-01
+2025-12-31
+0000789019
+msft:GamingMember
+2024-07-01
+2024-12-31
+0000789019
+srt:MaximumMember
+msft:IssuanceOfLongTermDebtSevenMember
+2025-07-01
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtOneMember
+2025-07-01
+2025-12-31
+0000789019
+msft:ShareRepurchaseProgramTwentyTwentyFourMember
+2025-10-01
+2025-12-31
+0000789019
+us-gaap:FairValueInputsLevel3Member
+2025-06-30
+0000789019
+us-gaap:NonoperatingIncomeExpenseMember
+us-gaap:ForeignExchangeContractMember
+us-gaap:CashFlowHedgingMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:DesignatedAsHedgingInstrumentMember
+us-gaap:ForeignExchangeContractMember
+2025-12-31
+0000789019
+msft:OpenAIGlobalLlcMember
+2025-07-01
+2025-12-31
+0000789019

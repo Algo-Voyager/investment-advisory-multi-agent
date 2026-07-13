@@ -1,14 +1,21 @@
-"""MarketDataChain — Chain of Responsibility across adapters.
+"""MarketDataChain — Chain of Responsibility across adapters, now circuit-breaker aware.
 
 For each request, walk the ordered adapter list:
-  skip if unavailable (no API key) → try → on failure/rate-limit, log and try
-  the next → if everyone fails, raise ONE clean ToolError.
+  skip if unavailable (no API key) → skip if its circuit is OPEN (fail fast, no
+  network attempt) → try, routed through that adapter's CircuitBreaker → on
+  failure/rate-limit, log and try the next → if everyone fails, raise ONE clean
+  ToolError.
 
 Order: keyed vendors first (better data/limits when present), yfinance last
 because it's always available. With zero optional keys configured, the chain
 degrades to pure yfinance and everything still works.
+
+The circuit breaker (Phase 11) is what turns "3 slow doomed retries per call"
+into "instant skip" once an adapter has proven itself down: Phase 3's @retry
+survives a blip; this survives an outage.
 """
 
+from app.errors.circuit_breaker import CircuitOpenError, circuit_breakers
 from app.errors.exceptions import CoPilotError, ToolError
 from app.integrations.alpha_vantage_adapter import AlphaVantageAdapter
 from app.integrations.base import MarketDataAdapter
@@ -34,10 +41,16 @@ class MarketDataChain:
         for adapter in self._adapters:
             if not adapter.available():
                 continue
+            breaker = circuit_breakers.get(adapter.name)
             try:
-                result = getattr(adapter, method)(*args, **kwargs)
+                result = breaker.call(getattr(adapter, method), *args, **kwargs)
                 log.info("chain_served", method=method, source=adapter.name)
                 return result
+            except CircuitOpenError as exc:
+                # Fails INSTANTLY — no network attempt was made for this adapter.
+                errors.append(f"{adapter.name}: circuit open")
+                log.info("chain_circuit_skip", method=method, adapter=adapter.name)
+                continue
             except (CoPilotError, Exception) as exc:  # noqa: BLE001 — chain must survive anything
                 errors.append(f"{adapter.name}: {str(exc)[:80]}")
                 log.warning("chain_adapter_failed", method=method,

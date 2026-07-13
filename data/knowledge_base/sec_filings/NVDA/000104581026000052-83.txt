@@ -1,0 +1,9 @@
+filing_date: 2026-05-20
+filing_date_int: 20260520
+form: 10-Q
+accession: 0001045810-26-000052
+ticker: NVDA
+section: Item 1
+---
+23
+We expect our Rubin platform to start shipping in the second half of fiscal year 2027. The complexity of bringing up our product architecture and sophisticated system configurations has caused and may in the future cause delays in production and create challenges in managing supply and demand. This could further result in revenue volatility, quality issues, increased inventory provisions, decreases in product yields and higher material costs, and/or increased warranty costs. Customers may postpone purchasing new architectures or may adopt new technologies more gradually than anticipated, affecting our revenue timing and supply chain expenses.

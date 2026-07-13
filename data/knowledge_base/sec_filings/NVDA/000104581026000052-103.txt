@@ -1,0 +1,8 @@
+section: Item 1
+form: 10-Q
+ticker: NVDA
+filing_date: 2026-05-20
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+---
+Our marketable securities consist of publicly-held equity securities, debt securities issued by the U.S. government and its agencies, highly-rated corporations and financial institutions, and foreign government entities, as well as certificates of deposit issued by highly-rated financial institutions. These marketable securities are primarily denominated in U.S. dollars. Refer to Note 5 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q for additional information.

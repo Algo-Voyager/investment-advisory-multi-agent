@@ -1,0 +1,61 @@
+filing_date: 2026-04-29
+section: unknown
+form: 10-Q
+ticker: MSFT
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+---
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtThirteenMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:ContractualRightsMember
+2026-03-31
+0000789019
+msft:O2026Q1DividendsMember
+2025-07-01
+2025-09-30
+0000789019
+country:US
+2024-07-01
+2025-03-31
+0000789019
+us-gaap:RetainedEarningsMember
+2025-12-31
+0000789019
+msft:O2025Q2DividendsMember
+2024-10-01
+2024-12-31
+0000789019
+msft:OpenAIGlobalLlcMember
+2025-01-01
+2025-03-31
+0000789019
+msft:MicrosoftThreeSixFiveCommercialProductsAndCloudServicesMember
+2025-01-01
+2025-03-31
+0000789019
+us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember
+2025-01-01
+2025-03-31
+0000789019
+us-gaap:FairValueInputsLevel3Member
+2026-03-31
+0000789019
+msft:EnterpriseAndPartnerServicesMember
+2026-01-01
+2026-03-31
+0000789019
+us-gaap:ShortTermInvestmentsMember
+2026-03-31
+0000789019
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+2024-07-01
+2025-03-31
+0000789019
+us-gaap:FairValueInputsLevel3Member
+2025-06-30
+0000789019
+2026-04-01
+msft:CommercialCustomersMember

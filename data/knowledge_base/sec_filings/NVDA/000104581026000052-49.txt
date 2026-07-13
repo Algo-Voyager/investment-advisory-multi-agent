@@ -1,0 +1,21 @@
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+ticker: NVDA
+section: Item 1
+form: 10-Q
+filing_date: 2026-05-20
+---
+7.4
+ billion and $
+7.5
+ billion, respectively. The estimated fair values are based on Level 2 inputs.
+Our notes are unsecured senior obligations. Existing and future liabilities of our subsidiaries will be effectively senior to the notes. Our notes pay interest semi-annually. We may redeem each of our notes prior to maturity, subject to a make-whole premium. The maturity dates of the notes are stated by calendar year.
+As of April 26, 2026, we complied with the required covenants, which are non-financial in nature, under the outstanding notes.
+As of April 26, 2026, our commercial paper program had a capacity of $
+25.0
+ billion, with 
+no
+ amounts outstanding.
+Note 10 - 
+Commitments and Contingencies
+Commitments

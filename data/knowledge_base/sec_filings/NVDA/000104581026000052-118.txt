@@ -1,0 +1,8 @@
+form: 10-Q
+ticker: NVDA
+section: Item 1A
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+filing_date: 2026-05-20
+---
+with us on a wide range of parameters including price, total cost of ownership, and performance, which has resulted and may in the future result in lower-than-expected selling prices or demand for our products. Some of our competitors operate their own fabrication facilities, and have longer operating histories, larger customer bases, more comprehensive IP portfolios and patent protections, more design wins, and greater financial, sales, marketing and distribution resources than we do. These competitors may be able to acquire market share and/or prevent us from doing so, more effectively identify and capitalize upon opportunities in new markets and end-user trends, more quickly transition their products, and impinge on our ability to procure sufficient foundry capacity and scarce input materials during a supply-constrained environment, which could harm our business. Some of our customers are developing their own ASICs and other products, including designs optimized for certain

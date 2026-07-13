@@ -1,0 +1,20 @@
+section: Item 1
+ticker: MSFT
+form: 10-Q
+accession: 0001193125-26-027207
+filing_date: 2026-01-28
+filing_date_int: 20260128
+---
+Credit
+ 
+Our fixed-income portfolio is diversified and consists primarily of investment-grade securities. We use credit default swap contracts to manage credit exposures relative to broad-based indices and to facilitate portfolio diversification. These contracts are not designated as hedging instruments and are included in “Other contracts” in the tables below.
+Credit-Risk-Related Contingent Features
+ 
+Certain counterparty agreements for derivative instruments contain provisions that require our issued and outstanding long-term unsecured debt to maintain an investment grade credit rating and require us to maintain minimum liquidity of $
+1.0
+ billion. To the extent we fail to meet these requirements, we will be required to post collateral, similar to the standard convention related to over-the-counter derivatives. As of 
+December 31
+, 2025, our long-term unsecured debt rating was 
+AAA
+, and cash investments were in excess of $
+1.0

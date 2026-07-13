@@ -1,0 +1,10 @@
+ticker: MSFT
+filing_date_int: 20260429
+accession: 0001193125-26-191507
+filing_date: 2026-04-29
+form: 10-Q
+section: Item 2
+---
+We have a long-term strategic partnership with OpenAI which was originally established in 2019. In October 2025 and April 2026, we extended this partnership and continue to build on our shared vision to advance artificial intelligence responsibly and make its benefits broadly accessible. Microsoft is a major investor in OpenAI and will continue to receive revenue-sharing payments. We hold rights to OpenAI’s intellectual property, including models and infrastructure, for integration into our products.
+ 
+Economic Conditions, Challenges, and Risks

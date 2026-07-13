@@ -1,0 +1,15 @@
+ticker: NVDA
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+form: 10-K
+section: Item 1
+filing_date: 2026-02-25
+---
+Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998. 
+Our Businesses
+We report our business results in two segments.
+The Compute & Networking segment includes our Data Center accelerated computing and networking platforms and AI solutions and software, and Automotive platforms and autonomous and electric vehicle solutions including software.
+The Graphics segment includes GeForce GPUs for gaming and PCs, and Quadro/NVIDIA RTX GPUs for enterprise workstation graphics.
+Our Markets
+We specialize in markets where our computing and AI infrastructure platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. Our platforms address four large markets where our expertise is critical: Data Center, Gaming, Professional Visualization, and Automotive.
+Data Center

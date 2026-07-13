@@ -1,0 +1,25 @@
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+form: 10-K
+section: Item 1A
+ticker: NVDA
+---
+12
+Table of Contents
+•
+Dependency on third-party suppliers and their technology to manufacture, assemble, test, or package our products reduces our control over product quantity and quality, manufacturing yields, and product delivery schedules and could harm our business.
+•
+Defects in our products have caused and could cause us to incur significant expenses to remediate and could damage our business.
+Risks Related to Our Global Operating Business
+•
+Adverse economic conditions may harm our business.
+•
+International sales and operations are a significant part of our business, which exposes us to risks that could harm our business. 
+•
+Product, system security and data protection incidents or breaches, as well as cyber-attacks could disrupt our operations and adversely affect our financial condition, stock price and reputation. 
+•
+Business disruptions could harm our operations and financial results. 
+•
+Climate change may have a long-term impact on our business. 
+•

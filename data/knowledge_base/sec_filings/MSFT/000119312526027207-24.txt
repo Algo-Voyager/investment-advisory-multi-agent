@@ -1,0 +1,57 @@
+filing_date_int: 20260128
+filing_date: 2026-01-28
+ticker: MSFT
+section: unknown
+accession: 0001193125-26-027207
+form: 10-Q
+---
+us-gaap:FairValueInputsLevel1Member
+2025-06-30
+0000789019
+us-gaap:OtherCurrentAssetsMember
+2025-12-31
+0000789019
+2025-09-30
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:CertificatesOfDepositMember
+2025-06-30
+0000789019
+srt:MaximumMember
+2025-12-31
+0000789019
+msft:AccumulatedTranslationAdjustmentAndOtherMember
+2024-10-01
+2024-12-31
+0000789019
+msft:EnterpriseAndPartnerServicesMember
+2024-07-01
+2024-12-31
+0000789019
+msft:IssuanceOfLongTermDebtTenMember
+2025-06-30
+0000789019
+us-gaap:DesignatedAsHedgingInstrumentMember
+us-gaap:ForeignExchangeContractMember
+2025-06-30
+0000789019
+msft:ProductivityAndBusinessProcessesMember
+2025-06-30
+0000789019
+msft:MicrosoftCloudMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:FairValueInputsLevel1Member
+us-gaap:EquitySecuritiesMember
+2025-12-31
+0000789019
+msft:SearchAndNewsAdvertisingMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:EquityContractMember
+us-gaap:NonoperatingIncomeExpenseMember
+2025-10-01
+2025-12-31

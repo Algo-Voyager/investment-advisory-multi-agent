@@ -1,0 +1,36 @@
+ticker: NVDA
+accession: 0001045810-26-000052
+section: Item 1
+filing_date_int: 20260520
+form: 10-Q
+filing_date: 2026-05-20
+---
+(In millions)
+(Unaudited)
+See accompanying Notes to Condensed Consolidated Financial Statements.
+4
+NVIDIA Corporation and Subsidiaries
+Condensed Consolidated Balance Sheets
+(In millions)
+(Unaudited)
+See accompanying Notes to Condensed Consolidated Financial Statements.
+5
+NVIDIA Corporation and Subsidiaries
+Condensed Consolidated Statements of Shareholders
+’
+ Equity
+(Unaudited)
+See accompanying Notes to Condensed Consolidated Financial Statements.
+6
+NVIDIA Corporation and Subsidiaries
+Condensed Consolidated Statements of Cash Flows
+(In millions)
+(Unaudited)
+See accompanying Notes to Condensed Consolidated Financial Statements.
+7
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements
+(Unaudited)
+Note 1 - 
+Summary of Significant Accounting Policies
+Basis of Presentation

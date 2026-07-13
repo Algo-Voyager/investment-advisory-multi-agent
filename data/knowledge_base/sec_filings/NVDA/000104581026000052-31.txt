@@ -1,0 +1,8 @@
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+section: Item 1
+form: 10-Q
+ticker: NVDA
+filing_date: 2026-05-20
+---
+the interim periods presented are not necessarily indicative of the results expected for any future period. The following information should be read in conjunction with the audited consolidated financial statements and notes thereto included in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026.

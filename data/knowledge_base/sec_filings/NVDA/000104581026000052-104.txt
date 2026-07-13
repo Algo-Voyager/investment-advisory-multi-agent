@@ -1,0 +1,10 @@
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+filing_date: 2026-05-20
+form: 10-Q
+section: Item 1
+---
+Except for approximately $1.7 billion of cash, cash equivalents, and marketable debt securities held outside of the U.S., for which we have not accrued any related foreign or state taxes if we repatriate these amounts to the U.S., substantially all of our cash, cash equivalents, and marketable debt securities held outside the U.S. at the end of the first quarter of fiscal year 2027 are available for use in the U.S. without incurring additional U.S. federal income taxes. We made no federal income tax payments in the first quarter of fiscal year 2027, whereas our second quarter of fiscal year 2027 is scheduled to include two payments.
+Capital Return to Shareholders
+In the first quarter of fiscal year 2027, we repurchased 108 million shares of our common stock for $20.2 billion. As of April 26, 2026, we were authorized, subject to certain specifications, to repurchase up to $38.5 billion of our common stock.

@@ -1,0 +1,8 @@
+ticker: MSFT
+section: Item 2
+filing_date: 2026-01-28
+filing_date_int: 20260128
+form: 10-Q
+accession: 0001193125-26-027207
+---
+The investments we are making in cloud and AI infrastructure and devices will continue to increase our operating costs and may decrease our operating margins. We continue to identify and evaluate opportunities to expand our datacenter locations and increase our server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services. Our datacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including graphics processing units and other components. Our devices are primarily manufactured by third-party contract manufacturers. For the majority of our products, we have the ability to use other manufacturers if a current vendor becomes unavailable or unable to meet our requirements. However, some of our products contain certain components for which there are very few qualified suppliers. Extended disruptions at these suppliers could impact our ability to manufacture devices on

@@ -1,0 +1,8 @@
+filing_date_int: 20260225
+section: Item 1
+filing_date: 2026-02-25
+form: 10-K
+ticker: NVDA
+accession: 0001045810-26-000021
+---
+Our networking offerings include NVLink interconnects and switches, end-to-end platforms for InfiniBand and Ethernet, consisting of network adapters, cables, DPUs, switch chips and systems, as well as software. This has enabled us to architect data center-scale computing platforms that can interconnect up to hundreds of thousands of compute nodes with high-performance networking. Fueled by an expansion in AI and HPC workloads, the data center has become the new unit of computing, with networking as an integral part. In fiscal year 2026, we introduced NVIDIA NVLink Fusion to enable hyperscalers and custom ASIC designers to integrate custom CPUs and XPUs with our platform.

@@ -1,0 +1,70 @@
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+section: unknown
+ticker: NVDA
+form: 10-Q
+filing_date_int: 20260520
+---
+nvda-20260426
+0001045810
+1/31
+2027
+Q1
+FALSE
+http://fasb.org/us-gaap/2025#AccruedLiabilitiesCurrent
+590
+xbrli:shares
+iso4217:USD
+iso4217:USD
+xbrli:shares
+xbrli:pure
+nvda:segment
+0001045810
+2026-01-26
+2026-04-26
+0001045810
+2026-05-15
+0001045810
+2025-01-27
+2025-04-27
+0001045810
+2026-04-26
+0001045810
+2026-01-25
+0001045810
+us-gaap:CommonStockMember
+2026-01-25
+0001045810
+us-gaap:AdditionalPaidInCapitalMember
+2026-01-25
+0001045810
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-01-25
+0001045810
+us-gaap:RetainedEarningsMember
+2026-01-25
+0001045810
+us-gaap:RetainedEarningsMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:CommonStockMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:AdditionalPaidInCapitalMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:CommonStockMember
+2026-04-26
+0001045810
+us-gaap:AdditionalPaidInCapitalMember
+2026-04-26
+0001045810
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-04-26

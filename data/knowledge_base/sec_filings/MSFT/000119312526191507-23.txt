@@ -1,0 +1,59 @@
+filing_date: 2026-04-29
+form: 10-Q
+filing_date_int: 20260429
+ticker: MSFT
+section: unknown
+accession: 0001193125-26-191507
+---
+msft:LinkedInCorporationMember
+2025-01-01
+2025-03-31
+0000789019
+us-gaap:EquitySecuritiesMember
+2025-01-01
+2025-03-31
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtEightMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:OtherContractMember
+us-gaap:NondesignatedMember
+us-gaap:ShortMember
+2025-06-30
+0000789019
+msft:GamingMember
+2025-07-01
+2026-03-31
+0000789019
+msft:OpenAIGlobalLlcMember
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtTwoMember
+2026-03-31
+0000789019
+msft:IntelligentCloudMember
+2025-06-30
+0000789019
+msft:MicrosoftThreeSixFiveConsumerProductsAndCloudServicesMember
+2025-01-01
+2025-03-31
+0000789019
+msft:IssuanceOfLongTermDebtTwelveMember
+srt:MaximumMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:USStatesAndPoliticalSubdivisionsMember
+2025-06-30
+0000789019
+us-gaap:OtherContractMember
+us-gaap:NonoperatingIncomeExpenseMember
+2026-01-01
+2026-03-31
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtEightMember
+2026-03-31
+0000789019

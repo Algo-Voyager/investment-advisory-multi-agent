@@ -1,0 +1,26 @@
+section: Item 1
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+ticker: NVDA
+form: 10-Q
+filing_date_int: 20260520
+---
+As of April 26, 2026, revenue related to remaining performance obligations from contracts greater than one year in length was $
+2.6
+ billion, which includes $
+2.3
+ billion from deferred revenue and $
+304
+ million, which has not yet been billed or 
+14
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+recognized as revenue. Approximately 
+40
+% of revenue from contracts greater than one year in length will be recognized over the next 
+twelve months
+.
+Note 8 - 
+Derivative Financial Instruments
+Foreign Currency Derivatives

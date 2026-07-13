@@ -1,0 +1,13 @@
+form: 10-Q
+ticker: NVDA
+filing_date_int: 20260520
+section: Item 1
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+---
+Note 13 - 
+Segment Information
+Our Chief Executive Officer is our chief operating decision maker, or CODM, and reviews financial information presented on an operating segment basis for purposes of making decisions and assessing financial performance. Our CODM assesses operating performance of each segment based on regularly provided segment revenue and segment operating income. Operating results by segment include costs or expenses directly attributable to each segment, and costs or expenses that are leveraged across our unified architecture and therefore allocated between our 
+two
+ segments. Our CODM reviews expenses on a consolidated basis, and expenses attributable to each segment are not regularly provided to our CODM.
+The Compute & Networking segment includes our Data Center accelerated computing and networking platforms and AI solutions and software, and automotive platforms and autonomous and electric vehicle solutions including software.

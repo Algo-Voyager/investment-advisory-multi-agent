@@ -1,0 +1,8 @@
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+form: 10-K
+section: Item 1
+filing_date: 2026-02-25
+ticker: NVDA
+---
+that the depth and quality of our design support are key to improving our partner network’s time-to-market, maintaining a high level of customer satisfaction, and fostering relationships that encourage our customers and partner network to use the next generation of our products within each platform.

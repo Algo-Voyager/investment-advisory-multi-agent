@@ -1,0 +1,8 @@
+filing_date_int: 20260225
+filing_date: 2026-02-25
+accession: 0001045810-26-000021
+ticker: NVDA
+section: Item 1
+form: 10-K
+---
+We utilize a fabless and contracting manufacturing strategy, whereby we employ and partner with key suppliers for all phases of the manufacturing process, including wafer fabrication, assembly, testing, and packaging. We use the expertise of industry-leading suppliers that are certified by the International Organization for Standardization in such areas as fabrication, assembly, quality control and assurance, reliability, and testing. Additionally, we can avoid many of the significant costs and risks associated with owning and operating manufacturing operations. While we may directly procure certain raw materials used in the production of our products, such as memory, substrates, and a variety of components, our suppliers are responsible for procurement of most raw materials used in the production of our products. As a result, we can focus our resources on product design, quality assurance, marketing, and customer support. In periods of growth, we may place non-cancellable inventory

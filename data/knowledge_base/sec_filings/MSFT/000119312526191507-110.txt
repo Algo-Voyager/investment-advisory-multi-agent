@@ -1,0 +1,21 @@
+section: Item 1
+form: 10-Q
+ticker: MSFT
+filing_date_int: 20260429
+filing_date: 2026-04-29
+accession: 0001193125-26-191507
+---
+•
+Microsoft 365 Consumer cloud revenue increased 33%. 
+•
+LinkedIn revenue increased 12%.
+•
+Dynamics 365 revenue increased 22%.
+•
+Azure and other cloud services revenue increased 40%.
+•
+Windows OEM and Devices revenue decreased 2%.
+•
+Xbox content and services revenue decreased 5%.
+•
+Search advertising (formerly Search and news advertising) revenue excluding traffic acquisition costs increased 12%.

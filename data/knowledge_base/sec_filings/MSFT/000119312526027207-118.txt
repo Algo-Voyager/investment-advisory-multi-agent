@@ -1,0 +1,11 @@
+filing_date: 2026-01-28
+form: 10-Q
+filing_date_int: 20260128
+section: Item 1A
+ticker: MSFT
+accession: 0001193125-26-027207
+---
+Further, global, regional, and local economic developments and changes in global trade policies such as restrictions on international trade, including tariffs and other controls on imports or exports, could result in increased supply chain challenges, cost volatility, and consumer and economic uncertainty which may adversely affect our results of operations.
+Refer to Risk Factors (Part II, Item 1A of this Form 10-Q) for a discussion of these factors and other risks.
+Seasonality
+Our revenue fluctuates quarterly and is generally higher in the fourth quarter of our fiscal year. Fourth quarter revenue is driven by a higher volume of multi-year contracts executed during the period.

@@ -1,0 +1,10 @@
+filing_date: 2026-02-25
+section: Item 1A
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+form: 10-K
+ticker: NVDA
+---
+Available Information
+Our annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and, if applicable, amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Securities Exchange Act of 1934, as amended, or the Exchange Act, are available free of charge on or through our website, http://www.nvidia.com, as soon as reasonably practicable after we electronically file such material with, or furnish it to, the Securities and Exchange Commission, or the SEC. The SEC’s website, http://www.sec.gov, contains reports, proxy and information statements, and other information regarding issuers that file electronically with the SEC. Our web site and the information on it or connected to it are not a part of this Annual Report on Form 10-K.
+Item 1A. Risk Factors

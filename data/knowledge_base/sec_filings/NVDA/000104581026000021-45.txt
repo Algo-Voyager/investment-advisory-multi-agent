@@ -1,0 +1,8 @@
+filing_date: 2026-02-25
+section: Item 1
+ticker: NVDA
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+form: 10-K
+---
+Researchers and developers use our computing solutions to accelerate a wide range of important applications, from simulating molecular dynamics to climate forecasting. With support for 6,000 applications, NVIDIA computing enables some of the most promising areas of discovery, from climate prediction to materials science and from wind tunnel simulation to genomics. Including GPUs and networking, NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list.

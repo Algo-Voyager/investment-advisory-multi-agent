@@ -1,0 +1,8 @@
+section: Item 1
+ticker: NVDA
+filing_date: 2026-02-25
+filing_date_int: 20260225
+form: 10-K
+accession: 0001045810-26-000021
+---
+This decreased protection makes the possibility of piracy of our technology and products more likely. We continuously assess whether and where to seek formal protection for innovations and technologies based on such factors as:

@@ -1,0 +1,9 @@
+ticker: MSFT
+accession: 0001193125-26-191507
+form: 10-Q
+filing_date: 2026-04-29
+filing_date_int: 20260429
+section: Item 2
+---
+Economic Conditions, Challenges, and Risks
+The markets for software, devices, and cloud-based services are dynamic and highly competitive. Our competitors are developing new software and devices, while also deploying competing cloud-based services for consumers and businesses. The devices and form factors customers prefer evolve rapidly, influencing how users access services in the cloud and, in some cases, the user’s choice of which suite of cloud-based services to use. Aggregate demand for our software, services, and devices is also correlated to global macroeconomic and geopolitical factors, which remain dynamic. We must continue to evolve and adapt over an extended time in pace with this changing environment.

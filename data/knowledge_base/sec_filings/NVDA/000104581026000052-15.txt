@@ -1,0 +1,55 @@
+ticker: NVDA
+section: unknown
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+form: 10-Q
+filing_date: 2026-05-20
+---
+2026-01-25
+0001045810
+us-gaap:OtherNoncurrentAssetsMember
+2026-01-25
+0001045810
+nvda:PubliclyHeldEquitySecuritiesMember
+2026-01-25
+0001045810
+us-gaap:USTreasurySecuritiesMember
+2026-04-26
+0001045810
+us-gaap:USTreasurySecuritiesMember
+2026-01-25
+0001045810
+us-gaap:CorporateDebtSecuritiesMember
+2026-04-26
+0001045810
+us-gaap:CorporateDebtSecuritiesMember
+2026-01-25
+0001045810
+us-gaap:USGovernmentAgenciesDebtSecuritiesMember
+2026-04-26
+0001045810
+us-gaap:USGovernmentAgenciesDebtSecuritiesMember
+2026-01-25
+0001045810
+us-gaap:EquitySecuritiesMember
+2026-04-26
+0001045810
+nvda:FundedAndUnfundedFundInvestmentsMember
+2026-04-26
+0001045810
+nvda:InvestmentCommitmentsMember
+2026-04-26
+0001045810
+nvda:CustomerOneMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:CustomerTwoMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:CustomerThreeMember

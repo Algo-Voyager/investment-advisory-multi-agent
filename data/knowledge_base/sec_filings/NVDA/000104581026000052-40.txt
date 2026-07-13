@@ -1,0 +1,24 @@
+filing_date_int: 20260520
+section: Item 1
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+form: 10-Q
+---
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Note 6 - 
+Non-marketable Securities
+Non-marketable Equity Securities
+Our non-marketable equity securities are primarily in privately-held companies carried at cost less impairment, and adjusted for observable price changes. We value investments using observable comparable transactions and other inputs including volatility, expected time to liquidity, the risk-free rate, and security-specific rights and obligations.
+Adjustments to the carrying value of privately-held securities:
+(1) Unrealized gains are recognized in Other income (expense), net, in the Condensed Consolidated Statements of Income.
+(2) Includes primarily reclassifications to marketable securities following public market trading.
+Non-marketable equity securities had cumulative gross unrealized gains of $
+5.3
+ billion and $
+396
+ million, and cumulative gross unrealized losses and impairments of $
+199
+ million and $
+110

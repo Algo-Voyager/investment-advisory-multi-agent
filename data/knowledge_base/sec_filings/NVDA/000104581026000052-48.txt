@@ -1,0 +1,28 @@
+form: 10-Q
+ticker: NVDA
+filing_date_int: 20260520
+filing_date: 2026-05-20
+section: Item 1
+accession: 0001045810-26-000052
+---
+Facility Lease Guarantee
+In fiscal year 2026, we entered into agreements to guarantee partners’ facility lease obligations in the event of their default in exchange for warrants. The maximum gross exposure under all agreements is $
+3.5
+ billion, which is reduced as the partners make payments to the lessors over terms ranging from 
+5
+ to 
+7
+ years. The partners have placed $
+712
+ million in escrow to mitigate our potential exposure. The guarantees, classified as credit derivatives with changes in fair value recognized in Other income (expense), net, were not material.
+15
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Note 9 - 
+Debt
+As of April 26, 2026 and January 25, 2026, the estimated fair value of debt was $
+7.4
+ billion and $
+7.5
+ billion, respectively. The estimated fair values are based on Level 2 inputs.

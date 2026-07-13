@@ -1,0 +1,40 @@
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+section: Item 1
+form: 10-Q
+filing_date: 2026-04-29
+ticker: MSFT
+---
+All repurchases were made using cash resources. Shares repurchased during fiscal year 2026 were under the share repurchase program approved on September 16, 2024. Shares repurchased during fiscal year 2025 
+were under the share repurchase program approved on September 14, 2021. The above table excludes shares repurchased to settle employee tax withholding related to the vesting of stock awards of $
+1.2
+ billion and $
+4.4
+ billion for the three and nine months ended March 31, 2026, respectively, and $
+1.3
+ billion and $
+4.1
+ billion for the 
+three and nine months ended March 31, 2025, respectively.
+
+24
+
+PART I
+Item 1
+ 
+
+Dividends
+Our Board of Directors declared the following dividends:
+ 
+
+ 
+The dividend declared on March 10, 2026 was included in other current liabilities as of March 31, 2026.
+
+25
+
+PART I
+Item 1
+ 
+
+NOTE 15 — ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS)
+The following table summarizes the changes in accumulated other comprehensive income (loss) by component:

@@ -1,0 +1,8 @@
+section: Item 1
+filing_date: 2026-02-25
+ticker: NVDA
+filing_date_int: 20260225
+form: 10-K
+accession: 0001045810-26-000021
+---
+In May 2025, the USG announced that it would rescind the AI Diffusion IFR and implement a replacement rule. The scope, timing, and requirements of the forthcoming rule remain uncertain. The replacement rule may impose new restrictions on our products or operations and/or add license requirements that could have a material impact on our business, operating results, and financial condition. For example, in October 2025, the Senate passed the “GAIN AI Act” in the NDAA. The GAIN AI Act would restrict the Trump Administration’s ability to adapt the Biden Administration’s export control rules, and could also allow private U.S. persons to review and overturn licensing and foreign policy decisions made by the Trump Administration.

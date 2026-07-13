@@ -1,0 +1,8 @@
+section: Item 1
+accession: 0001045810-26-000021
+form: 10-K
+ticker: NVDA
+filing_date_int: 20260225
+filing_date: 2026-02-25
+---
+our resources on product design, quality assurance, marketing, and customer support. In periods of growth, we may place non-cancellable inventory orders for certain product components in advance of our historical lead times, pay premiums, or provide deposits to secure future supply and capacity and may need to continue to do so.

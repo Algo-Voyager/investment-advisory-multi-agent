@@ -1,0 +1,10 @@
+ticker: NVDA
+accession: 0001045810-26-000052
+section: Item 1
+filing_date_int: 20260520
+filing_date: 2026-05-20
+form: 10-Q
+---
+On May 18, 2026, our Board of Directors approved an additional $80.0 billion in share repurchase authorization, without expiration.
+We may execute repurchases from time to time, subject to market conditions, operating requirements and other investment opportunities, in the open market, in privately-negotiated transactions, pursuant to a Rule 10b5-1 trading plan or in structured share repurchase agreements in compliance with Rule 10b-18 of the Exchange Act. Our share repurchase program may be suspended at any time at our discretion.
+We paid cash dividends to our shareholders of $243 million during the first quarter of fiscal year 2027. On May 18, 2026, we increased our quarterly cash dividend from $0.01 per share to $0.25 per share to all shareholders of record on June 4, 2026. Our quarterly cash dividend will be paid on June 26, 2026.

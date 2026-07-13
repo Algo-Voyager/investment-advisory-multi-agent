@@ -1,0 +1,8 @@
+filing_date_int: 20260520
+ticker: NVDA
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+form: 10-Q
+section: Item 1
+---
+The accompanying unaudited condensed consolidated financial statements were prepared in accordance with accounting principles generally accepted in the United States of America, or U.S. GAAP, for interim financial information and with the instructions to Form 10-Q and Article 10 of Securities and Exchange Commission, or SEC, Regulation S-X. The January 25, 2026 consolidated balance sheet was derived from our audited consolidated financial statements included in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026, as filed with the SEC, but does not include all disclosures required by U.S. GAAP. In the opinion of management, all adjustments, consisting only of normal recurring adjustments considered necessary for a fair presentation of results of operations and financial position, have been included. The results for the interim periods presented are not necessarily indicative of the results expected for any future period. The following information should be read

@@ -1,0 +1,24 @@
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+section: Item 1
+ticker: MSFT
+form: 10-Q
+filing_date: 2026-04-29
+---
+Supplemental cash flow information related to leases was as follows:
+ 
+ 
+
+ 
+
+22
+
+PART I
+Item 1
+ 
+
+Supplemental balance sheet information related to leases was as follows:
+ 
+
+ 
+The following table outlines maturities of our lease liabilities as of March 31, 2026:

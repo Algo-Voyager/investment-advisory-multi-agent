@@ -1,0 +1,19 @@
+filing_date_int: 20260520
+form: 10-Q
+section: Item 1
+filing_date: 2026-05-20
+ticker: NVDA
+accession: 0001045810-26-000052
+---
+4.8
+ billion as of January 25, 2026, was included in Other assets.
+The following table provides the breakdown of unrealized losses, aggregated by investment category and length of time that individual debt securities have been in a continuous loss position:
+Gross unrealized losses are related to fixed income securities, driven primarily by changes in interest rates.
+The estimated fair values of debt securities included in cash equivalents and marketable debt securities are shown below by contractual maturity.
+12
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Note 6 - 
+Non-marketable Securities
+Non-marketable Equity Securities

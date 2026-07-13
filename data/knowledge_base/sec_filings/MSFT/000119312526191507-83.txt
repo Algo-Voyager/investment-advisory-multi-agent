@@ -1,0 +1,20 @@
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+section: Item 1
+ticker: MSFT
+filing_date: 2026-04-29
+form: 10-Q
+---
+Our effective tax rate was lower than the U.S. federal statutory rate for the three and nine months ended March 31, 2026, primarily due to earnings taxed at lower rates in foreign jurisdictions resulting from producing and distributing our products and services through our foreign regional operations center in Ireland.
+Uncertain Tax Positions
+As of March 31, 2026 and June 30, 2025, unrecognized tax benefits and other income tax liabilities were $
+29.3
+ billion and $
+27.4
+ billion, respectively, and are included in long-term income taxes in our consolidated balance sheets.
+We remain under audit by the IRS for tax years 
+2014 to 2017
+. With respect to the audit for tax years 
+2004 to 2013
+, on September 26, 2023, we received Notices of Proposed Adjustment (“NOPAs”) from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $
+28.9

@@ -1,0 +1,8 @@
+accession: 0001045810-26-000052
+form: 10-Q
+filing_date_int: 20260520
+section: Item 1
+filing_date: 2026-05-20
+ticker: NVDA
+---
+of the United States granted NVIDIA’s petition for a writ of certiorari. After briefing and argument, the Supreme Court dismissed NVIDIA’s writ of certiorari as improvidently granted on December 11, 2024, and issued judgment on January 13, 2025. On February 20, 2025, the Ninth Circuit’s judgment, entered August 25, 2023 and corrected August 28, 2023, took effect, and the case was remanded to the district court for further proceedings. On March 25, 2026, the district court granted plaintiffs’ motion for class certification and certified a class of investors consisting of all persons or entities who purchased or otherwise acquired NVIDIA common stock between August 10, 2017, and November 15, 2018, inclusive, excluding certain persons and entities, such as NVIDIA’s officers and directors, and members of their immediate families, among others. On April 8, 2026, NVIDIA filed a petition with the Ninth Circuit for permission to appeal the district court’s order pursuant to Federal Rule of

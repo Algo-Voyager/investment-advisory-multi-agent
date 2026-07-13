@@ -1,0 +1,49 @@
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+filing_date_int: 20260520
+form: 10-Q
+section: unknown
+ticker: NVDA
+---
+us-gaap:FairValueInputsLevel1Member
+2026-01-25
+0001045810
+nvda:PubliclyHeldEquitySecuritiesMember
+us-gaap:FairValueInputsLevel1Member
+2026-01-25
+0001045810
+nvda:PubliclyHeldEquitySecuritiesMember
+us-gaap:CashEquivalentsMember
+us-gaap:FairValueInputsLevel1Member
+2026-01-25
+0001045810
+nvda:PubliclyHeldEquitySecuritiesMember
+nvda:MarketableDebtSecuritiesMember
+us-gaap:FairValueInputsLevel1Member
+2026-01-25
+0001045810
+nvda:PubliclyHeldEquitySecuritiesMember
+nvda:MarketableEquitySecuritiesMember
+us-gaap:FairValueInputsLevel1Member
+2026-01-25
+0001045810
+nvda:PubliclyHeldEquitySecuritiesMember
+us-gaap:OtherNoncurrentAssetsMember
+us-gaap:FairValueInputsLevel1Member
+2026-01-25
+0001045810
+us-gaap:CashEquivalentsMember
+2026-01-25
+0001045810
+nvda:MarketableDebtSecuritiesMember
+2026-01-25
+0001045810
+nvda:MarketableEquitySecuritiesMember
+2026-01-25
+0001045810
+us-gaap:OtherNoncurrentAssetsMember
+2026-01-25
+0001045810
+nvda:PubliclyHeldEquitySecuritiesMember
+2026-01-25
+0001045810

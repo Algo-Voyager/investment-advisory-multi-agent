@@ -1,0 +1,18 @@
+accession: 0001193125-26-027207
+form: 10-Q
+filing_date: 2026-01-28
+filing_date_int: 20260128
+section: Item 1
+ticker: MSFT
+---
+NOTE 10 — INCOME TAXES
+Effective Tax Rate
+Our effective tax rate was 
+20
+% for both the three and six months ended December 31, 2025, and 
+18
+% for both the three and six months ended December 31, 2024. The increase in our effective tax rate for the three and six months ended December 31, 2025 compared to the prior year was primarily due to deferred tax expense attributable to the dilution gain from the OpenAI Recapitalization and changes in the mix of our earnings and tax expenses between the U.S. and foreign countries.
+Our effective tax rate was lower than the U.S. federal statutory rate for the three and six months ended December 31, 2025, primarily due to earnings taxed at lower rates in foreign jurisdictions resulting from producing and distributing our products and services through our foreign regional operations center in Ireland.
+Uncertain Tax Positions
+As of December 31, 2025 and June 30, 2025, unrecognized tax benefits and other income tax liabilities were $
+28.7

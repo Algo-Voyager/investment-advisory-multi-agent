@@ -1,0 +1,61 @@
+form: 10-K
+accession: 0001045810-26-000021
+section: unknown
+ticker: NVDA
+filing_date_int: 20260225
+filing_date: 2026-02-25
+---
+2025-01-26
+0001045810
+nvda:CommercialPaperProgramMember
+us-gaap:CommercialPaperMember
+2025-12-31
+0001045810
+nvda:CommercialPaperProgramMember
+us-gaap:CommercialPaperMember
+2026-01-25
+0001045810
+nvda:ManufacturingProductionAndLongTermSupplyAndCapacityAgreementCommitmentsMember
+2026-01-25
+0001045810
+nvda:MultiYearCloudServiceAgreementCommitmentsMember
+2026-01-25
+0001045810
+nvda:InvestmentCommitmentsMember
+2026-01-25
+0001045810
+nvda:OtherCommitmentsMember
+2026-01-25
+0001045810
+country:IL
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:ForeignTaxJurisdictionOtherMember
+2025-01-27
+2026-01-25
+0001045810
+stpr:CA
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:StateAndLocalTaxJurisdictionOtherMember
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:DomesticCountryMember
+2026-01-25
+0001045810
+us-gaap:StateAndLocalJurisdictionMember
+2026-01-25
+0001045810
+us-gaap:ForeignCountryMember
+2026-01-25
+0001045810
+stpr:CA
+2026-01-25
+0001045810
+nvda:OtherStatesMember
+2026-01-25
+0001045810
+us-gaap:DomesticCountryMember

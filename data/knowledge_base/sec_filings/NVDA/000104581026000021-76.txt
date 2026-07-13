@@ -1,0 +1,11 @@
+filing_date_int: 20260225
+form: 10-K
+filing_date: 2026-02-25
+ticker: NVDA
+section: Item 1
+accession: 0001045810-26-000021
+---
+Competition 
+The market for our products is intensely competitive and is characterized by rapid technological change and evolving industry standards. We believe that the principal competitive factors in this market are performance, breadth of product offerings, access to customers and partners and distribution channels, software support, conformity to industry standard APIs, manufacturing capabilities, processor pricing, and total system costs. We believe that our ability to remain competitive will depend on how well we are able to anticipate the features and functions that customers and partners will 
+8
+Table of Contents

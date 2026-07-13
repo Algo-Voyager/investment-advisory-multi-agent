@@ -1,0 +1,57 @@
+filing_date_int: 20260128
+filing_date: 2026-01-28
+form: 10-Q
+accession: 0001193125-26-027207
+ticker: MSFT
+section: unknown
+---
+2014 2015 2016 2017
+2004 2005 2006 2007 2008 2009 2010 2011 2012 2013
+2021 2022 2023 2024 2025
+http://fasb.org/srt/2025#ChiefExecutiveOfficerMember
+3
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtSevenMember
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtEightMember
+2025-07-01
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtSevenMember
+2025-06-30
+0000789019
+us-gaap:DebtSecuritiesMember
+2024-07-01
+2024-12-31
+0000789019
+msft:IssuanceOfLongTermDebtFourMember
+2025-12-31
+0000789019
+2025-12-31
+0000789019
+msft:MicrosoftCloudMember
+2024-07-01
+2024-12-31
+0000789019
+us-gaap:OtherCurrentLiabilitiesMember
+2025-06-30
+0000789019
+msft:UnrecognizedTaxBenefitsAndOtherIncomeTaxLiabilitiesMember
+2025-12-31
+0000789019
+us-gaap:EquitySecuritiesMember
+2024-07-01
+2024-12-31
+0000789019
+msft:IssuanceOfLongTermDebtTwoMember
+2025-06-30
+0000789019
+msft:IssuanceOfLongTermDebtTwelveMember
+srt:MaximumMember
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtEightMember
+2025-06-30
+0000789019

@@ -1,0 +1,12 @@
+form: 10-Q
+ticker: NVDA
+section: Item 7
+filing_date: 2026-05-20
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+---
+Total Other Income, Net
+Total other income, net primarily consists of realized or unrealized gains and losses from investments in non-marketable securities and publicly-held equity securities. The change in Other income (expense), net compared to the first quarter of fiscal year 2026, was primarily driven by unrealized gains on investments in publicly-held equity securities of $13.4 billion and non-marketable equity securities of $2.6 billion.
+Income Taxes
+Income tax expense was $11.6 billion and $3.1 billion for the first quarter of fiscal years 2027 and 2026, respectively. Income tax as a percentage of income before income tax was 16.6% and 14.3% for the first quarter of fiscal years 2027 and 2026, respectively.
+The effective tax rate increased primarily due to a lower percentage of tax benefits from stock-based compensation relative to the increase in income before income tax.

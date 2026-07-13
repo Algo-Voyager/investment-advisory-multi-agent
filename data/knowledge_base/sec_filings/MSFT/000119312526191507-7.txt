@@ -1,0 +1,57 @@
+ticker: MSFT
+filing_date_int: 20260429
+accession: 0001193125-26-191507
+filing_date: 2026-04-29
+form: 10-Q
+section: unknown
+---
+0000789019
+msft:MicrosoftCloudMember
+2025-07-01
+2026-03-31
+0000789019
+msft:AccumulatedTranslationAdjustmentAndOtherMember
+2025-01-01
+2025-03-31
+0000789019
+2025-01-01
+2025-03-31
+0000789019
+msft:IntelligentCloudMember
+2026-03-31
+0000789019
+us-gaap:NonoperatingIncomeExpenseMember
+us-gaap:ForeignExchangeContractMember
+us-gaap:CashFlowHedgingMember
+2026-01-01
+2026-03-31
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtSixMember
+2026-03-31
+0000789019
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+2026-01-01
+2026-03-31
+0000789019
+msft:OperatingLeaseLiabilitiesMember
+2025-06-30
+0000789019
+msft:EnterpriseAndPartnerServicesMember
+2024-07-01
+2025-03-31
+0000789019
+msft:IntelligentCloudMember
+2026-01-01
+2026-03-31
+0000789019
+us-gaap:DesignatedAsHedgingInstrumentMember
+us-gaap:LongMember
+us-gaap:ForeignExchangeContractMember
+2025-06-30
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:USStatesAndPoliticalSubdivisionsMember
+2025-06-30
+0000789019

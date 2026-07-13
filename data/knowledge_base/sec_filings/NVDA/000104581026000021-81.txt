@@ -1,0 +1,8 @@
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+section: Item 1
+filing_date_int: 20260225
+form: 10-K
+ticker: NVDA
+---
+We rely primarily on a combination of patents, trademarks, trade secrets, employee and third-party nondisclosure agreements, and licensing arrangements to protect our IP in the United States and internationally. Our currently issued patents have expiration dates from March 2026 to June 2045. We have numerous patents issued, allowed, and pending in the United States and in foreign jurisdictions. Our patents and pending patent applications primarily relate to our products and the technology used in connection with our products. We also rely on international treaties, organizations, and foreign laws to protect our IP. The laws of certain foreign countries in which our products are or may be manufactured or sold, including various countries in Asia, may not protect our products or IP rights to the same extent as the laws of the United States. This decreased protection makes the possibility of piracy of our technology and products more likely. We continuously assess whether and where to

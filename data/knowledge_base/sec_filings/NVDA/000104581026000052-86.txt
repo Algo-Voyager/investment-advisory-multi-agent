@@ -1,0 +1,10 @@
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+filing_date: 2026-05-20
+section: Item 1A
+form: 10-Q
+ticker: NVDA
+---
+Macroeconomic factors, including tariffs, inflation, interest changes, capital market volatility, global supply chain constraints, and global economic and geopolitical developments and conflicts, have direct and indirect impacts on our results of operations, particularly demand for our products. While difficult to isolate and quantify, these macroeconomic factors impact our supply chain and manufacturing costs, employee wages, costs for capital equipment, the value of our investments, revenue, and competitive position. Our product and solution pricing generally does not fluctuate with short-term changes in our costs. Within our supply chain, we continuously manage product availability and costs with our vendors.
+Refer to Part II, Item 1A, "Risk Factors" for a discussion of these factors and other risks.
+First Quarter of Fiscal Year 2027 Summary

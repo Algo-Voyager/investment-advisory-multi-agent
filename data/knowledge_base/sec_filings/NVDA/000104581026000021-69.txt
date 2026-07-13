@@ -1,0 +1,8 @@
+ticker: NVDA
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+section: Item 1
+filing_date: 2026-02-25
+form: 10-K
+---
+Members of our sales team have technical expertise and product and industry knowledge. We also employ a team of application engineers and solution architects to provide pre-sales assistance to our partner network in designing, testing, and qualifying system designs that incorporate our platforms. For example, our solution architects work with CSPs to provide pre-sales assistance to enable our customers to optimize their hardware and software infrastructure for generative and agentic AI and LLM training and deployment. They also work with foundation model and enterprise software developers to enable our customers to optimize the training and fine-tuning of their models and services, and with enterprise end-users, often in collaboration with their global system integrator of choice, to fine-tune models and build AI applications. We believe that the depth and quality of our design support are key to improving our partner network’s time-to-market, maintaining a high level of customer

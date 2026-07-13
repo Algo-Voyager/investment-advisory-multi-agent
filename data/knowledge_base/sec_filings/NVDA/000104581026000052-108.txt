@@ -1,0 +1,11 @@
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+section: Item 1A
+form: 10-Q
+ticker: NVDA
+filing_date_int: 20260520
+---
+We expect to continue investing in our ecosystem. Refer to Note 6 and Item 1A. Risk Factors for additional information regarding our investments.
+Unrecognized tax benefits were $4.5 billion, which includes related interest and penalties of $439 million, and were recorded in non-current income tax payable as of April 26, 2026. We are unable to estimate the timing of any potential tax liability, interest payments, or penalties in individual years due to uncertainties in the underlying income tax positions and the timing of the effective settlement of such tax positions. 
+We are currently under examination by the Internal Revenue Service for our fiscal years 2023 and 2024. 
+Refer to Note 11 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q.

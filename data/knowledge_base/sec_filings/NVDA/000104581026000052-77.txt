@@ -1,0 +1,8 @@
+section: Item 2
+form: 10-Q
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+filing_date: 2026-05-20
+---
+Except as required by law, we assume no obligation to update these forward-looking statements publicly, or to update the reasons actual results could differ materially from those anticipated in these forward-looking statements, even if new information becomes available in the future.

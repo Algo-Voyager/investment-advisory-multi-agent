@@ -1,0 +1,14 @@
+ticker: NVDA
+filing_date: 2026-02-25
+section: Item 1
+form: 10-K
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+---
+•
+large cloud services companies with internal teams designing hardware and software that incorporate accelerated or AI computing functionality as part of their internal solutions or platforms, such as Alibaba Group, Alphabet Inc., Amazon, Inc., or Amazon, Baidu, Inc., Huawei, and Microsoft Corporation, or Microsoft;
+•
+suppliers of Arm-based CPUs and companies that incorporate hardware and software for CPUs as part of their internal solutions or platforms, such as Amazon, Huawei, and Microsoft;
+•
+suppliers of hardware and software for SoC products that are used in servers or embedded into automobiles, autonomous machines, and gaming devices, such as Ambarella, Inc., AMD, Broadcom, Intel, Qualcomm Incorporated, Renesas Electronics Corporation, and Samsung, or companies with internal teams designing SoC products for their own products and services, such as Tesla, Inc.; and
+•

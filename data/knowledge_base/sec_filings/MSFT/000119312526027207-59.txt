@@ -1,0 +1,8 @@
+ticker: MSFT
+filing_date_int: 20260128
+section: Item 1
+accession: 0001193125-26-027207
+form: 10-Q
+filing_date: 2026-01-28
+---
+– inputs are based upon quoted prices for similar instruments in active markets, quoted prices for identical or similar instruments in markets that are not active, and model-based valuation techniques (e.g. the Black-Scholes model) for which all significant inputs are observable in the market or can be corroborated by observable market data for substantially the full term of the assets or liabilities. Where applicable, these models project future cash flows and discount the future amounts to a present value using market-based observable inputs including interest rate curves, credit spreads, foreign exchange rates, and forward and spot prices for currencies. Our Level 2 investments include commercial paper, certificates of deposit, U.S. agency securities, foreign government bonds, mortgage- and asset-backed securities, corporate notes and bonds, and municipal securities. Our Level 2 derivative assets and liabilities include certain cleared swap contracts and over-the-counter forward,

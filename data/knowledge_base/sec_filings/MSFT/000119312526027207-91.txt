@@ -1,0 +1,25 @@
+ticker: MSFT
+form: 10-Q
+accession: 0001193125-26-027207
+filing_date_int: 20260128
+section: Item 1
+filing_date: 2026-01-28
+---
+NOTE 14 
+—
+ STOCKHOLDERS’ EQUITY
+Share Repurchases
+On September 14, 2021, our Board of Directors approved a share repurchase program authorizing up to $
+60.0
+ billion in share repurchases. This share repurchase program commenced in November 2021 
+and was completed in April 2025.
+On September 16, 2024, our Board of Directors approved a share repurchase program authorizing up to $
+60.0
+ billion in share repurchases. This share repurchase program 
+commenced in April 2025, following completion of the program approved on September 14, 2021, has no expiration date, and may be terminated at any time. 
+As of December 31, 2025, $
+47.4
+ billion remained of this $
+60.0
+ billion share repurchase program.
+We repurchased the following shares of common stock under the share repurchase programs:

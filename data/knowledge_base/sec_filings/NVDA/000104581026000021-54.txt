@@ -1,0 +1,9 @@
+section: Item 1
+filing_date_int: 20260225
+form: 10-K
+ticker: NVDA
+filing_date: 2026-02-25
+accession: 0001045810-26-000021
+---
+Our gaming platforms leverage our GPUs and sophisticated software to enhance the gaming experience with smoother, higher quality graphics. NVIDIA RTX features ray tracing technology for real-time, cinematic-quality rendering, and deep learning super sampling, or NVIDIA DLSS, our AI technology that boosts frame rates while generating high-quality images for games. RTX GPUs also feature NVIDIA tensor core technology making them well suited to accelerate a new generation of on-device AI applications. 
+In fiscal year 2025, we announced the NVIDIA Blackwell GeForce RTX 50 Series family of desktop and laptop GPUs. The Blackwell architecture introduced neural graphics which combines AI models with traditional rendering to boost game performance, image quality, and interactivity, as well as the next generation of our DLSS technology powered by a new transformer model architecture. In fiscal year 2026, we launched and scaled Blackwell architecture for gaming and GeForce NOW.

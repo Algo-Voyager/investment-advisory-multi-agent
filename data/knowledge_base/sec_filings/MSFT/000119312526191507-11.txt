@@ -1,0 +1,56 @@
+filing_date_int: 20260429
+filing_date: 2026-04-29
+section: unknown
+accession: 0001193125-26-191507
+form: 10-Q
+ticker: MSFT
+---
+0000789019
+us-gaap:CustomerRelationshipsMember
+2025-06-30
+0000789019
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2026-03-31
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:CorporateDebtSecuritiesMember
+2025-06-30
+0000789019
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-12-31
+0000789019
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+us-gaap:NonoperatingIncomeExpenseMember
+2024-07-01
+2025-03-31
+0000789019
+2026-01-01
+2026-03-31
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:CommercialPaperMember
+2026-03-31
+0000789019
+msft:WindowsAndDevicesMember
+2026-01-01
+2026-03-31
+0000789019
+us-gaap:LongMember
+us-gaap:NondesignatedMember
+us-gaap:ForeignExchangeContractMember
+2025-06-30
+0000789019
+us-gaap:DebtSecuritiesMember
+2025-01-01
+2025-03-31
+0000789019
+us-gaap:NonUsMember
+2025-07-01
+2026-03-31
+0000789019
+msft:MorePersonalComputingMember
+2024-07-01
+2025-03-31
+0000789019

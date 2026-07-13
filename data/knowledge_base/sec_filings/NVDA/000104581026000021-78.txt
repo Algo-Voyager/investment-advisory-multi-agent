@@ -1,0 +1,12 @@
+section: Item 1
+form: 10-K
+ticker: NVDA
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+filing_date: 2026-02-25
+---
+A significant source of competition comes from companies that provide or intend to provide GPUs, CPUs, DPUs, embedded SoCs, and other accelerated, AI computing processor products, and providers of semiconductor-based high-performance interconnect products based on InfiniBand, Ethernet, Fibre Channel, and proprietary technologies. Some of our competitors may have greater marketing, financial, distribution and manufacturing resources than we do and may be more able to adapt to customers or technological changes. We expect an increasingly competitive environment in the future.
+Our current competitors include:
+•
+suppliers and licensors of hardware and software for discrete and integrated GPUs, custom chips and other accelerated computing solutions, including solutions offered for AI, such as Advanced Micro Devices, Inc., or AMD, Huawei Technologies Co. Ltd., or Huawei, and Intel Corporation, or Intel;
+•

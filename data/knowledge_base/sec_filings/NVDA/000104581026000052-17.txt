@@ -1,0 +1,57 @@
+form: 10-Q
+ticker: NVDA
+filing_date: 2026-05-20
+filing_date_int: 20260520
+section: unknown
+accession: 0001045810-26-000052
+---
+2026-04-26
+0001045810
+nvda:NatureOfExpenseCustomerAdvancesAndDeferralsMember
+2026-01-25
+0001045810
+2026-04-27
+2026-04-26
+0001045810
+us-gaap:ForeignExchangeForwardMember
+us-gaap:DesignatedAsHedgingInstrumentMember
+2026-04-26
+0001045810
+us-gaap:ForeignExchangeForwardMember
+us-gaap:DesignatedAsHedgingInstrumentMember
+2026-01-25
+0001045810
+us-gaap:ForeignExchangeForwardMember
+us-gaap:NondesignatedMember
+2026-04-26
+0001045810
+us-gaap:ForeignExchangeForwardMember
+us-gaap:NondesignatedMember
+2026-01-25
+0001045810
+us-gaap:ForeignExchangeForwardMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:FacilityLeaseGuaranteesMember
+2026-01-25
+0001045810
+srt:MinimumMember
+nvda:FacilityLeaseGuaranteesMember
+2025-01-27
+2026-01-25
+0001045810
+srt:MaximumMember
+nvda:FacilityLeaseGuaranteesMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:A2026NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-04-26
+0001045810
+nvda:A2026NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-01-26
+2026-04-26
+0001045810

@@ -60,12 +60,20 @@ class MemoryWriteNode:
         self._store = store or get_memory_store()
 
     def run(self, state: AgentState) -> dict:
-        query = next((_text(m.content) for m in state.get("messages", [])
-                      if isinstance(m, HumanMessage)), "")
-        answer = next((_text(m.content) for m in reversed(state.get("messages", []))
-                       if isinstance(m, AIMessage) and m.content), "")
-        if query and answer:
-            self._store.save_decision(
-                client_id=state["client_id"], session_id=state.get("session_id", "unknown"),
-                query=query, answer=answer, agents_used=state.get("visited", []))
+        # Best-effort: this is the terminal step, right after the user's answer was
+        # already computed. A save failure (disk full, locked db) must never turn
+        # into an uncaught exception that erases an otherwise-successful answer.
+        try:
+            query = next((_text(m.content) for m in state.get("messages", [])
+                         if isinstance(m, HumanMessage)), "")
+            answer = next((_text(m.content) for m in reversed(state.get("messages", []))
+                          if isinstance(m, AIMessage) and m.content), "")
+            if query and answer:
+                self._store.save_decision(
+                    client_id=state["client_id"], session_id=state.get("session_id", "unknown"),
+                    query=query, answer=answer, agents_used=state.get("visited", []))
+        except Exception as exc:  # noqa: BLE001
+            log.error("tool_error", tool=self.name, error_type=type(exc).__name__,
+                      client_id=state.get("client_id"), session_id=state.get("session_id"),
+                      error=str(exc)[:200])
         return {}

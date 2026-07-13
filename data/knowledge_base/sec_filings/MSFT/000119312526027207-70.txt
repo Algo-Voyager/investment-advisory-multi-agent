@@ -1,0 +1,50 @@
+filing_date_int: 20260128
+section: Item 1
+filing_date: 2026-01-28
+ticker: MSFT
+accession: 0001193125-26-027207
+form: 10-Q
+---
+12
+
+PART I
+Item 1
+ 
+
+NOTE 4
+ 
+—
+ INVESTMENTS
+Investment Components
+The components of investments were as follows:
+ 
+
+ 
+
+13
+
+PART I
+Item 1
+ 
+
+ 
+
+ 
+(a)
+Refer to Note 5 – Derivatives for further information on the fair value of our derivative instruments.
+Equity investments presented as “Other” in the tables above include investments without readily determinable fair values measured at cost with adjustments for observable changes in price or impairments, measured using the equity method, or measured at fair value using net asset value as a practical expedient which are not categorized in the fair value hierarchy. As of December 31
+, 2025 and June 30, 2025, equity investments without readily determinable fair values measured at cost with adjustments for observable changes in price or impairments were $
+5.0
+ 
+billion and $
+2.9
+ billion, respectively, and equity investments measured using the equity method were $
+11.5
+ billion and $
+6.0
+ billion, respectively.
+
+14
+
+PART I
+Item 1

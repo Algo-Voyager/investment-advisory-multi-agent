@@ -1,0 +1,14 @@
+section: Item 1
+ticker: MSFT
+form: 10-Q
+filing_date: 2026-04-29
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+---
+13
+ billion, of which $
+11.8
+ billion has been funded as of March 31, 2026.
+Derivatives
+Derivative instruments are recognized as either assets or liabilities and measured at fair value. The accounting for changes in the fair value of a derivative depends on the intended use of the derivative and the resulting designation.
+For derivative instruments designated as fair value hedges, gains and losses are recognized in other income (expense), net with offsetting gains and losses on the hedged items. Gains and losses representing hedge components excluded from the assessment of effectiveness are recognized in other income (expense), net.

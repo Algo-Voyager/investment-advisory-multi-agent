@@ -1,0 +1,72 @@
+ticker: NVDA
+filing_date: 2026-02-25
+accession: 0001045810-26-000021
+section: unknown
+form: 10-K
+filing_date_int: 20260225
+---
+nvda:ComputeAndNetworkingSegmentMember
+2024-01-29
+2025-01-26
+0001045810
+nvda:CustomerOneMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:SalesRevenueNetMember
+nvda:ComputeAndNetworkingSegmentMember
+2023-01-30
+2024-01-28
+0001045810
+nvda:DataCenterMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:DataCenterMember
+2024-01-29
+2025-01-26
+0001045810
+nvda:DataCenterMember
+2023-01-30
+2024-01-28
+0001045810
+nvda:ComputeMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:ComputeMember
+2024-01-29
+2025-01-26
+0001045810
+nvda:ComputeMember
+2023-01-30
+2024-01-28
+0001045810
+nvda:NetworkingMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:NetworkingMember
+2024-01-29
+2025-01-26
+0001045810
+nvda:NetworkingMember
+2023-01-30
+2024-01-28
+0001045810
+nvda:GamingMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:GamingMember
+2024-01-29
+2025-01-26
+0001045810
+nvda:GamingMember
+2023-01-30
+2024-01-28
+0001045810
+nvda:ProfessionalVisualizationMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:ProfessionalVisualizationMember
+2024-01-29

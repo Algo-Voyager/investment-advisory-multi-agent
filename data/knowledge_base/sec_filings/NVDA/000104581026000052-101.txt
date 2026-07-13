@@ -1,0 +1,11 @@
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+filing_date: 2026-05-20
+form: 10-Q
+section: Item 1
+ticker: NVDA
+---
+Cash used in investing activities increased in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026, primarily driven by higher purchases of equity investment securities.
+28
+Cash used in financing activities increased in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026, mainly due to higher share repurchases.
+Liquidity

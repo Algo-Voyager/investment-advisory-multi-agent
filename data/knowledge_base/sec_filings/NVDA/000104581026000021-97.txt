@@ -1,0 +1,8 @@
+filing_date_int: 20260225
+form: 10-K
+accession: 0001045810-26-000021
+ticker: NVDA
+filing_date: 2026-02-25
+section: Item 1A
+---
+competitive position, and otherwise may have a material adverse impact on our business, financial condition and results of operations in subsequent periods. Refer to “Item 1A. Risk Factors” for a discussion of these potential impacts.

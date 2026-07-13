@@ -1,0 +1,42 @@
+ticker: MSFT
+section: Item 1
+filing_date_int: 20260429
+filing_date: 2026-04-29
+accession: 0001193125-26-191507
+form: 10-Q
+---
+Anti-dilutive stock-based awards excluded from the calculations of diluted EPS were immaterial during the periods presented.
+NOTE 3 — OTHER INCOME (EXPENSE), NET
+ 
+The components of other income (expense), net were as follows:
+ 
+
+ 
+
+11
+
+PART I
+Item 1
+ 
+
+Other income (expense), net included $
+19
+ million of net losses and $
+5.9
+ billion of net gains for the three and nine months ended March 31, 2026, respectively, and $
+768
+ million and $
+2.7
+ billion of net losses for the three and nine months ended March 31, 2025, respectively, from investments in OpenAI, primarily net recognized gains (losses) on our equity method investment reflected in Other, net. The net gains recorded for the nine months ended March 31, 2026 primarily relate to the dilution gain from the OpenAI Recapitalization.
+Net Recognized Gains (Losses) on Investments
+ 
+Net recognized gains (losses) on debt investments were as follows:
+ 
+
+ 
+Net recognized gains (losses) on equity investments were as follows:
+ 
+
+ 
+
+12

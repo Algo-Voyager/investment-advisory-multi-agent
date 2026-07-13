@@ -1,0 +1,10 @@
+filing_date: 2026-05-20
+form: 10-Q
+ticker: NVDA
+section: Item 2
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+---
+All references to “NVIDIA,” “we,” “us,” “our” or the “Company” mean NVIDIA Corporation and its subsidiaries.
+In addition, statements that “we believe” and similar statements reflect our beliefs and opinions on the relevant subject. These statements are based upon information available to us as of the filing date of this Quarterly Report on Form 10-Q, and while we believe such information forms a reasonable basis for such statements, such information may be limited or incomplete, and our statements should not be read to indicate that we have conducted an exhaustive inquiry into, or review of, all potentially available relevant information. These statements are inherently uncertain, and investors are cautioned not to unduly rely upon these statements.
+© 2026 NVIDIA Corporation. All rights reserved.

@@ -1,0 +1,28 @@
+form: 10-Q
+filing_date: 2026-05-20
+section: Item 1
+ticker: NVDA
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+---
+8
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Condensed Consolidated Statements of Income include stock-based compensation expense as follows:
+Equity Award Activity
+The following is a summary of our equity award transactions under our equity incentive plans:
+As of April 26, 2026, aggregate unearned stock-based compensation expense was $
+20.8
+ billion, which is expected to be recognized over a weighted average period of 
+2.6
+ years for RSUs, PSUs, and market-based PSUs, and 
+one year
+ for ESPP.
+Note 3 - 
+Net Income Per Share
+The following is the basic and diluted net income per share computations for the periods presented:
+(1) Net income divided by basic weighted average shares.
+(2) Net income divided by diluted weighted average shares.
+Diluted net income per share was computed using the weighted average number of common and potentially dilutive shares outstanding during the period, using the treasury stock method.
+9

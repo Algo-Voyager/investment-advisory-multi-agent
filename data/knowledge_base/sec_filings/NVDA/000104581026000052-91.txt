@@ -1,0 +1,20 @@
+filing_date: 2026-05-20
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+form: 10-Q
+section: Item 7
+---
+Critical Accounting Policies and Estimates
+Refer to Part II, Item 7, "Critical Accounting Policies and Estimates" of our Annual Report on Form 10-K for the fiscal year ended January 25, 2026. There have been no material changes to our Critical Accounting Policies and Estimates. 
+25
+Results of Operations
+The following table sets forth, for the periods indicated, certain items in our Condensed Consolidated Statements of Income expressed as a percentage of revenue.
+Reportable Segments
+Revenue by Reportable Segments
+Operating Income by Reportable Segments
+Compute & Networking revenue
+ – The year-over-year increase in the first quarter of fiscal year 2027 was due to growth in Data Center products, driven by the ramp of our Blackwell systems and demand for our InfiniBand, Spectrum-X Ethernet, and NVLink solutions.
+Graphics revenue
+ – The year-over-year increase in the first quarter of fiscal year 2027 was driven by sales of our Blackwell architecture.
+Reportable segment operating income

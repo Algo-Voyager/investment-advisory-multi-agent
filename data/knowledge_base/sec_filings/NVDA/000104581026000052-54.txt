@@ -1,0 +1,8 @@
+section: Item 1
+filing_date_int: 20260520
+form: 10-Q
+filing_date: 2026-05-20
+ticker: NVDA
+accession: 0001045810-26-000052
+---
+of unspecified compensatory damages, an award of reasonable costs and expenses, including attorneys’ fees and expert fees, and further relief as the Court may deem just and proper. On March 2, 2021, the district court granted NVIDIA’s motion to dismiss the complaint without leave to amend, entered judgment in favor of NVIDIA and closed the case. On March 30, 2021, plaintiffs filed an appeal from judgment in the United States Court of Appeals for the Ninth Circuit, case number 21-15604. On August 25, 2023, a majority of a three-judge Ninth Circuit panel affirmed in part and reversed in part the district court’s dismissal of the case, with a third judge dissenting on the basis that the district court did not err in dismissing the case. NVIDIA filed a petition for a writ of certiorari on March 4, 2024. On June 17, 2024, the Supreme Court of the United States granted NVIDIA’s petition for a writ of certiorari. After briefing and argument, the Supreme Court dismissed NVIDIA’s writ of

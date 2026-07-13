@@ -1,0 +1,47 @@
+filing_date: 2026-01-28
+form: 10-Q
+filing_date_int: 20260128
+accession: 0001193125-26-027207
+section: Item 1
+ticker: MSFT
+---
+BALANCE 
+SHEETS
+ 
+ 
+
+ 
+Refer to accompanying notes.
+
+5
+
+PART I
+Item 1
+ 
+
+CASH FLOWS 
+STATEMENTS
+ 
+ 
+
+ 
+Refer to accompanying notes.
+
+6
+
+PART I
+Item 1
+ 
+
+STOCKHOLDERS’ EQ
+UITY STATEMENTS
+ 
+ 
+
+ 
+Refer to accompanying notes.
+
+7
+
+PART I
+Item 1

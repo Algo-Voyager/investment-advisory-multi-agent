@@ -1,0 +1,22 @@
+ticker: NVDA
+form: 10-K
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+section: Item 1A
+filing_date: 2026-02-25
+---
+•
+Business disruptions could harm our operations and financial results. 
+•
+Climate change may have a long-term impact on our business. 
+•
+We may not be able to realize the potential benefits of business investments or acquisitions, nor successfully integrate acquisition targets. 
+•
+A significant amount of our revenue stems from a limited number of partners and distributors and we have a concentration of sales to customers who purchase directly or indirectly from us, and our revenue could be adversely affected if we lose or are prevented from selling to any of these customers. 
+•
+Commercial arrangements expose us to counterparty risks, which may negatively impact our business, financial condition, or results of operations.
+•
+We may be unable to attract, retain, and motivate our executives and key employees. 
+•
+Modification or interruption of our business processes and information systems may disrupt our business and internal controls. 
+•

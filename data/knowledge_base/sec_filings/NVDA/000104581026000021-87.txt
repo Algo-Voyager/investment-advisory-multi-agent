@@ -1,0 +1,9 @@
+ticker: NVDA
+filing_date: 2026-02-25
+form: 10-K
+section: Item 1
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+---
+In February 2026, the USG granted a license that would allow us to ship small amounts of H200 products to specific China-based customers. To date, we have not generated any revenue under the H200 licensing program, and do not yet know whether any imports will be allowed into China. The license requires that the H200s go through an inspection process in the United States prior to any shipment to the customer. As a result, any H200 shipped under the new licensing program will be subject to a 25% tariff upon importation into the United States.
+In the event that we are able to sell licensed products into the China market, we may not be able to pass along all or any of the tariff to our customers, and may be subject to litigation, increased costs, and a harmed competitive position.

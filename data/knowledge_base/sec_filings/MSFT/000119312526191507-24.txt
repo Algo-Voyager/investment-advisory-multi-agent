@@ -1,0 +1,55 @@
+filing_date: 2026-04-29
+filing_date_int: 20260429
+ticker: MSFT
+form: 10-Q
+accession: 0001193125-26-191507
+section: unknown
+---
+2026-01-01
+2026-03-31
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtEightMember
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtTwelveMember
+srt:MinimumMember
+2025-07-01
+2026-03-31
+0000789019
+msft:OtherProductsAndServicesMember
+2025-07-01
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtFiveMember
+2025-06-30
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtThirteenMember
+2026-03-31
+0000789019
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-06-30
+0000789019
+us-gaap:LongMember
+us-gaap:NondesignatedMember
+us-gaap:ForeignExchangeContractMember
+2026-03-31
+0000789019
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:DesignatedAsHedgingInstrumentMember
+us-gaap:LongMember
+us-gaap:InterestRateContractMember
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtThirteenMember
+2025-07-01
+2026-03-31
+0000789019
+msft:ShareRepurchaseProgramTwentyTwentyOneMember
+2021-09-14
+0000789019
+msft:IssuanceOfLongTermDebtNineMember

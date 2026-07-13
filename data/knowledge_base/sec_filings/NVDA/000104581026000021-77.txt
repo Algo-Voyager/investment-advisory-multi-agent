@@ -1,0 +1,10 @@
+ticker: NVDA
+form: 10-K
+filing_date: 2026-02-25
+section: Item 1
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+---
+8
+Table of Contents
+demand and whether we are able to deliver consistent volumes of our products at acceptable levels of quality and at competitive prices. We expect competition to increase from both existing competitors and new market entrants with products that may be lower priced than ours or may provide better performance or additional features not provided by our products. In addition, it is possible that new competitors or alliances among competitors could emerge and acquire significant market share.

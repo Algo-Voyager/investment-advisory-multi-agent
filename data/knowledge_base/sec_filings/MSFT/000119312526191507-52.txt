@@ -1,0 +1,8 @@
+filing_date: 2026-04-29
+section: Item 1
+ticker: MSFT
+form: 10-Q
+filing_date_int: 20260429
+accession: 0001193125-26-191507
+---
+Equity investments with readily determinable fair values are generally measured at fair value. Equity investments that are not recorded at fair value are measured using the equity method of accounting when required or measured at cost with adjustments for observable changes in price or impairments (referred to as the measurement alternative). For equity investments recorded at fair value, we perform a qualitative assessment on a periodic basis and recognize an impairment if there are sufficient indicators that the fair value of the investment is less than carrying value. Changes in fair value are recorded in other income (expense), net. Equity method investments may be recorded on a lag of up to three months when sufficient financial information is not available in a timely manner. For equity method investments recorded on a lag, we recognize the impact of intervening events that have a material impact on our consolidated financial statements in the period in which they occurred.

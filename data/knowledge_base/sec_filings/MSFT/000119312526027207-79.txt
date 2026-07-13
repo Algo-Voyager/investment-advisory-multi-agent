@@ -1,0 +1,24 @@
+accession: 0001193125-26-027207
+filing_date_int: 20260128
+section: Item 1
+form: 10-Q
+ticker: MSFT
+filing_date: 2026-01-28
+---
+18
+
+PART I
+Item 1
+ 
+
+NOTE 7 
+— GOODWILL
+Changes in the carrying amount of goodwill were as follows:
+ 
+
+ 
+The measurement periods for the valuation of assets acquired and liabilities assumed end as soon as information on the facts and circumstances that existed as of the acquisition dates becomes available, but do not exceed 12 months. Adjustments in purchase price allocations may require a change in the amounts allocated to goodwill during the periods in which the adjustments are determined.
+Any change in the goodwill amounts resulting from foreign currency translations and purchase accounting adjustments are presented as “Other” in the table above. Also included in “Other” are business dispositions and transfers between segments due to reorganizations, as applicable.
+NOTE 8 — INTANGIBLE ASSETS
+ 
+The components of intangible assets, all of which are finite-lived, were as follows:

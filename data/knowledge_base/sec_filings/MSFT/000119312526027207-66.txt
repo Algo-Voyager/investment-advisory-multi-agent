@@ -1,0 +1,11 @@
+ticker: MSFT
+filing_date_int: 20260128
+accession: 0001193125-26-027207
+form: 10-Q
+filing_date: 2026-01-28
+section: Item 1
+---
+Income Statement – Disaggregation of Income Statement Expenses
+In November 2024, the FASB issued a new standard to expand disclosures about income statement expenses. The guidance requires disaggregation of certain costs and expenses included in each relevant expense caption on our consolidated income statements in a separate note to the financial statements at each interim and annual reporting period, including amounts of purchases of inventory, employee compensation, depreciation, and intangible asset amortization. The standard will be effective for us beginning with our annual reporting for fiscal year 2028 and interim periods thereafter, with early adoption permitted. We are currently evaluating the impact of this standard on our disclosures.
+ 
+NOTE 2 — EARNINGS PER SHARE

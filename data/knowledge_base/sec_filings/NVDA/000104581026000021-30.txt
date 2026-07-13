@@ -1,0 +1,13 @@
+section: unknown
+ticker: NVDA
+form: 10-K
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+filing_date: 2026-02-25
+---
+NVIDIA X (x.com/nvidia)
+NVIDIA Threads (threads.com/@nvidia)
+NVIDIA Investor Relations (investor.nvidia.com)
+NVIDIA YouTube (YouTube.com/nvidia).
+The information we post through these social media channels may be deemed material. Accordingly, investors should monitor these channels, in addition to following our press releases, SEC filings and public conference calls and webcasts. This list may be updated from time to time. The information we post through these channels is not a part of this Annual Report on Form 10-K.
+Forward-Looking Statements

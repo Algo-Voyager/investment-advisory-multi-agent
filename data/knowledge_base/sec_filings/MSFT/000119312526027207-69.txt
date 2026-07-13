@@ -1,0 +1,33 @@
+section: Item 1
+filing_date_int: 20260128
+accession: 0001193125-26-027207
+form: 10-Q
+filing_date: 2026-01-28
+ticker: MSFT
+---
+Net recognized gains (losses) on equity investments were as follows:
+ 
+
+ 
+ 
+
+12
+
+PART I
+Item 1
+ 
+
+NOTE 4
+ 
+—
+ INVESTMENTS
+Investment Components
+The components of investments were as follows:
+ 
+
+ 
+
+13
+
+PART I
+Item 1

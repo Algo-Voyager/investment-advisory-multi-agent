@@ -1,0 +1,40 @@
+form: 10-Q
+accession: 0001193125-26-191507
+section: unknown
+filing_date_int: 20260429
+filing_date: 2026-04-29
+ticker: MSFT
+---
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+ 
+ 
+FORM
+ 
+10-
+Q
+ 
+ 
+
+Commission File Number 
+001-37845
+ 
+ 
+MICROSOFT CORPORATION
+ 
+ 
+
+ 
+ONE MICROSOFT WAY
+, 
+REDMOND
+,
+ 
+Washington 
+98052-6399
+(
+425
+) 
+882-8080
+www.microsoft.com/investor

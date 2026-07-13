@@ -1,0 +1,10 @@
+filing_date_int: 20260520
+section: Item 7
+form: 10-Q
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+---
+Gross Profit and Gross Margin
+Gross profit consists of total net revenue less cost of revenue. Cost of revenue consists primarily of the cost of semiconductors, including wafer fabrication, assembly, testing and packaging, board and device costs, manufacturing support costs, including labor and overhead associated with such purchases, final test yield fallout, inventory and warranty provisions, memory and component costs, tariffs, and shipping costs. Cost of revenue also includes acquisition-related intangible amortization expense, IP-related costs, and stock-based compensation related to personnel associated with manufacturing operations.
+Gross margin increased to 74.9% for the first quarter of fiscal year 2027 compared to 60.5% for the first quarter of fiscal year 2026, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations.

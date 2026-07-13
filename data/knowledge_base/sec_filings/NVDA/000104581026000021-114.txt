@@ -1,0 +1,10 @@
+form: 10-K
+filing_date_int: 20260225
+section: Item 1A
+ticker: NVDA
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+---
+•
+complete technical, financial, operational, compliance, sales and marketing investments for the above activities. 
+We have invested in research and development in markets where we have a limited operating history, which may not produce meaningful revenue for several years, if at all. If we fail to develop or monetize new products and technologies, or if they do not become widely adopted, our financial results could be adversely affected. Obtaining design wins may involve a lengthy process and depends on our ability to anticipate and provide features and functionality that customers will demand. They also do not guarantee revenue. Failure to obtain a design win may prevent us from obtaining future design wins in subsequent generations. We cannot ensure that our products and technologies will provide value to our customers and partners. If we fail any of these key success criteria, our financial results may be harmed.

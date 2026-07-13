@@ -1,0 +1,21 @@
+ticker: NVDA
+filing_date_int: 20260225
+section: Item 1
+form: 10-K
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+---
+•
+the location in which our products are manufactured;
+•
+our strategic technology or product directions in different countries;
+•
+the degree to which IP laws exist and are meaningfully enforced in different jurisdictions; and
+•
+the commercial significance of our operations and our competitors' operations in particular countries and regions.
+We have licensed technology from third parties and expect to continue entering such license agreements.
+Government Regulations
+Our worldwide business activities are subject to various laws, rules, and regulations of the United States as well as of foreign governments.
+Over the past three years, we have been subject to a series of shifting and expanding export control restrictions, impacting our ability to serve customers outside the United States.
+9
+Table of Contents

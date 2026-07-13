@@ -1,0 +1,59 @@
+section: unknown
+filing_date_int: 20260429
+filing_date: 2026-04-29
+accession: 0001193125-26-191507
+ticker: MSFT
+form: 10-Q
+---
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtElevenMember
+2026-03-31
+0000789019
+msft:ProductivityAndBusinessProcessesMember
+2025-06-30
+0000789019
+msft:IssuanceOfLongTermDebtElevenMember
+2025-06-30
+0000789019
+us-gaap:OtherNoncurrentAssetsMember
+2026-03-31
+0000789019
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+2025-01-01
+2025-03-31
+0000789019
+msft:EnterpriseAndPartnerServicesMember
+2025-07-01
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtSixMember
+2025-06-30
+0000789019
+us-gaap:FairValueInputsLevel1Member
+2025-06-30
+0000789019
+msft:SearchAdvertisingMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+2025-06-30
+0000789019
+us-gaap:DebtSecuritiesMember
+2026-03-31
+0000789019
+country:US
+2025-07-01
+2026-03-31
+0000789019
+2026-04-23
+0000789019
+us-gaap:CommonStockMember
+2025-07-01
+2026-03-31
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtElevenMember
+2025-07-01
+2026-03-31
+0000789019

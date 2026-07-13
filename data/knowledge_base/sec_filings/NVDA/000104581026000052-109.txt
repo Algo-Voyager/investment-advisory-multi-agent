@@ -1,0 +1,9 @@
+filing_date_int: 20260520
+ticker: NVDA
+section: Item 1
+filing_date: 2026-05-20
+form: 10-Q
+accession: 0001045810-26-000052
+---
+Refer to Note 11 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+Other than the contractual obligations described in Notes 6 and 10, there were no material changes outside the ordinary course of business in our contractual obligations from those disclosed in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026. Refer to Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations - Liquidity and Capital Resources” in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026 for a description of our contractual obligations. For a description of our facility lease guarantees, long-term debt, purchase obligations, and operating lease obligations, refer to Notes 8, 9, 10, and 14 of the Notes to the Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q, respectively.

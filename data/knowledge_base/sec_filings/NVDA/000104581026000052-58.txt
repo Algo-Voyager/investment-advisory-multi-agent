@@ -1,0 +1,8 @@
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+ticker: NVDA
+filing_date_int: 20260520
+form: 10-Q
+section: Item 1
+---
+and 20(a) of the Exchange Act based on the dissemination of allegedly false and misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand. The plaintiffs are seeking unspecified damages and other relief, including reforms and improvements to NVIDIA’s corporate governance and internal procedures.

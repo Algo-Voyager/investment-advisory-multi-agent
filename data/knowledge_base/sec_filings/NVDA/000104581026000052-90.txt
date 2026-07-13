@@ -1,0 +1,12 @@
+filing_date_int: 20260520
+section: Item 1A
+form: 10-Q
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+ticker: NVDA
+---
+Gross margin increased from a year ago on lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations. Gross margin was approximately flat sequentially as our Blackwell architecture remains the majority of our revenue.
+Operating expenses were up 52% from a year ago and up 12% sequentially. The increases were primarily driven by higher compensation and benefits expense due to employee growth and compensation increases, compute and infrastructure costs, and engineering development materials for new product developments.
+Financial Information by Business Segment and Geographic Data
+Refer to Note 13 of the Notes to the Condensed Consolidated Financial Statements for disclosure regarding segment information.
+Critical Accounting Policies and Estimates

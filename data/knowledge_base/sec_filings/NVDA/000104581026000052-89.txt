@@ -1,0 +1,10 @@
+filing_date_int: 20260520
+filing_date: 2026-05-20
+form: 10-Q
+accession: 0001045810-26-000052
+section: Item 1A
+ticker: NVDA
+---
+Revenue was $81.6 billion, up 85% from a year ago and up 20% sequentially.
+Data Center revenue was $75.2 billion, up 92% from a year ago and up 21% sequentially, driven by the ramp of our Blackwell 300 products and demand for our InfiniBand, Spectrum-X Ethernet, and NVLink solutions. Hyperscaler revenue increased sequentially and remained at approximately 50% of Data Center revenue, while the remaining 50% came from a continued diversification of customers, including AI Clouds, industrial, enterprise, and sovereign customers. No shipments of Data Center Hopper products to China occurred during the quarter, compared with $4.6 billion in the first quarter of fiscal year 2026.
+Edge Computing revenue for the first quarter was $6.4 billion, up 29% from a year ago and up 10% sequentially. The increases were driven by robust Blackwell workstation demand, partially offset by slower consumer PC demand that was tempered by elevated memory and systems prices.

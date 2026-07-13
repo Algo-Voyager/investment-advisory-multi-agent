@@ -1,0 +1,12 @@
+filing_date_int: 20260520
+form: 10-Q
+filing_date: 2026-05-20
+section: Item 3
+ticker: NVDA
+accession: 0001045810-26-000052
+---
+Adoption of New and Recently Issued Accounting Pronouncements
+There has been no adoption of any new and recently issued accounting pronouncements.
+Item 3. Quantitative and Qualitative Disclosures About Market Risk
+Investment and Interest Rate Risk
+Financial market risks related to investment and interest rate risk are described in Part II, Item 7A, “Quantitative and Qualitative Disclosures About Market Risk” in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026. Our marketable equity securities consist of publicly-held equity securities, while our non-marketable equity securities are investments in privately-held companies. Publicly-held equity securities are subject to market price volatility. A hypothetical 10% decrease in our publicly-held equity securities would decrease the fair value of the publicly-held equity securities balance by $3.9 billion and $1.8 billion as of April 26, 2026 and January 25, 2026, respectively.

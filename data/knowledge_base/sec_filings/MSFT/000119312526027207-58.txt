@@ -1,0 +1,14 @@
+filing_date: 2026-01-28
+accession: 0001193125-26-027207
+section: Item 1
+filing_date_int: 20260128
+ticker: MSFT
+form: 10-Q
+---
+Fair Value Measurements
+We account for certain assets and liabilities at fair value. The hierarchy below lists three levels of fair value based on the extent to which inputs used in measuring fair value are observable in the market. We categorize each of our fair value measurements in one of these three levels based on the lowest level input that is significant to the fair value measurement in its entirety. These levels are:
+•
+Level 1
+ – inputs are based upon unadjusted quoted prices for identical instruments in active markets. Our Level 1 investments include U.S. government securities, common and preferred stock, and mutual funds. Our Level 1 derivative assets and liabilities include those actively traded on exchanges.
+•
+Level 2

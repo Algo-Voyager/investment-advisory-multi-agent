@@ -1,0 +1,30 @@
+ticker: NVDA
+form: 10-Q
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+section: Item 1
+filing_date_int: 20260520
+---
+Note 7 - 
+Balance Sheet Components
+We refer to customers who purchase products directly from NVIDIA as direct customers, such as add-in board manufacturers, or AIBs, distributors, original design manufacturers, or ODMs, original equipment manufacturers, or OEMs, cloud service providers, or CSPs, AI model makers, and system integrators. Certain direct customers may use either internal resources or third-party system integrators to complete their build. Three direct customers accounted for 
+30
+%, 
+18
+%, and 
+16
+% of our accounts receivable balance as of April 26, 2026. Three direct customers accounted for 
+25
+%, 
+18
+%, and 
+13
+% of our accounts receivable balance as of January 25, 2026.
+Certain balance sheet components were as follows:
+(1) We recorded inventory provisions of $
+0.8
+ billion and $
+2.3
+ billion for the first quarter of fiscal years 2027 and 2026, respectively, in Cost of revenue.
+13
+NVIDIA Corporation and Subsidiaries

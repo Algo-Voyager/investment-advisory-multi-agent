@@ -1,0 +1,11 @@
+filing_date_int: 20260520
+section: Item 1
+ticker: NVDA
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+form: 10-Q
+---
+Refer to Note 9 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q for further discussion.
+Material Cash Requirements and Other Obligations
+For descriptions of our facility lease guarantees, long-term debt, purchase commitments, and operating lease obligations, refer to Note 8, Note 9, Note 10, and Note 14 of the Notes to the Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q, respectively.
+We expect to continue investing in our ecosystem. Refer to Note 6 and Item 1A. Risk Factors for additional information regarding our investments.

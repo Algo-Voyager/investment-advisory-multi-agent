@@ -1,0 +1,8 @@
+ticker: NVDA
+accession: 0001045810-26-000021
+section: Item 1
+filing_date: 2026-02-25
+filing_date_int: 20260225
+form: 10-K
+---
+Our accelerated computing platform can solve complex problems in significantly less time and with lower power consumption than alternative computational approaches. It can help solve problems that were previously deemed unsolvable. We work to deliver continued performance leaps that outpace Moore’s Law by leveraging innovation across the architecture, chip design, system, interconnect, algorithm, and software layers. This full-stack innovation approach allows us to deliver order-of-magnitude performance advantages relative to legacy approaches in our target markets, which include Data Center, Gaming, Professional Visualization, and Automotive. While the computing requirements of these end markets are diverse, we address them with a unified underlying architecture leveraging our GPUs, CPUs, CUDA and networking technologies as the fundamental building blocks. The programmable nature of our architecture allows us to make leveraged investments in research and development: we can support

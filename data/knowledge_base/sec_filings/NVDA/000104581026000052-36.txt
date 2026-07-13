@@ -1,0 +1,29 @@
+ticker: NVDA
+section: Item 1
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+form: 10-Q
+filing_date: 2026-05-20
+---
+9
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Note 4 - 
+Amortizable Intangible Assets and Goodwill
+The components of our amortizable intangible assets are as follows:
+Amortization expense associated with intangible assets was $
+232
+ million and $
+159
+ million for the first quarter of fiscal years 2027 and 2026, respectively.
+The following table outlines the estimated future amortization expense related to the net carrying amount of intangible assets as of April 26, 2026:
+In the first quarter of fiscal year 2027, goodwill increased by $
+62
+ million from acquisitions and was allocated to our Compute & Networking reporting unit.
+10
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Note 5 - 
+Cash Equivalents and Marketable Securities

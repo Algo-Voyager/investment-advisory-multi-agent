@@ -1,0 +1,17 @@
+accession: 0001193125-26-027207
+form: 10-Q
+ticker: MSFT
+filing_date: 2026-01-28
+filing_date_int: 20260128
+section: Item 1
+---
+NOTES TO FINANCI
+AL STATEMENTS
+ 
+(Unaudited)
+ 
+ 
+NOTE 1 — ACCOUNTING POLICIES
+Accounting Principles
+ 
+Our unaudited interim consolidated financial statements and accompanying notes are prepared in accordance with accounting principles generally accepted in the United States of America. In the opinion of management, the unaudited interim consolidated financial statements reflect all adjustments of a normal recurring nature that are necessary for a fair presentation of the results for the interim periods presented. Interim results are not necessarily indicative of results for a full year. The information included in this Form 10-Q should be read in conjunction with information included in the Microsoft Corporation fiscal year 2025 Form 10-K filed with the U.S. Securities and Exchange Commission on July 30, 2025.

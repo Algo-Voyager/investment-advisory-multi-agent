@@ -1,0 +1,9 @@
+filing_date_int: 20260520
+filing_date: 2026-05-20
+section: Item 1
+ticker: NVDA
+form: 10-Q
+accession: 0001045810-26-000052
+---
+Beginning in February 2026, the U.S. government, or USG, granted licenses that allow us to ship small amounts of H200 products to specific China-based customers. To date, we have not generated any revenue under the H200 licensing program, and do not yet know whether any imports will be allowed into China. The license requires that the H200s go through an inspection process in the United States prior to any shipment to the customer. As a result, any H200 shipped under the new licensing program will be subject to a 25% tariff upon importation into the United States.
+The recent rise in high-quality, open-source foundation models is making advanced AI capabilities broadly accessible. Open-source AI is dependent on developer adoption, and if deployed on our competitors’ platforms, it could reduce demand for our products and services.

@@ -1,0 +1,8 @@
+section: Item 1
+ticker: NVDA
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+form: 10-K
+---
+We believe that computer graphics infused with AI is fundamental to the continued expansion and evolution of computing. We apply our research and development resources to enhance the user experience for consumer entertainment and professional visualization applications and create new virtual world and simulation capabilities. Our technologies are instrumental in driving the gaming, design, and creative industries forward, as developers leverage our libraries and algorithms to deliver an optimized experience on our GeForce and NVIDIA RTX platforms. Our computer graphics platforms leverage AI end-to-end, from the developer tools and cloud services to the Tensor Cores included in all RTX-class GPUs. Blackwell GPUs’ advanced AI and neural rendering capabilities combined with NVIDIA’s world-class AI software stacks significantly accelerate AI workloads running locally on PCs. Omniverse is real-time 3D design collaboration and virtual world simulation software that empowers artists,

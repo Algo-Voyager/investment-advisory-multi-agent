@@ -1,0 +1,15 @@
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+filing_date: 2026-02-25
+form: 10-K
+ticker: NVDA
+section: Item 1
+---
+© 2026 NVIDIA Corporation. All rights reserved.
+3
+Table of Contents
+Part I
+Item 1. Business
+Our Company
+NVIDIA pioneered accelerated computing to help solve the most challenging computational problems. NVIDIA is now a data center scale AI infrastructure company reshaping all industries.
+Our technology stack includes the foundational NVIDIA CUDA development platform that runs on all NVIDIA GPUs, as well as hundreds of domain-specific software libraries, frameworks, algorithms, software development kits, or SDKs, and application programming interfaces, or APIs. This deep and broad software stack accelerates the performance and facilitates the deployment of NVIDIA accelerated computing for computationally intensive workloads such as artificial intelligence, or AI, model training and inference, data analytics, scientific computing, robotics, and 3D graphics, with vertical-specific optimizations to address industries ranging from healthcare and telecom to automotive and manufacturing.

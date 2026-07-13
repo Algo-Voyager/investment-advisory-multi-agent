@@ -1,0 +1,35 @@
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+form: 10-Q
+ticker: NVDA
+filing_date: 2026-05-20
+section: Item 1
+---
+30
+ billion for which $
+6
+ billion, $
+7
+ billion, $
+7
+ billion, $
+5
+ billion, $
+3
+ billion, and $
+2
+ billion will be paid in the remainder of fiscal year 2027, each fiscal year from 2028 through 2031, and fiscal year 2032 and thereafter, respectively. Cloud service capacity may be reduced or terminated. Cloud service agreements will be primarily used to support our research and development efforts.
+Other vendor commitments were $
+6
+ billion as of April 26, 2026, of which the majority will be paid through fiscal year 2027.
+16
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Accrual for Product Warranty Liabilities
+The estimated amount of product warranty liabilities was $
+2.9
+ billion and $
+2.8
+ billion as of April 26, 2026 and January 25, 2026, respectively. 
+The estimated product returns and product warranty activity consisted of the following:

@@ -1,0 +1,41 @@
+form: 10-K
+filing_date: 2026-02-25
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+section: unknown
+ticker: NVDA
+---
+FORM 
+10-K
+ 
+ 
+For the fiscal year ended 
+January 25
+, 2026
+OR
+Commission file number: 
+0-23985
+ 
+ 
+ 
+NVIDIA CORP
+ORATION
+(Exact name of registrant as specified in its charter)
+ 
+ 
+ 
+Registrant’s telephone number, including area code: (
+408
+) 
+486-2000
+ 
+Securities registered pursuant to Section 12(b) of the Act:
+Securities registered pursuant to Section 12(g) of the Act:
+None
+Indicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act. 
+Yes
+ ☒ No ☐
+Indicate by check mark if the registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act. Yes ☐ 
+No
+ ☒
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.

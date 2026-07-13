@@ -1,0 +1,56 @@
+filing_date_int: 20260520
+section: unknown
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+form: 10-Q
+ticker: NVDA
+---
+2026-04-26
+0001045810
+nvda:ChinaIncludingHongKongMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:OtherCountriesMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:OtherCountriesMember
+2025-01-27
+2025-04-27
+0001045810
+us-gaap:NonUsMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:SalesRevenueNetMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:NonUsMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:SalesRevenueNetMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:CustomerAMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:SalesRevenueNetMember
+nvda:ComputeAndNetworkingMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:CustomerBMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:SalesRevenueNetMember
+nvda:ComputeAndNetworkingMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:CustomerCMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:SalesRevenueNetMember
+nvda:ComputeAndNetworkingMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:CustomerOneMember
+us-gaap:CustomerConcentrationRiskMember

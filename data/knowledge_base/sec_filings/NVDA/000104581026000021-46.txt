@@ -1,0 +1,9 @@
+filing_date_int: 20260225
+filing_date: 2026-02-25
+section: Item 1
+form: 10-K
+ticker: NVDA
+accession: 0001045810-26-000021
+---
+Gamers choose NVIDIA GPUs to enjoy immersive, increasingly cinematic virtual worlds. In addition to serving the growing number of gamers, the market for PC GPUs is expanding because of the growing population of live streamers, broadcasters, artists, and creators. With the advent of generative and agentic AI, we expect a broader set of PC users to choose NVIDIA GPUs for running these applications locally on their PC, which is critical for privacy, latency, and cost-sensitive AI applications.
+Professional artists, architects and designers use NVIDIA partner products accelerated with our GPUs and software platform for a range of creative, engineering, and design use cases, such as creating visual effects in movies or designing buildings and products. In addition, generative and agentic AI is expanding the market for our workstation-class GPUs, as more enterprise customers develop and deploy AI applications with their data on-premises.

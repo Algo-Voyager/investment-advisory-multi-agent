@@ -1,0 +1,10 @@
+form: 10-K
+section: Item 1
+filing_date: 2026-02-25
+filing_date_int: 20260225
+ticker: NVDA
+accession: 0001045810-26-000021
+---
+9
+Table of Contents
+In August 2022, the U.S. government, or USG, announced export restrictions and export licensing requirements targeting China’s semiconductor and supercomputing industries. These restrictions impacted exports of certain chips, as well as software, hardware, equipment and technology used to develop, produce and manufacture certain chips to China (including Hong Kong and Macau) and Russia, and specifically impact our A100 and H100 integrated circuits, DGX or any other systems or boards which incorporate A100 or H100 integrated circuits. In July 2023, the USG also informed us of an additional licensing requirement for a subset of A100 and H100 products destined to certain customers and other regions, including some countries in the Middle East.

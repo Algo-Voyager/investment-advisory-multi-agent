@@ -1,0 +1,9 @@
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+form: 10-K
+ticker: NVDA
+filing_date_int: 20260225
+section: Item 1
+---
+We have expanded our supplier relationships to build redundancy and resilience in our operations to provide long-term manufacturing capacity aligned with growing customer demand. While currently our supply chain is mainly concentrated in Asia, we are expanding into the U.S. and Latin America. We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging. We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.
+Competition

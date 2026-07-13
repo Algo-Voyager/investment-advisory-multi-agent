@@ -1,0 +1,10 @@
+section: Item 1
+form: 10-K
+accession: 0001045810-26-000021
+ticker: NVDA
+filing_date_int: 20260225
+filing_date: 2026-02-25
+---
+10
+Table of Contents
+The licensing process may not be resolved before significant business opportunities evaporate. Even if the USG grants any requested licenses, the licenses have already and may in the future be temporary, impose burdensome conditions regarding the installation, maintenance, and use of such products, or include financial or economic requirements that we or our customers or end users cannot or choose not to fulfill. The licensing requirements have already and may in the future benefit certain of our competitors, as the licensing process will make our pre-sale and post-sale technical support efforts more cumbersome and less certain and encourage customers in China, the Middle East, and other regions to pursue alternatives to our products, including semiconductor suppliers based in China, Europe, and Israel.

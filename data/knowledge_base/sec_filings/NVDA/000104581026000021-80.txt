@@ -1,0 +1,10 @@
+filing_date: 2026-02-25
+form: 10-K
+filing_date_int: 20260225
+section: Item 1
+ticker: NVDA
+accession: 0001045810-26-000021
+---
+•
+networking products consisting of switches, network adapters (including DPUs), and cable solutions (including optical modules) include such as AMD, Arista Networks, Broadcom, Cisco Systems, Inc., Hewlett Packard Enterprise Company, Huawei, Intel, Lumentum Holdings Inc., and Marvell Technology, Inc, as well as internal teams of system vendors and large cloud services companies.
+Patents and Proprietary Rights

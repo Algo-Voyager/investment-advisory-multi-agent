@@ -1,0 +1,12 @@
+filing_date: 2026-05-20
+section: Item 1
+form: 10-Q
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+---
+Non-marketable equity securities are measured based on cost minus impairment, if any, and are adjusted for observable price changes in orderly transactions for an identical or similar investment in the same issuer. Valuations of our non-
+30
+marketable equity securities are inherently complex due to the lack of readily available market data and observable transactions, and impact of macroeconomic factors.
+For a description of our equity investments, refer to Notes 5 and 6 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q, respectively.
+Foreign Exchange Rate Risk

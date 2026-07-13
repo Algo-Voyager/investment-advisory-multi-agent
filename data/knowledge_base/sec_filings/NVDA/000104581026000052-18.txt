@@ -1,0 +1,57 @@
+section: unknown
+ticker: NVDA
+filing_date_int: 20260520
+form: 10-Q
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+---
+2026-04-26
+0001045810
+nvda:A2026NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:A2026NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-01-25
+0001045810
+nvda:A2028NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-04-26
+0001045810
+nvda:A2028NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:A2028NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-01-25
+0001045810
+nvda:A2030NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-04-26
+0001045810
+nvda:A2030NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:A2030NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-01-25
+0001045810
+nvda:A2031NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-04-26
+0001045810
+nvda:A2031NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:A2031NotesMember
+us-gaap:NotesPayableOtherPayablesMember
+2026-01-25
+0001045810

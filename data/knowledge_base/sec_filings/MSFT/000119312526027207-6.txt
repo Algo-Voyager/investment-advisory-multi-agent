@@ -1,0 +1,55 @@
+filing_date: 2026-01-28
+filing_date_int: 20260128
+form: 10-Q
+ticker: MSFT
+section: unknown
+accession: 0001193125-26-027207
+---
+us-gaap:DebtSecuritiesMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:EquitySecuritiesMember
+2025-06-30
+0000789019
+us-gaap:EquityContractMember
+us-gaap:NondesignatedMember
+2025-12-31
+0000789019
+us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember
+2024-10-01
+2024-12-31
+0000789019
+us-gaap:InternalRevenueServiceIRSMember
+2025-07-01
+2025-12-31
+0000789019
+msft:OpenAIGlobalLlcMember
+2024-07-01
+2024-12-31
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:USTreasurySecuritiesMember
+us-gaap:FairValueInputsLevel1Member
+2025-12-31
+0000789019
+msft:MicrosoftThreeSixFiveConsumerProductsAndCloudServicesMember
+2025-07-01
+2025-12-31
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:CorporateDebtSecuritiesMember
+2025-06-30
+0000789019
+msft:LinkedInCorporationMember
+2025-07-01
+2025-12-31
+0000789019
+msft:AccumulatedTranslationAdjustmentAndOtherMember
+2024-06-30
+0000789019
+msft:ShareRepurchaseProgramTwentyTwentyOneMember
+2021-09-14
+0000789019
+msft:IntelligentCloudMember

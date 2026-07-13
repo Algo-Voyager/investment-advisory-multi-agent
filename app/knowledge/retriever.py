@@ -6,8 +6,14 @@ Chroma search, metadata filtering (ticker / form / date range). Agents receive
 
 Why metadata filters matter: without `ticker`, an Apple question could surface
 NVIDIA text purely by embedding similarity. Filters cut that failure mode off.
+
+Resilience (Phase 11): if Chroma is unreachable, `Fallback` drops to a keyword
+search over the on-disk mirror in `data/knowledge_base/` (populated at ingestion
+time) — dumber ranking, but citations keep flowing instead of the tool erroring.
 """
 
+from app.errors.fallback import Fallback
+from app.knowledge.keyword_fallback import keyword_search
 from app.knowledge.vector_store import VectorStore, get_vector_store
 from app.logging import get_logger
 
@@ -25,21 +31,30 @@ class Retriever:
         filters: {'ticker': 'NVDA', 'form': '10-Q',
                   'date_range': ('2025-01-01', '2026-12-31')}   # all optional
         """
-        where = self._build_where(filters or {})
-        hits = self._store.query(collection, text, k=k, where=where)
+        filters = filters or {}
+
+        def via_chroma():
+            where = self._build_where(filters)
+            hits = self._store.query(collection, text, k=k, where=where)
+            return [(h["document"], h["metadata"] or {}, h["distance"]) for h in hits]
+
+        def via_keyword():
+            log.warning("retrieval_fallback_engaged", collection=collection)
+            raw = keyword_search(text, ticker=filters.get("ticker"), collection=collection, k=k)
+            return [(doc, meta, None) for doc, meta in raw]
+
+        raw_hits = Fallback(via_chroma, via_keyword, name="retriever").run()
         results = []
-        for hit in hits:
-            meta = hit["metadata"] or {}
+        for doc, meta, distance in raw_hits:
             citation = {
                 "ticker": meta.get("ticker"),
                 "form": meta.get("form"),
                 "filing_date": meta.get("filing_date", meta.get("published")),
                 "section": meta.get("section"),
-                "distance": hit["distance"],
+                "distance": distance,
             }
-            results.append((hit["document"], citation))
-        log.info("retrieval", collection=collection, hits=len(results),
-                 filters=filters or {})
+            results.append((doc, citation))
+        log.info("retrieval", collection=collection, hits=len(results), filters=filters)
         return results
 
     @staticmethod

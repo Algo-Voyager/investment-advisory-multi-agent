@@ -1,0 +1,11 @@
+filing_date_int: 20260225
+form: 10-K
+section: Item 1
+ticker: NVDA
+filing_date: 2026-02-25
+accession: 0001045810-26-000021
+---
+Our customers include all major public and private cloud providers, AI model makers, enterprises and startups, and public sector entities. We work with industry leaders to help build or transform their applications and data center infrastructure. Some of our direct customers include original equipment manufacturers, or OEMs, original device manufacturers, or 
+5
+Table of Contents
+ODMs, system integrators and distributors which we partner with to help bring our products to market. We also have partnerships in automotive, healthcare, financial services, manufacturing, retail, and technology among others, to accelerate the adoption of AI.

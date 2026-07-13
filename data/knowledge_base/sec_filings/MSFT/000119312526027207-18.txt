@@ -1,0 +1,59 @@
+filing_date_int: 20260128
+accession: 0001193125-26-027207
+ticker: MSFT
+filing_date: 2026-01-28
+section: unknown
+form: 10-Q
+---
+0000789019
+msft:AccumulatedTranslationAdjustmentAndOtherMember
+2024-09-30
+0000789019
+msft:WindowsAndDevicesMember
+2025-10-01
+2025-12-31
+0000789019
+msft:LinkedInCorporationMember
+2024-07-01
+2024-12-31
+0000789019
+msft:O2026Q1DividendsMember
+2025-07-01
+2025-09-30
+0000789019
+us-gaap:DebtSecuritiesMember
+2025-10-01
+2025-12-31
+0000789019
+us-gaap:ProductMember
+2025-07-01
+2025-12-31
+0000789019
+msft:ProductivityAndBusinessProcessesMember
+2024-10-01
+2024-12-31
+0000789019
+msft:DynamicsProductsAndCloudServicesMember
+2025-10-01
+2025-12-31
+0000789019
+us-gaap:DebtSecuritiesMember
+2025-12-31
+0000789019
+msft:MicrosoftThreeSixFiveCommercialProductsAndCloudServicesMember
+2024-10-01
+2024-12-31
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtThirteenMember
+2025-12-31
+0000789019
+us-gaap:NondesignatedMember
+us-gaap:ForeignExchangeContractMember
+2025-06-30
+0000789019
+us-gaap:AssetBackedSecuritiesMember
+2025-06-30
+0000789019
+us-gaap:OtherContractMember
+us-gaap:NonoperatingIncomeExpenseMember

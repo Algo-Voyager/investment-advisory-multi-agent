@@ -1,0 +1,18 @@
+form: 10-K
+section: Item 1A
+filing_date: 2026-02-25
+ticker: NVDA
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+---
+Item 1A. Risk Factors
+The following risk factors should be considered in addition to the other information in this Annual Report on Form 10-K. The following risks could harm our business, financial condition, results of operations or reputation, which could cause our stock price to decline. Additional risks, trends and uncertainties not presently known to us or that we currently believe are immaterial may also harm our business, financial condition, results of operations or reputation.
+Risk Factors Summary
+Risks Related to Our Industry and Markets
+•
+Failure to meet the evolving needs of our industry and markets may adversely impact our financial results.
+•
+Competition could adversely impact our market share and financial results.
+Risks Related to Demand, Supply, and Manufacturing
+•
+Long manufacturing lead times and uncertain supply and capacity availability, combined with a failure to estimate customer demand accurately has led and could lead to mismatches between supply and demand.

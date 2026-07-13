@@ -1,0 +1,11 @@
+section: Item 1
+form: 10-K
+ticker: NVDA
+filing_date: 2026-02-25
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+---
+All major cloud service providers, or CSPs, AI model makers, and enterprises use our data center-scale infrastructure and computing platforms to accelerate the services and offerings they deliver to billions of end users and customers, including AI solutions and assistants, AI foundation models, advertising, search, recommendation systems, social 
+4
+Table of Contents
+networking, data processing, online shopping, live video, and translation. AI model makers use our infrastructure and software hosted at CSPs to develop, build and run AI models, product offerings, and services.

@@ -1,0 +1,56 @@
+accession: 0001193125-26-191507
+form: 10-Q
+filing_date_int: 20260429
+ticker: MSFT
+section: unknown
+filing_date: 2026-04-29
+---
+2026-03-31
+0000789019
+us-gaap:OtherNoncurrentLiabilitiesMember
+2026-03-31
+0000789019
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-01-01
+2025-03-31
+0000789019
+msft:O2025Q3DividendsMember
+2025-01-01
+2025-03-31
+0000789019
+msft:MicrosoftThreeSixFiveCommercialProductsAndCloudServicesMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:DesignatedAsHedgingInstrumentMember
+us-gaap:ForeignExchangeContractMember
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtThirteenMember
+srt:MaximumMember
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtSevenMember
+2026-03-31
+0000789019
+msft:LinkedInCorporationMember
+2024-07-01
+2025-03-31
+0000789019
+2024-06-30
+0000789019
+2024-12-31
+0000789019
+us-gaap:NonoperatingIncomeExpenseMember
+us-gaap:ForeignExchangeContractMember
+us-gaap:CashFlowHedgingMember
+2025-01-01
+2025-03-31
+0000789019
+msft:IssuanceOfLongTermDebtThirteenMember
+2025-06-30
+0000789019
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-01-01
+2025-03-31
+0000789019

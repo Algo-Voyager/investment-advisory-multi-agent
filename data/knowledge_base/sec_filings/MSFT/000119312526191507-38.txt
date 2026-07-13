@@ -1,0 +1,51 @@
+accession: 0001193125-26-191507
+form: 10-Q
+filing_date_int: 20260429
+ticker: MSFT
+section: unknown
+filing_date: 2026-04-29
+---
+us-gaap:CommonStockMember
+2025-07-01
+2026-03-31
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtElevenMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+us-gaap:NonoperatingIncomeExpenseMember
+2025-01-01
+2025-03-31
+0000789019
+us-gaap:RevenueCommissionersIrelandMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:TechnologyBasedIntangibleAssetsMember
+2025-06-30
+0000789019
+msft:IssuanceOfLongTermDebtElevenMember
+2026-03-31
+0000789019
+msft:AccumulatedTranslationAdjustmentAndOtherMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:NonoperatingIncomeExpenseMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-01-01
+2025-03-31
+0000789019
+us-gaap:DesignatedAsHedgingInstrumentMember
+us-gaap:LongMember
+us-gaap:ForeignExchangeContractMember
+2026-03-31
+iso4217:EUR
+xbrli:pure
+msft:Segment
+xbrli:shares
+iso4217:USD
+xbrli:shares
+iso4217:USD

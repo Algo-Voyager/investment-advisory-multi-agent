@@ -1,0 +1,20 @@
+ticker: MSFT
+form: 10-Q
+accession: 0001193125-26-027207
+filing_date_int: 20260128
+filing_date: 2026-01-28
+section: Item 1
+---
+NOTE 16 — SEGMENT INFORMATION AND GEOGRAPHIC DATA
+In its operation of the business, management, including our chief operating decision maker (“CODM”), who is also our 
+Chief Executive Officer
+, reviews certain financial information, including segmented internal profit and loss statements. The primary profitability measure used by the CODM to review segment operating results is operating income. 
+The CODM uses operating income to allocate resources during our annual planning process and throughout the year, as well as to assess the performance of our segments, primarily by monitoring actual results compared to prior periods and expected results.
+ During the periods presented, we reported our financial performance based on the following 
+segments
+: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.
+
+25
+
+PART I
+Item 1

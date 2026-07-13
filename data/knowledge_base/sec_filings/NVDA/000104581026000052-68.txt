@@ -1,0 +1,11 @@
+filing_date_int: 20260520
+form: 10-Q
+ticker: NVDA
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+section: Item 1
+---
+The Graphics segment includes GeForce GPUs for gaming and PCs, and Quadro/NVIDIA RTX GPUs for enterprise workstation graphics.
+Certain expenses are not allocated to either Compute & Networking or Graphics for purposes of making operating decisions or assessing financial performance. The expenses include stock-based compensation expense, corporate infrastructure and support costs, acquisition-related and other costs, and other non-recurring charges and benefits that our CODM deems to be enterprise in nature.
+Our CODM does not review any information regarding total assets on a reportable segment basis. There are no intersegment transactions. The accounting policies for segment reporting are the same as for our consolidated financial statements. 
+The table below presents details of our reportable segments.

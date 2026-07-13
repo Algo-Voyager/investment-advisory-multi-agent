@@ -1,0 +1,19 @@
+ticker: NVDA
+section: Item 1A
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+form: 10-K
+filing_date: 2026-02-25
+---
+•
+Modification or interruption of our business processes and information systems may disrupt our business and internal controls. 
+•
+Our operating results have in the past fluctuated and may in the future fluctuate, and if our operating results are below the expectations of securities analysts or investors, our stock price could decline. 
+Risks Related to Regulatory, Legal, Our Stock, and Other Matters
+•
+We are subject to complex laws, rules, regulations, and political and other actions, including restrictions on the export of our products, which may adversely impact our business. 
+•
+Scrutiny regarding our corporate sustainability practices could result in financial, reputational, or operational harm and liability. 
+•
+Issues relating to the responsible use of our technologies, including AI, may result in reputational or financial harm and liability. 
+•

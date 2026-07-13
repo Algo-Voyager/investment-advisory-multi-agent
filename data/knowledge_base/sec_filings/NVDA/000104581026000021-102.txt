@@ -1,0 +1,8 @@
+filing_date: 2026-02-25
+ticker: NVDA
+accession: 0001045810-26-000021
+form: 10-K
+filing_date_int: 20260225
+section: Item 1A
+---
+a semiconductor company, where she held a variety of finance positions. Ms. Kress holds a B.S. degree in Finance from University of Arizona and an M.B.A. degree from Southern Methodist University.

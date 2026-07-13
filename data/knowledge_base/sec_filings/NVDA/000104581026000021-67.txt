@@ -1,0 +1,12 @@
+filing_date_int: 20260225
+form: 10-K
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+section: Item 1
+ticker: NVDA
+---
+7
+Table of Contents
+Leveraging our intellectual property, or IP.
+ We believe our IP is a valuable asset that can be accessed by our customers and partners through license and development agreements when they desire to build such capabilities directly into their own products or have us do so through a custom development. Such license and development arrangements can further enhance the reach of our technology.
+Sales and Marketing

@@ -1,0 +1,10 @@
+ticker: MSFT
+section: Item 2
+filing_date: 2026-04-29
+filing_date_int: 20260429
+form: 10-Q
+accession: 0001193125-26-191507
+---
+ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF
+ FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+Note About Forward-Looking Statements

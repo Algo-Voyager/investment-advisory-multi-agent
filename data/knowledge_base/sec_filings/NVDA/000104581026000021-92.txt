@@ -1,0 +1,10 @@
+section: Item 1
+form: 10-K
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+ticker: NVDA
+filing_date_int: 20260225
+---
+Our competitive position has been harmed by export controls, and our competitive position and future results will be further harmed, over the long term, if the restrictions remain in place or are expanded in geographic, customer, or product scope, if customers purchase product from competitors, if customers develop their own internal solution, if we are unable to provide contractual warranty or other extended service obligations, if the USG does not grant licenses in a timely manner or denies licenses to significant customers or if we incur significant transition costs. 
+10
+Table of Contents

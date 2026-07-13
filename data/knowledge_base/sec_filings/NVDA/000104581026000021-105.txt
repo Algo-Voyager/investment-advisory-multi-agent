@@ -1,0 +1,10 @@
+filing_date: 2026-02-25
+ticker: NVDA
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+section: Item 1A
+form: 10-K
+---
+Timothy S. Teter 
+joined NVIDIA in 2017 as Senior Vice President, General Counsel and Secretary and became Executive Vice President, General Counsel and Secretary in February 2018. Prior to NVIDIA, Mr. Teter spent more than two decades at the law firm of Cooley LLP, where he focused on litigating patent and technology related matters. Prior to attending law school, he worked as an engineer at Lockheed Missiles and Space Company, an aerospace company. Mr. Teter holds a B.S. degree in Mechanical Engineering from the University of California at Davis and a J.D. degree from Stanford Law School.
+Available Information

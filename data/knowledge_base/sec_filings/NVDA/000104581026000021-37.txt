@@ -1,0 +1,8 @@
+section: Item 1
+filing_date_int: 20260225
+form: 10-K
+ticker: NVDA
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+---
+The GPU was initially used to simulate human imagination, enabling the virtual worlds of video games and films. Today, it also simulates human intelligence, enabling a deeper understanding of language, science, and the physical world. Its parallel processing capabilities, supported by tens of thousands of computing cores, are essential for deep learning algorithms. This form of AI, in which software writes itself by learning from large amounts of data, can serve as the brain of computers, robots, and self-driving cars that can perceive, understand and reason about the world. GPU-powered AI solutions are being developed by thousands of enterprises to deliver services and products that would have been immensely difficult or even impossible with traditional coding. Examples include generative AI, which can create new content such as text, code, images, audio, video, molecule structures, and recommendation systems; and agentic AI where systems of AI models work in concert to automatically

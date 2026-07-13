@@ -1,0 +1,27 @@
+filing_date: 2026-01-28
+section: Item 1
+ticker: MSFT
+form: 10-Q
+accession: 0001193125-26-027207
+filing_date_int: 20260128
+---
+14
+
+PART I
+Item 1
+ 
+
+Unrealized Losses on Debt Investments
+ 
+Debt investments with continuous unrealized losses for less than 12 months and 12 months or greater and their related fair values were as follows:
+ 
+ 
+
+ 
+
+ 
+Unrealized losses from fixed-income securities are primarily attributable to changes in interest rates. Management does not believe any remaining unrealized losses represent impairments based on our evaluation of available evidence.
+ 
+Debt Investment Maturities
+ 
+The following table outlines maturities of our debt investments as of December 31, 2025:

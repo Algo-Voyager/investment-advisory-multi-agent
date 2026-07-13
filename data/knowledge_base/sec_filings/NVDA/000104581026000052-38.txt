@@ -1,0 +1,22 @@
+form: 10-Q
+section: Item 1
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+filing_date_int: 20260520
+---
+Publicly-held equity securities are subject to market price volatility. Net unrealized gains on investments in publicly-held equity securities held at period end were $
+13.4
+ billion for the first quarter of fiscal year 2027. Net unrealized losses on investments in publicly-held equity securities held at period end were $
+222
+ million for the first quarter of fiscal year 2026. Unrealized gains and losses are recognized in Other income (expense), net, in the Condensed Consolidated Statements of Income.
+11
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+(1) The balance as of January 25, 2026 included $
+10.5
+ billion of investments that are subject to short-term lock-up restrictions on the ability to sell.
+(2) The long-term portion of publicly-held equity securities, which are subject to lock-up restrictions through December 2027 of $
+4.8
+ billion as of January 25, 2026, was included in Other assets.

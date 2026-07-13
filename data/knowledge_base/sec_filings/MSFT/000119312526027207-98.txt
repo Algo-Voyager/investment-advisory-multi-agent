@@ -1,0 +1,20 @@
+filing_date_int: 20260128
+accession: 0001193125-26-027207
+ticker: MSFT
+section: Item 1
+form: 10-Q
+filing_date: 2026-01-28
+---
+26
+
+PART I
+Item 1
+ 
+
+In addition, certain costs are incurred at a corporate level and allocated to our segments. These allocated costs generally include legal, including settlements and fines, information technology, human resources, finance, excise taxes, field selling, shared facilities services, customer service and support, and severance incurred as part of a corporate program. Each allocation is measured differently based on the specific facts and circumstances of the costs being allocated and is generally based on relative gross margin or relative headcount.
+Segment revenue, cost of revenue, operating expenses, and operating income were as follows during the periods presented:
+ 
+
+ 
+No sales to an individual customer or country other than the United States accounted for more than 10% of revenue for the three or six months ended December 31, 2025 or 2024. 
+Revenue, classified by the major geographic areas in which our customers were located, was as follows:

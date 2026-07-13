@@ -1,0 +1,62 @@
+filing_date: 2026-04-29
+section: unknown
+form: 10-Q
+filing_date_int: 20260429
+ticker: MSFT
+accession: 0001193125-26-191507
+---
+2025-07-01
+2026-03-31
+0000789019
+msft:ProductivityAndBusinessProcessesMember
+2026-03-31
+0000789019
+msft:GamingMember
+2025-01-01
+2025-03-31
+0000789019
+us-gaap:RetainedEarningsMember
+2026-01-01
+2026-03-31
+0000789019
+us-gaap:OtherCurrentLiabilitiesMember
+2026-03-31
+0000789019
+us-gaap:CashMember
+2026-03-31
+0000789019
+us-gaap:ForeignExchangeContractMember
+us-gaap:CashFlowHedgingMember
+2026-01-01
+2026-03-31
+0000789019
+us-gaap:DebtSecuritiesMember
+2024-07-01
+2025-03-31
+0000789019
+msft:IssuanceOfLongTermDebtTenMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:EquityContractMember
+us-gaap:NonoperatingIncomeExpenseMember
+2026-01-01
+2026-03-31
+0000789019
+msft:MicrosoftThreeSixFiveCommercialProductsAndCloudServicesMember
+2024-07-01
+2025-03-31
+0000789019
+msft:NotesTwoPointSixTwoFivePercentDueMayTwoTwentyThirtyThreeMember
+2025-07-01
+2026-03-31
+0000789019
+msft:LongTermInvestmentsMember
+2026-03-31
+0000789019
+msft:OperatingLeaseLiabilitiesMember
+2026-03-31
+0000789019
+2025-07-01
+2026-03-31
+0000789019

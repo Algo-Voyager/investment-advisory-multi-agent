@@ -1,0 +1,8 @@
+form: 10-K
+section: Item 1
+filing_date: 2026-02-25
+filing_date_int: 20260225
+ticker: NVDA
+accession: 0001045810-26-000021
+---
+In October 2023, the USG announced new and updated licensing requirements for exports to China and Country Groups D:1, D:4, and D:5 (including but not limited to Saudi Arabia, the United Arab Emirates, and Vietnam, but excluding Israel) of our products exceeding certain performance thresholds, including, but not limited to, the A100, A800, H100, H800, L4, L40, L40S RTX 4090, GB200 NVL72, and B200. The licensing requirements also apply to the export of products exceeding certain performance thresholds to a party headquartered in, or with an ultimate parent headquartered in, Country Group D5, including China.

@@ -1,0 +1,9 @@
+section: Item 2
+filing_date: 2026-04-29
+form: 10-Q
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+ticker: MSFT
+---
+Industry Trends and Opportunities
+Our industry is dynamic and highly competitive, with frequent changes in both technologies and business models. Each industry shift is an opportunity to conceive new products, new technologies, or new ideas that can further transform the industry and our business. At Microsoft, we push the boundaries of what is possible through a broad range of research and development activities that seek to identify and address the changing demands of customers and users, industry trends, and competitive forces.

@@ -1,0 +1,14 @@
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+filing_date_int: 20260225
+form: 10-K
+section: Item 1A
+ticker: NVDA
+---
+The following sets forth certain information regarding our executive officers, their ages, and positions as of February 20, 2026:
+Jen-Hsun Huang 
+co-founded NVIDIA in 1993 and has served as our President, Chief Executive Officer, and a member of the Board of Directors since our inception. From 1985 to 1993, Mr. Huang was employed at LSI Logic Corporation, a computer chip manufacturer, where he held a variety of positions including as Director of Coreware, the business unit responsible for LSI's SOC. From 1983 to 1985, Mr. Huang was a microprocessor designer for AMD, a semiconductor 
+11
+Table of Contents
+company. Mr. Huang holds a B.S.E.E. degree from Oregon State University and an M.S.E.E. degree from Stanford University.
+Colette M. Kress

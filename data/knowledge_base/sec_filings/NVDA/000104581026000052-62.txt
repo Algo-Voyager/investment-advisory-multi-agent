@@ -1,0 +1,9 @@
+filing_date: 2026-05-20
+section: Item 1
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+ticker: NVDA
+form: 10-Q
+---
+Another putative derivative action was filed on October 30, 2023 in the Court of Chancery of the State of Delaware, captioned Horanic v. Huang, et al. (Case No. 2023-1096-KSJM). This lawsuit asserts claims, purportedly on behalf of us, against certain officers and directors of the Company for breach of fiduciary duty and insider trading based on the dissemination of allegedly false and misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand. The plaintiffs seek unspecified damages and other relief, including disgorgement of profits from the sale of NVIDIA stock and reform of unspecified corporate governance measures. On August 11, 2025, the court granted the parties’ stipulation to voluntarily dismiss with prejudice plaintiff City of Westland Police and Fire Retirement System. This derivative matter is stayed pending the final resolution of In Re NVIDIA Corporation Securities Litigation action.
+Accounting for Loss Contingencies

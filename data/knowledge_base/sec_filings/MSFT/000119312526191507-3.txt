@@ -1,0 +1,59 @@
+accession: 0001193125-26-191507
+section: unknown
+ticker: MSFT
+filing_date_int: 20260429
+form: 10-Q
+filing_date: 2026-04-29
+---
+2026-01-01
+2026-03-31
+0000789019
+us-gaap:RetainedEarningsMember
+2025-03-31
+0000789019
+msft:CommercialCustomersMember
+2026-03-31
+0000789019
+country:US
+2026-01-01
+2026-03-31
+0000789019
+msft:ShareRepurchaseProgramTwentyTwentyFourMember
+2026-01-01
+2026-03-31
+0000789019
+2025-07-01
+2025-09-30
+0000789019
+us-gaap:NonoperatingIncomeExpenseMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-07-01
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtElevenMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember
+2026-01-01
+2026-03-31
+0000789019
+us-gaap:ProductMember
+2026-01-01
+2026-03-31
+0000789019
+us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtTwelveMember
+srt:MinimumMember
+2026-03-31
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtSixMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+2025-12-31
+0000789019

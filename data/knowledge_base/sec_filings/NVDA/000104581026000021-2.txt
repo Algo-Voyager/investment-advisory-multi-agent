@@ -1,0 +1,66 @@
+form: 10-K
+filing_date: 2026-02-25
+ticker: NVDA
+section: unknown
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+---
+2024-01-29
+2025-01-26
+0001045810
+us-gaap:CommonStockMember
+2025-01-26
+0001045810
+us-gaap:AdditionalPaidInCapitalMember
+2025-01-26
+0001045810
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-01-26
+0001045810
+us-gaap:RetainedEarningsMember
+2025-01-26
+0001045810
+us-gaap:RetainedEarningsMember
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:CommonStockMember
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:AdditionalPaidInCapitalMember
+2025-01-27
+2026-01-25
+0001045810
+us-gaap:CommonStockMember
+2026-01-25
+0001045810
+us-gaap:AdditionalPaidInCapitalMember
+2026-01-25
+0001045810
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-01-25
+0001045810
+us-gaap:RetainedEarningsMember
+2026-01-25
+0001045810
+srt:MinimumMember
+2025-01-27
+2026-01-25
+0001045810
+srt:MaximumMember
+2025-01-27
+2026-01-25
+0001045810
+srt:MinimumMember
+2026-01-25
+0001045810
+srt:MaximumMember
+2026-01-25
+0001045810
+us-gaap:BuildingMember
+2026-01-25

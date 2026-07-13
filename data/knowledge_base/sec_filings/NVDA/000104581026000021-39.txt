@@ -1,0 +1,8 @@
+accession: 0001045810-26-000021
+section: Item 1
+ticker: NVDA
+filing_date: 2026-02-25
+form: 10-K
+filing_date_int: 20260225
+---
+NVIDIA has a platform strategy, bringing together hardware, systems, software, algorithms, libraries, AI models and training data sets, and services to create unique value for the markets we serve. While the computing requirements of these end markets are diverse, we address them with a unified underlying programmable architecture allowing us to support several multi-billion-dollar end markets with the same underlying technology by using a variety of software stacks developed either internally or by third-party developers and partners. The large and growing number of developers and installed base across our platforms strengthens our ecosystem and increases the value of our platform for our customers.

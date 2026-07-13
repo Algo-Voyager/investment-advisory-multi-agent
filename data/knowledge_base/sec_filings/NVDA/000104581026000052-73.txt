@@ -1,0 +1,34 @@
+section: Item 1
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+form: 10-Q
+filing_date: 2026-05-20
+---
+Between the second quarter of fiscal year 2027 and fiscal year 2033, we expect to commence leases with future obligations of $
+32.4
+ billion, primarily for data center leases to support our research and development efforts, with lease terms of 
+3
+ to 
+20
+ years.
+Operating lease costs were $
+171
+ million and $
+101
+ million for the first quarter of fiscal years 2027 and 2026, respectively. Short-term, variable, and finance lease costs for the first quarter of fiscal years 2027 and 2026 were not significant.
+Other information related to leases was as follows:
+21
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+As of April 26, 2026, our operating leases have a weighted average remaining lease term of 
+10.4
+ years and a weighted average discount rate of 
+4.61
+%. As of January 25, 2026, our operating leases had a weighted average remaining lease term of 
+8.8
+ years and a weighted average discount rate of 
+4.38
+%.
+22

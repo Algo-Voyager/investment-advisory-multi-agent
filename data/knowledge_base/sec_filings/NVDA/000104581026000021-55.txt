@@ -1,0 +1,11 @@
+accession: 0001045810-26-000021
+form: 10-K
+section: Item 1
+ticker: NVDA
+filing_date_int: 20260225
+filing_date: 2026-02-25
+---
+Professional Visualization
+We serve the Professional Visualization market by working closely with independent software vendors, or ISVs, to optimize their offerings for NVIDIA GPUs. Our GPU computing platform enhances productivity and introduces new capabilities for critical workflows in many fields, such as design, engineering, and digital content creation across a wide range of industry verticals. Additionally, the increasing number of generative and agentic AI applications is giving rise to the need for the enhanced AI and data processing capabilities of our RTX PRO GPUs.
+Many leading 3D design and content creation applications developed by our ecosystem partners support RTX, allowing professionals to accelerate and transform their workflows with NVIDIA RTX PRO GPUs and software. As these applications increasingly integrate AI, these GPUs are used and leverage the same Tensor Core technology found in our Data Center solutions. 
+Automotive

@@ -1,0 +1,16 @@
+filing_date_int: 20260128
+form: 10-Q
+section: unknown
+accession: 0001193125-26-027207
+filing_date: 2026-01-28
+ticker: MSFT
+---
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. 
+Yes
+ ☒ No 
+ ☐
+ 
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). 
+Yes
+ ☒ No 
+☐

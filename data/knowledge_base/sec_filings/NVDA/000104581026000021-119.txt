@@ -1,0 +1,12 @@
+accession: 0001045810-26-000021
+section: Item 1A
+ticker: NVDA
+form: 10-K
+filing_date_int: 20260225
+filing_date: 2026-02-25
+---
+14
+Table of Contents
+foundry capacity and scarce input materials during a supply-constrained environment, which could harm our business. Some of our customers have in-house expertise and internal development capabilities similar to some of ours and can use or develop their own solutions to replace those we are providing. For example, others may offer cloud-based services that compete with our AI cloud service offerings, and we may not be able to establish market share sufficient to achieve the scale necessary to meet our business objectives. If we are unable to successfully compete in this environment, demand for our products, services and technologies could decrease, which may negatively impact our business.
+Risks Related to Demand, Supply, and Manufacturing
+Long manufacturing lead times and uncertain supply and capacity availability, combined with a failure to estimate customer demand accurately, has led and could lead to mismatches between supply and demand.

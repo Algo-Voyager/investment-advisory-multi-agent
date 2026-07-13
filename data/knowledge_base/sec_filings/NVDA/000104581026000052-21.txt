@@ -1,0 +1,72 @@
+filing_date_int: 20260520
+filing_date: 2026-05-20
+ticker: NVDA
+section: unknown
+form: 10-Q
+accession: 0001045810-26-000052
+---
+nvda:ComputeAndNetworkingSegmentMember
+2025-01-27
+2025-04-27
+0001045810
+us-gaap:OperatingSegmentsMember
+nvda:GraphicsSegmentMember
+2025-01-27
+2025-04-27
+0001045810
+us-gaap:OperatingSegmentsMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:ComputeAndNetworkingSegmentMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:ComputeAndNetworkingSegmentMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:GraphicsSegmentMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:GraphicsSegmentMember
+2025-01-27
+2025-04-27
+0001045810
+us-gaap:CorporateNonSegmentMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:CorporateNonSegmentMember
+2025-01-27
+2025-04-27
+0001045810
+country:US
+2026-01-26
+2026-04-26
+0001045810
+country:US
+2025-01-27
+2025-04-27
+0001045810
+country:TW
+2026-01-26
+2026-04-26
+0001045810
+country:TW
+2025-01-27
+2025-04-27
+0001045810
+nvda:ChinaIncludingHongKongMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:ChinaIncludingHongKongMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:OtherCountriesMember
+2026-01-26
+2026-04-26
+0001045810

@@ -1,0 +1,18 @@
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+ticker: NVDA
+section: unknown
+form: 10-K
+---
+The number of shares of common stock outstanding as of February 20, 2026 was 
+24.3
+ billion.
+DOCUMENTS INCORPORATED BY REFERENCE
+Portions of the registrant's Proxy Statement for its 2026 Annual Meeting of Shareholders to be filed with the Securities and Exchange Commission pursuant to Regulation 14A not later than 120 days after the end of the fiscal year covered by this Annual Report on Form 10-K are incorporated by reference into Part III, Items 10-14 of this Annual Report on Form 10-K.
+Table of Contents
+NVIDIA Corporation
+Table of Contents
+2
+Table of Contents
+Where You Can Find More Information

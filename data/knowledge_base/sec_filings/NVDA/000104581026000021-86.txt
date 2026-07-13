@@ -1,0 +1,9 @@
+section: Item 1
+form: 10-K
+accession: 0001045810-26-000021
+ticker: NVDA
+filing_date: 2026-02-25
+filing_date_int: 20260225
+---
+In April 2025, the USG informed us that it requires a license for export to China (including Hong Kong and Macau) and D:5 countries, or to companies headquartered or with an ultimate parent therein, of our H20 integrated circuits and any other circuits achieving the H20’s memory bandwidth, interconnect bandwidth, or combination thereof. As a result of these requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 products diminished.
+In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. USG officials expressed an expectation that the USG will receive 15% or more of the revenue generated from licensed sales of our products, but the USG did not publish a regulation codifying such requirement.

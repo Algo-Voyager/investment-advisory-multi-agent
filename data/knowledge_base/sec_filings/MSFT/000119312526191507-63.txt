@@ -1,0 +1,19 @@
+filing_date_int: 20260429
+accession: 0001193125-26-191507
+section: Item 1
+form: 10-Q
+ticker: MSFT
+filing_date: 2026-04-29
+---
+2.8
+ billion included in short-term investments and $
+8.7
+ billion included in equity and other investments in our consolidated balance sheet.
+We record financing receivables when we offer certain customers the option to acquire our software products and services offerings through a financing program in a limited number of countries. As of March 31
+, 2026 and June 30, 2025, our financing receivables, net were $
+2.6
+ billion and $
+4.3
+ billion, respectively, for short-term and long-term financing receivables, which are included in other current assets and other long-term assets in our consolidated balance sheets.
+ 
+We record an allowance for doubtful accounts which reflects our best estimate of credit losses inherent in the accounts receivable and financing receivable balances. We determine the allowance based on known troubled accounts, historical experience, and other currently available evidence.

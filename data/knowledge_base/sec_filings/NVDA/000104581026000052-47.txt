@@ -1,0 +1,14 @@
+form: 10-Q
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+ticker: NVDA
+section: Item 1
+filing_date_int: 20260520
+---
+We also entered into foreign currency forward contracts to mitigate the impact of foreign currency movements on monetary assets and liabilities. For our foreign currency contracts for assets and liabilities, the change in fair value of these non-designated contracts was recorded in Other income or expense and offsets the change in fair value of the hedged foreign currency denominated monetary assets and liabilities, which was also recorded in Other income (expense), net.
+The table below presents the notional value of our foreign currency contracts outstanding:
+The fair values of our foreign currency contracts were not significant as of April 26, 2026 and January 25, 2026.
+As of April 26, 2026, all foreign currency contracts mature within 
+18
+ months. The expected realized gains and losses deferred into Accumulated other comprehensive income or loss related to foreign currency forward contracts within the next twelve months were not significant.
+Facility Lease Guarantee

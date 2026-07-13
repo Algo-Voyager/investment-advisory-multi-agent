@@ -1,0 +1,9 @@
+filing_date: 2026-02-25
+ticker: NVDA
+accession: 0001045810-26-000021
+filing_date_int: 20260225
+section: Item 1
+form: 10-K
+---
+Sales and Marketing
+Our worldwide sales and marketing strategy is key to achieving our objective of providing markets with our high-performance and efficient computing platforms and software. Our sales and marketing teams, located across our global markets, work closely with customers and various industry ecosystems through our partner network. Our partner network incorporates global, regional and specialized CSPs, OEMs, ODMs, ISVs, global system integrators, add-in board manufacturers, or AIBs, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants.

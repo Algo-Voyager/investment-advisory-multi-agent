@@ -1,0 +1,13 @@
+filing_date_int: 20260520
+section: Item 1
+ticker: NVDA
+form: 10-Q
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+---
+The payment of future cash dividends is subject to our Board of Directors' continuing determination that the declaration of dividends is in the best interests of our shareholders.
+The U.S. Inflation Reduction Act of 2022 requires a 1% excise tax on certain share repurchases in excess of shares issued for employee compensation made after December 31, 2022. The excise tax is included in our share repurchase cost and was not significant for the first quarter of fiscal year 2027.
+29
+Outstanding Indebtedness and Commercial Paper Program
+Our aggregate debt maturities as of April 26, 2026, by year payable, were as follows:
+We have a commercial paper program to support general corporate purposes, pursuant to which we may issue unsecured paper notes, from time to time or all at once, up to $25.0 billion. As of April 26, 2026, no commercial paper was outstanding.

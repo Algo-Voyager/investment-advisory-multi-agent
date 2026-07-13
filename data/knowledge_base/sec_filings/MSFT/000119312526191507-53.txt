@@ -1,0 +1,10 @@
+form: 10-Q
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+ticker: MSFT
+filing_date: 2026-04-29
+section: Item 1
+---
+Investments that are considered variable interest entities (“VIEs”) are evaluated to determine whether we are the primary beneficiary of the VIE, in which case we would be required to consolidate the entity. We evaluate whether we have (1) the power to direct the activities that most significantly impact the VIE’s economic performance, and (2) the obligation to absorb losses or the right to receive benefits from the VIE that could potentially be significant to the VIE. We have determined we are not the primary beneficiary of any of our VIE investments. Therefore, our VIE investments are not consolidated and the majority are accounted for under the equity method of accounting.
+ 
+We have a long-term strategic partnership with OpenAI. In October 2025, we signed a new definitive agreement with OpenAI that extends this partnership. Additionally, OpenAI formed a public benefit corporation and completed a recapitalization (“OpenAI Recapitalization”). We have an investment of approximately

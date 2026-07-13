@@ -1,0 +1,33 @@
+form: 10-Q
+ticker: MSFT
+accession: 0001193125-26-027207
+filing_date: 2026-01-28
+section: unknown
+filing_date_int: 20260128
+---
+--06-30
+0000789019
+Q2
+false
+2026
+http://fasb.org/us-gaap/2025#DerivativeAssets
+http://fasb.org/us-gaap/2025#DerivativeAssets
+http://fasb.org/us-gaap/2025#DerivativeLiabilities
+http://fasb.org/us-gaap/2025#DerivativeLiabilities
+http://fasb.org/us-gaap/2025#ShortTermInvestments
+http://fasb.org/us-gaap/2025#ShortTermInvestments
+http://fasb.org/us-gaap/2025#OtherAssetsCurrent
+http://fasb.org/us-gaap/2025#OtherAssetsCurrent
+http://fasb.org/us-gaap/2025#LongTermInvestments
+http://fasb.org/us-gaap/2025#LongTermInvestments
+http://fasb.org/us-gaap/2025#OtherAssetsNoncurrent
+http://fasb.org/us-gaap/2025#OtherAssetsNoncurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesCurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesCurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+2014 2015 2016 2017
+2004 2005 2006 2007 2008 2009 2010 2011 2012 2013
+2021 2022 2023 2024 2025
+http://fasb.org/srt/2025#ChiefExecutiveOfficerMember
+3

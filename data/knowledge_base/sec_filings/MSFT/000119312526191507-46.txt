@@ -1,0 +1,8 @@
+filing_date: 2026-04-29
+filing_date_int: 20260429
+section: Item 1
+ticker: MSFT
+accession: 0001193125-26-191507
+form: 10-Q
+---
+Preparing financial statements requires management to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenue, and expenses. Examples of estimates and assumptions include: for revenue recognition, determining the nature and timing of satisfaction of performance obligations, and determining the standalone selling price of performance obligations, variable consideration, and other obligations such as product returns and refunds; loss contingencies; the fair value of and/or potential impairment of goodwill and intangible assets for our reporting units; product life cycles; useful lives of our tangible and intangible assets; allowances for doubtful accounts; stock-based compensation forfeiture rates; when technological feasibility is achieved for our products; the potential outcome of uncertain tax positions that have been recognized in our consolidated financial statements or tax returns; and determining the timing and amount of impairments for

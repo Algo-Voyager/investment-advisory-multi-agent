@@ -1,0 +1,17 @@
+ticker: MSFT
+filing_date: 2026-04-29
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+form: 10-Q
+section: Item 1
+---
+•
+Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Nuance professional services, Microsoft Partner Network, and Learning Experience.
+More Personal Computing
+Our More Personal Computing segment consists of products and services that put customers at the center of the experience with our technology. This segment primarily comprises:
+•
+Windows and Devices, including Windows OEM licensing (Windows Pro and non-Pro licenses sold through the OEM channel) and Devices, comprising Surface and PC accessories.
+•
+Gaming, including Xbox hardware and Xbox content and services, comprising first- and third-party content (including games and in-game content), Xbox Game Pass and other subscriptions, Xbox Cloud Gaming, advertising, and other cloud services.
+•
+Search advertising (formerly Search and news advertising), comprising Bing, Copilot, Microsoft News, Microsoft Edge, and third-party affiliates.

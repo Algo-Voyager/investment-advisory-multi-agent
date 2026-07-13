@@ -1,0 +1,52 @@
+accession: 0001193125-26-191507
+section: unknown
+form: 10-Q
+ticker: MSFT
+filing_date_int: 20260429
+filing_date: 2026-04-29
+---
+us-gaap:LongMember
+us-gaap:NondesignatedMember
+2026-03-31
+0000789019
+us-gaap:EquitySecuritiesMember
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtThreeMember
+2025-06-30
+0000789019
+msft:AccumulatedTranslationAdjustmentAndOtherMember
+2025-06-30
+0000789019
+us-gaap:DesignatedAsHedgingInstrumentMember
+us-gaap:InterestRateContractMember
+2026-03-31
+0000789019
+us-gaap:EquitySecuritiesMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:NonoperatingIncomeExpenseMember
+us-gaap:InterestRateContractMember
+us-gaap:FairValueHedgingMember
+2024-07-01
+2025-03-31
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:USGovernmentAgenciesDebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+2026-03-31
+0000789019
+us-gaap:DesignatedAsHedgingInstrumentMember
+us-gaap:InterestRateContractMember
+2025-06-30
+0000789019
+msft:IssuanceOfLongTermDebtNineMember
+2025-06-30
+0000789019
+us-gaap:NonoperatingIncomeExpenseMember
+us-gaap:ForeignExchangeContractMember
+us-gaap:CashFlowHedgingMember
+2025-07-01
+2026-03-31
+0000789019

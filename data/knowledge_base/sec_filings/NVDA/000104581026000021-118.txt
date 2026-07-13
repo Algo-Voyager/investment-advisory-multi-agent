@@ -1,0 +1,8 @@
+filing_date: 2026-02-25
+filing_date_int: 20260225
+ticker: NVDA
+accession: 0001045810-26-000021
+section: Item 1A
+form: 10-K
+---
+share and/or prevent us from doing so, more effectively identify and capitalize upon opportunities in new markets and end-user trends, more quickly transition their products, and impinge on our ability to procure sufficient

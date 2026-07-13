@@ -1,0 +1,12 @@
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+ticker: NVDA
+section: Item 1A
+form: 10-K
+filing_date: 2026-02-25
+---
+Human Capital Management
+As of the end of fiscal year 2026, we had approximately 42,000 employees in 38 countries; 31,000 were engaged in research and development and 11,000 were engaged in sales, marketing, operations, and administrative positions.
+To execute our business strategy successfully, we focus on recruiting, developing, and retaining top global talent. 
+Within our workforce, more than 80 percent have technical roles and more than half of the workforce hold an advanced degree. Our employees also help to surface top talent, with over 40 percent of our new hires in fiscal year 2026 coming from employee referrals. In fiscal year 2026, our turnover rate was 3.7 percent.
+We invest in employee development through on-the-job trainings and tuition reimbursement programs.

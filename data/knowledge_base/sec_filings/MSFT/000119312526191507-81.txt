@@ -1,0 +1,36 @@
+filing_date: 2026-04-29
+accession: 0001193125-26-191507
+ticker: MSFT
+section: Item 1
+filing_date_int: 20260429
+form: 10-Q
+---
+19
+
+PART I
+Item 1
+ 
+
+NOTE 9 — DEBT
+ 
+The components of long-term debt were as follows:
+ 
+
+ 
+(a)
+Refer to Note 5 – Derivatives for further information on the interest rate swaps related to fixed-rate debt.
+As of March 31, 2026 and June 30, 2025, the estimated fair value of long-term debt, including the current portion, was $
+36.6
+ billion and $
+40.4
+ billion, respectively. The estimated fair values are based on Level 2 inputs.
+Debt in the table above is comprised of senior unsecured obligations and ranks equally with our other outstanding obligations. Interest is paid semi-annually, except for the Euro-denominated debt, which is paid annually.
+The following table outlines maturities of our long-term debt, including the current portion, as of March 31, 2026:
+ 
+
+ 
+
+20
+
+PART I
+Item 1

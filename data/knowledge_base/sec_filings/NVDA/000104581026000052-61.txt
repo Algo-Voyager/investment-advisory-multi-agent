@@ -1,0 +1,8 @@
+form: 10-Q
+ticker: NVDA
+filing_date_int: 20260520
+section: Item 1
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+---
+misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand. The plaintiffs seek unspecified damages and other relief, including disgorgement of profits from the sale of NVIDIA stock and unspecified corporate governance measures.

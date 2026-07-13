@@ -1,0 +1,8 @@
+filing_date_int: 20260128
+section: Item 3
+form: 10-Q
+filing_date: 2026-01-28
+ticker: MSFT
+accession: 0001193125-26-027207
+---
+and similar expressions. Forward-looking statements are based on current expectations and assumptions that are subject to risks and uncertainties that may cause actual results to differ materially. We describe risks and uncertainties that could cause actual results and events to differ materially in “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” “Quantitative and Qualitative Disclosures About Market Risk” (Part I, Item 3 of this Form 10-Q), and “Risk Factors”. We undertake no obligation to update or revise publicly any forward-looking statements, whether because of new information, future events, or otherwise.

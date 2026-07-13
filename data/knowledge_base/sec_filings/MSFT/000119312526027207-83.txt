@@ -1,0 +1,19 @@
+ticker: MSFT
+filing_date_int: 20260128
+section: Item 1
+form: 10-Q
+filing_date: 2026-01-28
+accession: 0001193125-26-027207
+---
+Uncertain Tax Positions
+As of December 31, 2025 and June 30, 2025, unrecognized tax benefits and other income tax liabilities were $
+28.7
+ billion and $
+27.4
+ billion, respectively, and are included in long-term income taxes in our consolidated balance sheets.
+We remain under audit by the IRS for tax years 
+2014 to 2017
+. With respect to the audit for tax years 
+2004 to 2013
+, on September 26, 2023, we received Notices of Proposed Adjustment (“NOPAs”) from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $
+28.9

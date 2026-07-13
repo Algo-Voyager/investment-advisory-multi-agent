@@ -1,0 +1,9 @@
+ticker: NVDA
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+filing_date_int: 20260520
+section: Item 7
+form: 10-Q
+---
+Revenue by geographic region is designated based on the location of the headquarters of direct customers. The end customer and shipping location may be different from our customers' headquarters location. Revenue from sales to customers headquartered outside of the United States accounted for 22% of total revenue for the first quarter of fiscal year 2027 and 42% of total revenue for the first quarter of fiscal year 2026.
+Gross Profit and Gross Margin

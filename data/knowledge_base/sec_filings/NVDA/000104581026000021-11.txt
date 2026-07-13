@@ -1,0 +1,54 @@
+ticker: NVDA
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+section: unknown
+filing_date: 2026-02-25
+form: 10-K
+---
+2025-01-26
+0001045810
+nvda:CustomerOneMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:CustomerTwoMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:CustomerThreeMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2025-01-27
+2026-01-25
+0001045810
+nvda:CustomerOneMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2024-01-29
+2025-01-26
+0001045810
+nvda:CustomerTwoMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2024-01-29
+2025-01-26
+0001045810
+us-gaap:LandMember
+2026-01-25
+0001045810
+us-gaap:LandMember
+2025-01-26
+0001045810
+nvda:BuildingsLeaseholdImprovementsAndFurnitureMember
+2026-01-25
+0001045810
+nvda:BuildingsLeaseholdImprovementsAndFurnitureMember
+2025-01-26
+0001045810
+nvda:EquipmentComputeHardwareAndSoftwareMember
+2026-01-25
+0001045810

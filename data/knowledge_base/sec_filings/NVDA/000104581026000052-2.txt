@@ -1,0 +1,58 @@
+accession: 0001045810-26-000052
+ticker: NVDA
+filing_date: 2026-05-20
+section: unknown
+filing_date_int: 20260520
+form: 10-Q
+---
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-04-27
+0001045810
+us-gaap:RetainedEarningsMember
+2025-04-27
+0001045810
+2025-04-27
+0001045810
+us-gaap:CostOfSalesMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:CostOfSalesMember
+2025-01-27
+2025-04-27
+0001045810
+us-gaap:ResearchAndDevelopmentExpenseMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:ResearchAndDevelopmentExpenseMember
+2025-01-27
+2025-04-27
+0001045810
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2025-01-27
+2025-04-27
+0001045810
+nvda:RSUsPSUsandMarketbasedPSUsMember
+2026-01-25
+0001045810
+nvda:RSUsPSUsandMarketbasedPSUsMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:RSUsPSUsandMarketbasedPSUsMember
+2026-04-26
+0001045810
+us-gaap:EmployeeStockMember
+2026-01-26
+2026-04-26
+0001045810
+nvda:IntangibleAssetsArisingFromBusinessCombinationMember
+2026-04-26
+0001045810
+nvda:IntangibleAssetsArisingFromBusinessCombinationMember
+2026-01-25

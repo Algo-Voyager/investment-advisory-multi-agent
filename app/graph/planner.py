@@ -92,7 +92,7 @@ class PlannerNode:
                      agent=self.name)
         # Reset per-turn planning/synthesis scratch (persisted threads carry it over).
         reset = {"plan": None, "plan_step": 0, "final_answer": None, "revisions": 0,
-                 "route": None, "hops": 0, "visited": []}
+                 "route": None, "hops": 0, "visited": [], "clarification_answer": None}
         query = _last_human_text(state)
 
         if not self._classifier.is_complex(query):

@@ -1,0 +1,8 @@
+ticker: MSFT
+filing_date: 2026-04-29
+accession: 0001193125-26-191507
+form: 10-Q
+filing_date_int: 20260429
+section: unknown
+---
+10-Q

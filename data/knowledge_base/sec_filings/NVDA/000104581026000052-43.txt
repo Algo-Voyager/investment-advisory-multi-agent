@@ -1,0 +1,31 @@
+ticker: NVDA
+filing_date_int: 20260520
+section: Item 1
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+form: 10-Q
+---
+2.3
+ billion for the first quarter of fiscal years 2027 and 2026, respectively, in Cost of revenue.
+13
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Property and Equipment:
+Property, equipment and intangible assets acquired but not paid for the first quarter of fiscal years 2027 and 2026 were $
+1.1
+ billion and $
+408
+ million, respectively.
+(1) Related to the Groq, Inc. non-exclusive license agreement.
+(2) We recorded $
+0.3
+ billion and $
+3.0
+ billion for the first quarter of fiscal years 2027 and 2026, respectively, in Cost of revenue.
+(3) Includes customer advances and unearned revenue related to hardware and software support, cloud services, and license and development arrangements. The balance as of April 26, 2026 and January 25, 2026 included $
+297
+ million and $
+160
+ million of customer advances, respectively.
+(1) Primarily comprised of unrecognized tax benefits and related interest and penalties.

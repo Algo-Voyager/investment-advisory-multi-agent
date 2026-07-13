@@ -1,0 +1,8 @@
+section: Item 1
+filing_date: 2026-02-25
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+form: 10-K
+ticker: NVDA
+---
+In fiscal year 2025, we launched the NVIDIA Blackwell architecture, a full set of data center scale infrastructure that includes GPUs, CPUs, DPUs, interconnects, switch chips and systems, and networking adapters. Blackwell excels at processing cutting edge generative AI and accelerated computing workloads with market leading performance and efficiency. Offered in a number of configurations, for customers across industries and a diverse set of AI and accelerated computing use cases. In fiscal year 2026, we unveiled the NVIDIA Rubin platform, which is expected to commence production shipments in the second half of fiscal year 2027. Built for agentic AI and reasoning, it excels at processing multi-step problem-solving and massive long-context workflows, delivering up to a 10x reduction in cost per token compared to Blackwell.

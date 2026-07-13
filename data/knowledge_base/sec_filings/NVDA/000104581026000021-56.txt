@@ -1,0 +1,15 @@
+section: Item 1
+filing_date_int: 20260225
+filing_date: 2026-02-25
+ticker: NVDA
+accession: 0001045810-26-000021
+form: 10-K
+---
+Automotive
+Automotive is comprised of platform solutions for automated driving from the cloud to the car. Leveraging our technology leadership in AI and building on long-standing relationships across several hundred automotive ecosystem partners, we are delivering a full stack end-to-end solution for the AV market under the DRIVE Hyperion platform. This platform consists of development infrastructure, high-performance, energy efficient DRIVE AGX computing hardware 
+6
+Table of Contents
+running an in-vehicle operating system (DRIVE OS), a reference sensor set that supports full self-driving capability as well as an open, modular DRIVE software platform for autonomous driving, mapping, and parking services, and intelligent in-vehicle experiences.
+Business Strategies
+NVIDIA’s key strategies that shape our overall business approach include:
+Advancing the NVIDIA accelerated computing platform.

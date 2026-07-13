@@ -27,3 +27,4 @@ class AgentState(TypedDict, total=False):
     retrieved_context: list[str]      # RAG chunks (Phase 5)
     tool_results: dict                # raw tool outputs, keyed by agent — guardrails audit these (Phase 9)
     needs_clarification: Optional[str]  # clarifier's pending question (Phase 10)
+    clarification_answer: Optional[str]  # the user's resume value, once given (Phase 10)

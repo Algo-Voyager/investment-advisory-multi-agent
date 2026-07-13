@@ -1,0 +1,9 @@
+form: 10-K
+accession: 0001045810-26-000021
+filing_date: 2026-02-25
+filing_date_int: 20260225
+ticker: NVDA
+section: Item 1
+---
+In addition to controls targeting D:1, D:4 and D:5 countries, the USG has also imposed worldwide export controls impacting our products, and may impose additional controls in the future.
+In January 2025, the USG published the AI Diffusion IFR in the Federal Register. The IFR would have imposed a worldwide licensing requirement on our data center products, such as our H200, GB200 and GB300. The AI Diffusion IFR would have divided the world into three tiers, relegating most countries to “Tier 2” status, and would have created a complex and burdensome scheme for licensing approvals.

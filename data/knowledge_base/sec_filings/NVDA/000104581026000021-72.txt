@@ -1,0 +1,10 @@
+accession: 0001045810-26-000021
+section: Item 1
+filing_date_int: 20260225
+ticker: NVDA
+form: 10-K
+filing_date: 2026-02-25
+---
+Seasonality
+Our computing platforms serve a diverse set of markets such as data centers, gaming, professional visualization, and automotive. Our desktop gaming products typically see stronger revenue in the second half of our fiscal year. Historical seasonality trends may not repeat.
+Manufacturing

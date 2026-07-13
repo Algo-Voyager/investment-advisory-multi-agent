@@ -1,0 +1,11 @@
+filing_date: 2026-05-20
+section: Item 1A
+ticker: NVDA
+accession: 0001045810-26-000052
+form: 10-Q
+filing_date_int: 20260520
+---
+© 2026 NVIDIA Corporation. All rights reserved.
+The following discussion and analysis of our financial condition and results of operations should be read in conjunction with the risk factors set forth in Item 1A. “Risk Factors” of our Annual Report on Form 10-K for the fiscal year ended January 25, 2026 and Part II, Item 1A. “Risk Factors” of this Quarterly Report on Form 10-Q and our Condensed Consolidated Financial Statements and related Notes thereto, as well as other cautionary statements and risks described elsewhere in this Quarterly Report on Form 10-Q and our other filings with the SEC, before deciding to purchase, hold, or sell shares of our common stock.
+Overview
+Our Company and Our Businesses

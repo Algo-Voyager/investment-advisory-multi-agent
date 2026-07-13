@@ -11,6 +11,8 @@ import argparse
 import json
 
 from app.knowledge.ingestion import archive_news, ingest
+from app.knowledge.keyword_fallback import backfill_mirror
+from app.knowledge.vector_store import get_vector_store
 
 
 def main() -> None:
@@ -25,6 +27,9 @@ def main() -> None:
 
     summary = ingest(tickers=args.tickers, limit=args.limit, forms=tuple(args.forms))
     print(json.dumps(summary, indent=2))
+    # Idempotent safety net (Phase 11): ensures the keyword-search fallback mirror
+    # is complete even if it ever drifts from Chroma.
+    backfill_mirror(get_vector_store())
     if args.news and args.tickers:
         added = archive_news(args.tickers)
         print(f"news_archive: +{added} headlines")

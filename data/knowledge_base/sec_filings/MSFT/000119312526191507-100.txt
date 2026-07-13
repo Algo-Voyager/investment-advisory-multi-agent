@@ -1,0 +1,22 @@
+filing_date_int: 20260429
+form: 10-Q
+filing_date: 2026-04-29
+ticker: MSFT
+accession: 0001193125-26-191507
+section: Item 1
+---
+Our Microsoft Cloud revenue, which includes Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365, was $
+54.5
+ billion and $
+155.1
+ billion for the three and nine months ended March 31, 2026, respectively, and $
+42.4
+ billion and $
+122.2
+ billion for the three and nine months ended March 31, 2025, respectively. These amounts are included in Server products and cloud services, Microsoft 365 Commercial products and cloud services, LinkedIn, and Dynamics products and cloud services in the table above.
+Assets are not allocated to segments for internal reporting presentations. A portion of amortization and depreciation is included with various other costs in an overhead allocation to each segment. It is impracticable for us to separately identify the amount of amortization and depreciation by segment that is included in the measure of segment profit or loss.
+
+29
+
+PART I
+Item 1

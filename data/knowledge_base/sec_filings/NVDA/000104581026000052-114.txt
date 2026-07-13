@@ -1,0 +1,10 @@
+ticker: NVDA
+filing_date_int: 20260520
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+section: Item 4
+form: 10-Q
+---
+Changes in Internal Control Over Financial Reporting
+There have been no changes in our internal control over financial reporting during the first quarter of fiscal year 2027 that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting. We are continuing a phased upgrade of our enterprise resource planning, or ERP, system to update our existing core financial systems. The ERP system is designed to accurately maintain our financial records used to report operating results. We will continue to evaluate each quarter whether there are changes that materially affect our internal control over financial reporting.
+Inherent Limitations on Effectiveness of Controls

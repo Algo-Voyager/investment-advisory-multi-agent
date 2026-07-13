@@ -1,0 +1,29 @@
+filing_date_int: 20260520
+section: Item 1
+ticker: NVDA
+accession: 0001045810-26-000052
+form: 10-Q
+filing_date: 2026-05-20
+---
+21
+%, 
+17
+%, and 
+16
+% of total revenue, all of which was primarily attributable to the Compute & Networking segment.
+For the first quarter of fiscal year 2026, sales to two direct customers represented 
+16
+% and 
+14
+% of total revenue, which were attributable to the Compute & Networking segment.
+20
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+In the first quarter of fiscal year 2027, we changed our presentation of revenue by market platform, and the comparable period has been recast as follows:
+Note 14 - 
+Leases
+Our lease obligations primarily consist of operating leases for our data centers and offices, with lease periods expiring between fiscal years 2027 and 2075.
+Future minimum lease obligations under our non-cancelable lease agreements as of April 26, 2026 were as follows:
+Between the second quarter of fiscal year 2027 and fiscal year 2033, we expect to commence leases with future obligations of $
+32.4

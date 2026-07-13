@@ -1,0 +1,11 @@
+ticker: NVDA
+filing_date: 2026-05-20
+form: 10-Q
+accession: 0001045810-26-000052
+section: Item 1
+filing_date_int: 20260520
+---
+Accounting for Loss Contingencies
+As of April 26, 2026, there are 
+no
+ accrued contingent liabilities associated with the legal proceedings described above based on our belief that liabilities, while reasonably possible, are not probable. Further, any possible loss or range of loss in these matters cannot be reasonably estimated at this time. We are engaged in legal actions not described above arising in the ordinary course of business, as well as regulatory and government inquiries and investigations, and, while there can be no assurance of favorable outcomes, we believe that the ultimate outcome of these matters will not have a material adverse effect on our operating results, liquidity or financial position. These matters are subject to inherent uncertainties and if the ultimate outcome is unfavorable, there exists the possibility of a material adverse impact on our operating results, liquidity or financial position in the period the outcome becomes estimable and probable.

@@ -1,0 +1,11 @@
+form: 10-Q
+section: Item 1
+filing_date: 2026-01-28
+accession: 0001193125-26-027207
+ticker: MSFT
+filing_date_int: 20260128
+---
+10
+
+PART I
+Item 1

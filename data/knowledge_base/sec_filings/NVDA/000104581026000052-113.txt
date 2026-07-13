@@ -1,0 +1,12 @@
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+filing_date: 2026-05-20
+ticker: NVDA
+section: Item 4
+form: 10-Q
+---
+Item 4. Controls and Procedures
+Controls and Procedures
+Disclosure Controls and Procedures
+Based on their evaluation as of April 26, 2026, our management, including our Chief Executive Officer and Chief Financial Officer, has concluded that our disclosure controls and procedures (as defined in Rule 13a-15(e) under the Exchange Act) were effective to provide reasonable assurance that the information we are required to disclose in reports that we file or submit under the Exchange Act is recorded, processed, summarized and reported within the time periods specified in the SEC rules and forms, and that such information is accumulated and communicated to our management, including our Chief Executive Officer and our Chief Financial Officer, as appropriate, to allow timely decisions regarding required disclosures.
+Changes in Internal Control Over Financial Reporting

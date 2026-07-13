@@ -1,0 +1,12 @@
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+filing_date_int: 20260520
+form: 10-Q
+section: Item 7A
+ticker: NVDA
+---
+Foreign Exchange Rate Risk
+The impact of foreign currency transactions related to foreign exchange rate risk is described in Part II, Item 7A, “Quantitative and Qualitative Disclosures About Market Risk” in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026. As of April 26, 2026, there have been no material changes to the foreign exchange rate risks described as of January 25, 2026.
+Item 4. Controls and Procedures
+Controls and Procedures
+Disclosure Controls and Procedures

@@ -1,0 +1,22 @@
+filing_date_int: 20260429
+section: Item 1
+accession: 0001193125-26-191507
+ticker: MSFT
+form: 10-Q
+filing_date: 2026-04-29
+---
+We generate revenue by offering a wide range of cloud-based solutions, content, and other services to people and businesses; licensing and supporting an array of software products; delivering relevant online advertising to a global audience; and designing and selling devices. Our most significant expenses are related to compensating employees; supporting and investing in our cloud-based services, including datacenter operations; designing, manufacturing, marketing, and selling our other products and services; and income taxes.
+Highlights from the third quarter of fiscal year 2026 compared with the third quarter of fiscal year 2025 included:
+•
+Microsoft Cloud revenue increased 29% to $54.5 billion.
+•
+Commercial remaining performance obligation increased 99% to $627 billion.
+•
+Microsoft 365 Commercial cloud revenue increased 19%.
+•
+Microsoft 365 Consumer cloud revenue increased 33%. 
+•
+LinkedIn revenue increased 12%.
+•
+Dynamics 365 revenue increased 22%.
+•

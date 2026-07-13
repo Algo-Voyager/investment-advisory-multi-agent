@@ -1,0 +1,18 @@
+filing_date_int: 20260429
+ticker: MSFT
+filing_date: 2026-04-29
+form: 10-Q
+section: Item 1
+accession: 0001193125-26-191507
+---
+NOTE 10 — INCOME TAXES
+Effective Tax Rate
+Our effective tax rate was 
+19
+% and 
+18
+% for the three months ended March 31, 2026 and 2025, respectively, and 
+20
+% and 
+18
+% for the nine months ended March 31, 2026 and 2025, respectively. The increase in our effective tax rate for the three months ended March 31, 2026 compared to the prior year was primarily due to changes in the mix of our earnings and tax expenses between the U.S. and foreign countries. The increase in our effective tax rate for the nine months ended March 31, 2026 compared to the prior year was primarily due to changes in the mix of our earnings and tax expenses between the U.S. and foreign countries and deferred tax expense attributable to the dilution gain from the OpenAI Recapitalization.

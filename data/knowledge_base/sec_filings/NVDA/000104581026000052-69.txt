@@ -1,0 +1,22 @@
+filing_date: 2026-05-20
+form: 10-Q
+ticker: NVDA
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+section: Item 1
+---
+The table below presents details of our reportable segments.
+(1) Other segment items primarily include product costs and inventory provisions, compensation and benefits excluding stock-based compensation expense, computing infrastructure expenses, and engineering development costs.
+Depreciation and amortization expense attributable to our Compute & Networking segment was $
+526
+ million and $
+296
+ million for the first quarter of fiscal years 2027 and 2026, respectively. Depreciation and amortization expense attributable to our Graphics segment was $
+194
+ million and $
+109
+ million for the first quarter of fiscal years 2027 and 2026, respectively. Acquisition-related intangible amortization expense is not allocated to either Compute & Networking or Graphics for purposes of making operating decisions or assessing financial performance.
+19
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)

@@ -1,0 +1,9 @@
+filing_date_int: 20260225
+accession: 0001045810-26-000021
+ticker: NVDA
+form: 10-K
+section: Item 1
+filing_date: 2026-02-25
+---
+To encourage the development of applications optimized for our platforms and software, we seek to establish and maintain strong relationships in the software development community. Engineering and marketing personnel engage with key software developers to promote and discuss our platforms, as well as to ascertain individual product requirements and solve technical problems. Our developer program supports the development of AI frameworks, SDKs, and APIs for software applications and game titles that are optimized for our platforms. Our Deep Learning Institute provides in-person and online training for developers in industries and organizations around the world to build AI and accelerated computing applications that leverage our platforms. 
+Seasonality

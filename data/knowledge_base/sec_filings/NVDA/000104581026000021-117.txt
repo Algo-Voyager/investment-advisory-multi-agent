@@ -1,0 +1,8 @@
+filing_date_int: 20260225
+filing_date: 2026-02-25
+form: 10-K
+accession: 0001045810-26-000021
+section: Item 1A
+ticker: NVDA
+---
+Our target markets remain competitive, and competition may intensify with expanding and changing product and service offerings, industry standards, customer and market needs, new entrants and consolidations. Our competitors’ products, services and technologies, including those mentioned above in this Annual Report on Form 10-K, may be cheaper or provide better functionality or features than ours, which has resulted and may in the future result in lower-than-expected selling prices or demand for our products. Some of our competitors operate their own fabrication facilities, and have longer operating histories, larger customer bases, more comprehensive IP portfolios and patent protections, more design wins, and greater financial, sales, marketing and distribution resources than we do. These competitors may be able to acquire market share and/or prevent us from doing so, more effectively identify and capitalize upon opportunities in new markets and end-user trends, more quickly

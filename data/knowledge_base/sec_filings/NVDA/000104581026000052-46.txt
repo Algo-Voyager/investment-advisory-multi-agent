@@ -1,0 +1,13 @@
+ticker: NVDA
+filing_date_int: 20260520
+filing_date: 2026-05-20
+form: 10-Q
+section: Item 1
+accession: 0001045810-26-000052
+---
+twelve months
+.
+Note 8 - 
+Derivative Financial Instruments
+Foreign Currency Derivatives
+We primarily utilize foreign currency forward contracts to mitigate the impact of foreign currency exchange rate movements on our operating expenses. These foreign currency forward contracts for operating expenses are designated as accounting hedges. Gains or losses on the contracts are recorded in Accumulated other comprehensive income or loss and reclassified to Operating expenses when the related operating expenses are recognized in earnings. During the first quarter of fiscal years 2027 and 2026, the impact of foreign currency forward contracts designated as accounting hedges on other comprehensive income or loss was not significant and all such instruments were determined to be highly effective.

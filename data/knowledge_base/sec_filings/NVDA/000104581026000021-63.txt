@@ -1,0 +1,8 @@
+filing_date_int: 20260225
+filing_date: 2026-02-25
+section: Item 1
+form: 10-K
+ticker: NVDA
+accession: 0001045810-26-000021
+---
+AI workloads running locally on PCs. Omniverse is real-time 3D design collaboration and virtual world simulation software that empowers artists, designers, and creators to connect and collaborate in leading design applications.

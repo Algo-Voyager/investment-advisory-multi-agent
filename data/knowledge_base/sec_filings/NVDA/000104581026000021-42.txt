@@ -1,0 +1,8 @@
+filing_date_int: 20260225
+section: Item 1
+filing_date: 2026-02-25
+accession: 0001045810-26-000021
+form: 10-K
+ticker: NVDA
+---
+In fiscal year 2026, we launched and scaled the NVIDIA Blackwell Ultra platform, optimized for agentic, reasoning, and physical AI. Building on the architectural breakthroughs of Blackwell and leveraging Dynamo inference software, it delivers a significant increase in token throughput and reduction in cost per token compared to the Hopper generation. More recently, in support of market development, we have accelerated the release cadence of our open AI model platforms including NVIDIA Nemotron for agentic AI and Cosmos for physical AI. With a strong engineering culture, we drive fast, yet harmonized, product and technology innovations in all dimensions of computing including silicon, systems, networking, software and algorithms. More than half of our engineers work on software.

@@ -1,0 +1,8 @@
+form: 10-Q
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+ticker: NVDA
+filing_date: 2026-05-20
+section: Item 1
+---
+On April 8, 2026, NVIDIA filed a petition with the Ninth Circuit for permission to appeal the district court’s order pursuant to Federal Rule of Civil Procedure 23(f).

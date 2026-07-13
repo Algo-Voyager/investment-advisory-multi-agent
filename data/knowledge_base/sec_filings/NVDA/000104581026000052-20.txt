@@ -1,0 +1,56 @@
+ticker: NVDA
+form: 10-Q
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+filing_date: 2026-05-20
+section: unknown
+---
+us-gaap:NotesPayableOtherPayablesMember
+2026-01-25
+0001045810
+nvda:CommercialPaperProgramMember
+us-gaap:CommercialPaperMember
+2026-04-26
+0001045810
+nvda:ManufacturingProductionAndLongTermSupplyAndCapacityAgreementCommitmentsMember
+2026-04-26
+0001045810
+nvda:MultiYearCloudServiceAgreementCommitmentsMember
+2026-04-26
+0001045810
+nvda:OtherCommitmentsMember
+2026-04-26
+0001045810
+us-gaap:SubsequentEventMember
+2026-05-18
+0001045810
+us-gaap:SubsequentEventMember
+2026-05-17
+2026-05-17
+0001045810
+us-gaap:SubsequentEventMember
+2026-05-18
+2026-05-18
+0001045810
+us-gaap:OperatingSegmentsMember
+nvda:ComputeAndNetworkingSegmentMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:OperatingSegmentsMember
+nvda:GraphicsSegmentMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:OperatingSegmentsMember
+2026-01-26
+2026-04-26
+0001045810
+us-gaap:OperatingSegmentsMember
+nvda:ComputeAndNetworkingSegmentMember
+2025-01-27
+2025-04-27
+0001045810
+us-gaap:OperatingSegmentsMember
+nvda:GraphicsSegmentMember
+2025-01-27

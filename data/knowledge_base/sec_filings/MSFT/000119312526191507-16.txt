@@ -1,0 +1,62 @@
+filing_date: 2026-04-29
+accession: 0001193125-26-191507
+section: unknown
+filing_date_int: 20260429
+form: 10-Q
+ticker: MSFT
+---
+srt:MaximumMember
+2026-03-31
+0000789019
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-06-30
+0000789019
+msft:ShareRepurchaseProgramTwentyTwentyFourMember
+2024-09-16
+0000789019
+srt:MaximumMember
+2026-03-31
+0000789019
+msft:MicrosoftCloudMember
+2024-07-01
+2025-03-31
+0000789019
+us-gaap:CashMember
+2025-06-30
+0000789019
+msft:IssuanceOfLongTermDebtTwelveMember
+srt:MaximumMember
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtSixMember
+2025-07-01
+2026-03-31
+0000789019
+msft:ShareRepurchaseProgramTwentyTwentyOneMember
+2025-01-01
+2025-03-31
+0000789019
+us-gaap:ServiceOtherMember
+2026-01-01
+2026-03-31
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:CommercialPaperMember
+2025-06-30
+0000789019
+srt:MaximumMember
+msft:IssuanceOfLongTermDebtSixMember
+2026-03-31
+0000789019
+srt:MinimumMember
+2026-03-31
+0000789019
+srt:MinimumMember
+msft:IssuanceOfLongTermDebtThirteenMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:ContractualRightsMember
+2026-03-31
+0000789019

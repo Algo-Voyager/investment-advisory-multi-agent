@@ -17,6 +17,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from app.data.repositories import portfolio_repo
 from app.errors.exceptions import CoPilotError
 from app.integrations.sec_edgar_adapter import SECEdgarAdapter
+from app.knowledge.keyword_fallback import mirror_chunk
 from app.knowledge.vector_store import VectorStore, get_vector_store
 from app.logging import get_logger
 
@@ -112,6 +113,10 @@ def ingest(tickers: list[str] | None = None, limit: int = 3,
                 chunks, metas = chunk_filing(text, base_meta)
                 ids = [f"{accession}-{i}" for i in range(len(chunks))]
                 added = store.upsert("sec_filings", ids, chunks, metas)
+                # Mirror to disk (Phase 11): keeps citations available via keyword
+                # search if ChromaDB is ever unreachable at query time.
+                for cid, chunk, meta in zip(ids, chunks, metas):
+                    mirror_chunk("sec_filings", cid, chunk, meta)
                 summary["ingested"][f"{ticker} {filing['form']} {filing['filing_date']}"] = added
                 log.info("ingest_filing_done", ticker=ticker, form=filing["form"],
                          date=filing["filing_date"], chunks=added)

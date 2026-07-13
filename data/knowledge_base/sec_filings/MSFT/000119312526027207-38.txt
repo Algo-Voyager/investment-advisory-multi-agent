@@ -1,0 +1,27 @@
+section: unknown
+ticker: MSFT
+filing_date: 2026-01-28
+filing_date_int: 20260128
+accession: 0001193125-26-027207
+form: 10-Q
+---
+us-gaap:OtherNoncurrentAssetsMember
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtElevenMember
+srt:MaximumMember
+2025-07-01
+2025-12-31
+0000789019
+msft:IssuanceOfLongTermDebtTwoMember
+2025-12-31
+0000789019
+msft:MorePersonalComputingMember
+2025-12-31
+iso4217:EUR
+xbrli:pure
+msft:Segment
+xbrli:shares
+iso4217:USD
+xbrli:shares
+iso4217:USD

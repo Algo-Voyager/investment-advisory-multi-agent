@@ -1,0 +1,61 @@
+accession: 0001193125-26-191507
+section: unknown
+ticker: MSFT
+form: 10-Q
+filing_date_int: 20260429
+filing_date: 2026-04-29
+---
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:ServiceOtherMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:OtherCurrentAssetsMember
+2026-03-31
+0000789019
+msft:ServerProductsAndCloudServicesMember
+2025-01-01
+2025-03-31
+0000789019
+msft:IssuanceOfLongTermDebtOneMember
+2025-07-01
+2026-03-31
+0000789019
+msft:ProductivityAndBusinessProcessesMember
+2024-07-01
+2025-03-31
+0000789019
+2025-12-31
+0000789019
+msft:ProductivityAndBusinessProcessesMember
+2025-01-01
+2025-03-31
+0000789019
+msft:AccumulatedTranslationAdjustmentAndOtherMember
+2026-03-31
+0000789019
+2024-07-01
+2024-09-30
+0000789019
+us-gaap:OtherNoncurrentAssetsMember
+2025-06-30
+0000789019
+msft:ProductivityAndBusinessProcessesMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-07-01
+2026-03-31
+0000789019
+msft:FinanceLeaseMember
+2026-03-31
+0000789019
+msft:IssuanceOfLongTermDebtTwelveMember
+2025-07-01
+2026-03-31
+0000789019
+us-gaap:DebtSecuritiesMember
+us-gaap:FairValueInputsLevel2Member

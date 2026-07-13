@@ -1,0 +1,49 @@
+filing_date: 2026-04-29
+filing_date_int: 20260429
+section: Item 1
+form: 10-Q
+ticker: MSFT
+accession: 0001193125-26-191507
+---
+16
+
+PART I
+Item 1
+ 
+
+Fair Values of Derivative Instruments
+The following table presents our derivative instruments:
+ 
+
+ 
+Gross derivative assets and liabilities subject to legally enforceable master netting agreements for which we have elected to offset were $
+1.1
+ billion and $
+663
+ million, respectively, as of March 31, 2026, and $
+452
+ million and $
+1.8
+ billion, respectively, as of June 30, 2025.
+The following table presents the fair value of our derivatives instruments on a gross basis:
+ 
+
+ 
+
+17
+
+PART I
+Item 1
+ 
+
+Gains (losses) on derivative instruments recognized in other income (expense), net were as follows:
+ 
+
+ 
+Gains (losses), net of tax, on derivative instruments recognized in our consolidated comprehensive income statements were as follows:
+ 
+
+ 
+NOTE 6 — PROPERTY AND EQUIPMENT
+The 
+components of property and equipment were as follows:

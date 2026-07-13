@@ -1,0 +1,10 @@
+filing_date_int: 20260128
+accession: 0001193125-26-027207
+filing_date: 2026-01-28
+section: Item 1
+ticker: MSFT
+form: 10-Q
+---
+We have previously audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the consolidated balance sheet of the Company as of June 30, 2025, and the related consolidated statements of income, comprehensive income, cash flows, and stockholders’ equity for the year then ended (not presented herein); and in our report dated July 30, 2025, we expressed an unqualified opinion on those consolidated financial statements. In our opinion, the information set forth in the accompanying consolidated balance sheet as of June 30, 2025, is fairly stated, in all material respects, in relation to the consolidated balance sheet from which it has been derived.
+ 
+Basis for Review Results

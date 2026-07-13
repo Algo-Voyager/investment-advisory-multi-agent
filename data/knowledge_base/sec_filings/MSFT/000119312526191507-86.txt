@@ -1,0 +1,24 @@
+ticker: MSFT
+section: Item 1
+filing_date: 2026-04-29
+accession: 0001193125-26-191507
+filing_date_int: 20260429
+form: 10-Q
+---
+Revenue allocated to remaining performance obligations, which includes unearned revenue and amounts expected to be invoiced and recognized as revenue in future periods, was $
+633
+ billion as of March 31, 2026. Estimating revenue that will be allocated to remaining performance obligations can involve significant judgments, including identifying and assessing variable consideration and potential renegotiation of commitments. We consider factors such as the nature of the terms and duration of the contract across our portfolio of contracts. Revenue allocated to remaining performance obligations related to the commercial portion of revenue was $
+627
+ billion as of March 31, 2026, with a weighted average duration of approximately 
+2.5
+ years. We expect to recognize approximately 
+30
+% of our total company remaining performance obligation revenue and 
+25
+% of our commercial remaining performance obligation revenue over the next 
+12
+ months and the remainder thereafter.
+NOTE 12
+ 
+—
+ LEASES

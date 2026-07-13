@@ -1,0 +1,20 @@
+accession: 0001045810-26-000052
+ticker: NVDA
+filing_date_int: 20260520
+filing_date: 2026-05-20
+form: 10-Q
+section: Item 1
+---
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Note 5 - 
+Cash Equivalents and Marketable Securities
+Cash equivalents and marketable securities including debt and equity securities are measured at fair value using quoted prices in active markets for identical assets (Level 1) or for similar assets or use of other observable inputs (Level 2).
+The following is a summary of cash equivalents and marketable securities:
+(1) The balance as of April 26, 2026 included $
+27.4
+ billion of investments, which are subject to short-term lock-up restrictions on the ability to sell.
+(2) The long-term portion of publicly-held equity securities, which are subject to lock-up restrictions through December 2027 of $
+8.9
+ billion as of April 26, 2026, was included in Other assets.
+(3) The publicly-held equity securities classified in Level 2 include investments in warrants and preferred stock convertible to common stock in public companies.

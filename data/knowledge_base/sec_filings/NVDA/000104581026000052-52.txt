@@ -1,0 +1,12 @@
+form: 10-Q
+filing_date: 2026-05-20
+accession: 0001045810-26-000052
+section: Item 1
+filing_date_int: 20260520
+ticker: NVDA
+---
+The estimated product returns and product warranty activity consisted of the following:
+For the first quarter of fiscal years 2027 and 2026, the additions in product warranty liabilities primarily related to our Compute & Networking segment.
+We have provided indemnities for matters such as tax, product, and employee liabilities. We have included intellectual property indemnification provisions in our technology-related agreements with third parties. Maximum potential future payments cannot be estimated because many of these agreements do not have a maximum stated liability. We have not recorded any liability in our Condensed Consolidated Financial Statements for such indemnifications.
+Litigation
+Securities Class Action and Derivative Lawsuits

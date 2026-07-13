@@ -1,0 +1,9 @@
+section: Item 1
+ticker: NVDA
+filing_date_int: 20260520
+accession: 0001045810-26-000052
+form: 10-Q
+filing_date: 2026-05-20
+---
+The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial, and any shortage of these or other necessary resources could impact our future revenue and financial performance. Expanding energy capacity to meet demand is a complex, multi-year process that involves significant regulatory, technical, and construction challenges. In addition, access to capital can be particularly constrained for less-capitalized companies, which may face difficulties securing financing for large-scale infrastructure projects. These limitations could delay customer and partner deployments or reduce the scale of accelerated computing and AI adoption.
+23

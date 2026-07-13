@@ -1,0 +1,30 @@
+section: Item 1
+form: 10-Q
+accession: 0001193125-26-027207
+filing_date: 2026-01-28
+ticker: MSFT
+filing_date_int: 20260128
+---
+Intangible assets amortization expense was $
+1.2
+ billion and $
+2.6
+ billion for the three and six months ended December 31, 2025, respectively, and $
+1.5
+ billion and $
+3.0
+ billion for the three and six months ended December 31, 2024, respectively.
+The following table outlines the estimated future amortization expense related to intangible assets held as of December 31, 2025:
+ 
+
+ 
+
+19
+
+PART I
+Item 1
+ 
+
+NOTE 9 — DEBT
+ 
+The components of long-term debt were as follows:

@@ -1,0 +1,14 @@
+filing_date_int: 20260520
+form: 10-Q
+filing_date: 2026-05-20
+ticker: NVDA
+accession: 0001045810-26-000052
+section: Item 1
+---
+Recently Issued Accounting Pronouncements
+Recent Accounting Pronouncements Not Yet Adopted
+In November 2024, the Financial Accounting Standards Board, or FASB, issued a new accounting standard requiring disclosures of certain additional expense information on an annual and interim basis, including, among other items, the amounts of purchases of inventory, employee compensation, depreciation and intangible asset amortization included within each income statement expense caption, as applicable. We will adopt this standard in the fiscal year 2028 annual report. We do not expect the adoption of this standard to have a material impact on our Consolidated Financial Statements other than additional disclosures.
+Note 2 - 
+Stock-Based Compensation
+We recognize stock-based compensation expense from grants of restricted stock units, or RSUs, performance stock units, or PSUs, and market-based PSUs, and issuances under our employee stock purchase plan, or ESPP.
+8
