@@ -69,6 +69,38 @@ class TestSupervisorLoopGuard:
         command = sup.run({"messages": [], "hops": MAX_HOPS, "tool_results": {}})
         assert command.goto == END
 
+    def test_never_ends_before_any_agent_runs(self):
+        """A router that says END on the first decision (e.g. memory injected prior
+        context) must still be forced to dispatch one agent so a reply is produced."""
+        from langchain_core.messages import HumanMessage
+
+        from app.agents.supervisor import SupervisorAgent
+        from app.graph.router import END_ROUTE, RoutingStrategy
+
+        class AlwaysEnd(RoutingStrategy):
+            def route(self, state, agents):
+                return END_ROUTE
+
+        sup = SupervisorAgent(SPECS, strategy=AlwaysEnd())
+        command = sup.run({"messages": [HumanMessage(content="what did we discuss?")],
+                           "hops": 0, "visited": [], "tool_results": {}})
+        assert command.goto in {a.name for a in SPECS}  # forced to an agent, not END
+
+    def test_ends_normally_after_an_agent_has_run(self):
+        from app.agents.supervisor import SupervisorAgent
+        from app.graph.router import END_ROUTE, RoutingStrategy
+
+        class AlwaysEnd(RoutingStrategy):
+            def route(self, state, agents):
+                return END_ROUTE
+
+        sup = SupervisorAgent(SPECS, strategy=AlwaysEnd())
+        command = sup.run({"messages": [], "hops": 1, "visited": ["portfolio"],
+                           "tool_results": {"portfolio": ["..."]}})
+        from langgraph.graph import END
+
+        assert command.goto == END  # an agent already ran → ending is correct
+
 
 # ---------------------------------------------------------------- network
 @pytest.mark.skipif(not _network_available(), reason="market data feed unreachable")

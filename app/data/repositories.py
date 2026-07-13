@@ -71,6 +71,12 @@ class ExcelPortfolioRepository(PortfolioRepository):
         return sorted(self._load()["client_id"].unique())
 
     def get(self, client_id: str) -> Portfolio:
+        # Interceptor (Phase 7): EVERY client-scoped tool reaches data through this
+        # chokepoint, so access control enforced here covers all of them — including
+        # tools written later. Raises PermissionError on cross-client access.
+        from app.guardrails.access_control import verify_client_access
+
+        verify_client_access(client_id)
         df = self._load()
         rows = df[df["client_id"] == client_id]
         if rows.empty:
@@ -91,6 +97,9 @@ class JsonClientProfileRepository(ClientProfileRepository):
         self._dir = directory
 
     def get(self, client_id: str) -> Optional[ClientProfile]:
+        from app.guardrails.access_control import verify_client_access
+
+        verify_client_access(client_id)  # same interceptor as portfolios
         path = self._dir / f"{client_id}.json"
         if not path.exists():
             return None

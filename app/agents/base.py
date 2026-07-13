@@ -40,6 +40,12 @@ class BaseAgent(ABC):
     # -- template steps -------------------------------------------------
     def _preprocess(self, state: AgentState) -> None:
         bind_context(client_id=state.get("client_id"), session_id=state.get("session_id"), agent=self.name)
+        # Bind the AUTHENTICATED client for access control (Phase 7). Comes from graph
+        # state (set by the CLI/UI selection), never parsed from chat text — every
+        # client-scoped data access this agent's tools make is checked against it.
+        from app.guardrails.access_control import set_session_client
+
+        set_session_client(state.get("client_id"))
         log.info("agent_start", query=_last_human_text(state))
 
     @abstractmethod
