@@ -44,6 +44,11 @@ class Settings(BaseSettings):
     CACHE_TTL_FILINGS: int = 86400       # filings change quarterly
     GEMINI_CALLS_PER_MINUTE: int = 8     # stay under the free tier's ~10 RPM
 
+    # --- planning & guardrails (Phase 8/9) ---
+    COMPLEXITY_STRATEGY: str = "heuristic"   # "heuristic" (free) or "llm" classifier
+    ENABLE_LLM_GUARDRAILS: bool = True       # LLM-judge guards; disable to save quota in evals
+    MAX_REVISIONS: int = 2                    # reflector's revise-loop cap
+
     # --- logging / local paths ---
     LOG_LEVEL: str = "INFO"
     CHROMA_PERSIST_DIR: str = ".chroma"

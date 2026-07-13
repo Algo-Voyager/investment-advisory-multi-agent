@@ -1,14 +1,20 @@
 """SupervisorAgent — the multi-agent orchestrator (LangGraph supervisor pattern).
 
 The supervisor is the ONLY component that decides who runs next; agents
-communicate solely through `AgentState` and never call each other. Each turn the
-supervisor consults its RoutingStrategy and returns `Command(goto=<agent>)` —
-or `Command(goto=END)` when the conversation already answers the user.
+communicate solely through `AgentState` and never call each other.
 
-A hop counter guards against ping-pong loops: after MAX_HOPS agent turns the
-supervisor ends the run regardless, so a confused router can never spin forever.
+Two modes:
+- PLAN mode (Phase 8): if `state.plan` exists, the supervisor INTERPRETS it —
+  dispatching plan[plan_step] each turn and advancing the index. When the plan is
+  exhausted it hands off to the synthesizer.
+- SIMPLE mode: no plan → it consults its RoutingStrategy each turn (one turn per
+  specialist), then hands off.
+
+Three independent guards prevent runaway loops: plan bounds (plan mode), the
+`visited` dedup (simple mode), and MAX_HOPS (both).
 """
 
+from langchain_core.messages import SystemMessage
 from langgraph.graph import END
 from langgraph.types import Command
 
@@ -40,6 +46,26 @@ class SupervisorAgent:
         bind_context(client_id=state.get("client_id"), session_id=state.get("session_id"),
                      agent=self.name)
         hops = state.get("hops", 0)
+
+        # -- PLAN mode: interpret the planner's step list ----------------------
+        plan = state.get("plan")
+        if plan:
+            step = state.get("plan_step", 0)
+            if step >= len(plan) or hops >= len(plan) + 1:
+                log.info("supervisor_plan_done", steps=len(plan))
+                return Command(goto=self._end, update={"route": END_ROUTE})
+            agent = plan[step]["agent"]
+            log.info("supervisor_plan_step", step=step + 1, of=len(plan), agent=agent,
+                     goal=plan[step]["goal"][:60])
+            # Feed the step's sub-goal to the agent as a focused instruction.
+            return Command(goto=agent, update={
+                "route": agent, "hops": hops + 1, "plan_step": step + 1,
+                "visited": state.get("visited", []) + [agent],
+                "messages": [SystemMessage(
+                    content=f"PLAN STEP {step + 1}/{len(plan)} — focus only on: {plan[step]['goal']}")],
+            })
+
+        # -- SIMPLE mode: strategy routing, one turn per specialist ------------
         if hops >= MAX_HOPS:
             log.warning("supervisor_max_hops", hops=hops)
             return Command(goto=self._end, update={"route": END_ROUTE})

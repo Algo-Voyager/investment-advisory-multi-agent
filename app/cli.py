@@ -19,7 +19,9 @@ from app.agents.base import _text
 from app.graph.builder import GraphBuilder
 
 AGENT_ICONS = {"portfolio": "📊", "market_research": "🔎", "securities_analysis": "📈",
-               "risk": "🛡️", "supervisor": "🧭"}
+               "risk": "🛡️", "supervisor": "🧭", "planner": "🗺️", "synthesizer": "🧩",
+               "reflector": "🔬", "input_guard": "🚦", "safe_exit": "🛟",
+               "memory_read": "📖", "memory_write": "💾"}
 
 
 def main() -> None:
@@ -38,9 +40,10 @@ def main() -> None:
 
     graph = GraphBuilder().with_all().build()
 
-    # Until the Phase 8 synthesizer exists, the honest output is each specialist's
-    # own answer, in the order they ran — not just whichever message came last.
-    answers: dict[str, str] = {}
+    # The synthesizer (when it runs) produces the single final answer; otherwise we
+    # fall back to showing each specialist's own reply, in the order they ran.
+    specialist_answers: dict[str, str] = {}
+    final_answer = None
     print(f"\n[client {args.client} | thread {thread_id}] {args.query}\n" + "─" * 60)
     for chunk in graph.stream(
         {
@@ -53,21 +56,41 @@ def main() -> None:
     ):
         for node, update in chunk.items():
             icon = AGENT_ICONS.get(node, "•")
+            if node == "planner":
+                plan = (update or {}).get("plan")
+                if plan:
+                    print(f"{icon} planner: decomposed into {len(plan)} steps")
+                    for i, step in enumerate(plan, 1):
+                        print(f"     {i}. {step['agent']} — {step['goal']}")
+                else:
+                    print(f"{icon} planner: simple query, no plan")
+                continue
             if node == "supervisor":
                 route = (update or {}).get("route")
-                label = "done" if route == "END" else f"routing to → {route}"
-                print(f"{icon} supervisor: {label}")
+                print(f"{icon} supervisor: {'done' if route == 'END' else f'→ {route}'}")
                 continue
-            print(f"{icon} {node} agent finished its part")
+            if node in ("synthesizer", "safe_exit"):
+                final_answer = (update or {}).get("final_answer") or final_answer
+                print(f"{icon} {node} composed the final answer")
+                continue
+            if node == "reflector":
+                print(f"{icon} reflector: checking answer against evidence")
+                continue
+            if node in ("input_guard", "memory_read", "memory_write"):
+                continue
+            print(f"{icon} {node} finished its part")
             for message in (update or {}).get("messages", []):
                 if isinstance(message, AIMessage) and message.content and _text(message.content).strip():
-                    answers[node] = _text(message.content)  # keep each agent's final say
+                    specialist_answers[node] = _text(message.content)
 
     print("─" * 60)
-    if not answers:
+    if final_answer:
+        print(final_answer)
+    elif specialist_answers:
+        for node, answer in specialist_answers.items():
+            print(f"\n[{AGENT_ICONS.get(node, '•')} {node}]\n{answer}")
+    else:
         print("(no answer produced)")
-    for node, answer in answers.items():
-        print(f"\n[{AGENT_ICONS.get(node, '•')} {node}]\n{answer}")
 
 
 if __name__ == "__main__":

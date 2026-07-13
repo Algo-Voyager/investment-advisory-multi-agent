@@ -33,4 +33,6 @@ make notebook                # open the per-phase notebooks (start with phase00)
 - [x] **Phase 5** — RAG knowledge base: SEC EDGAR ingestion → ChromaDB (Gemini embeddings, 768d), Retriever facade, search_filings with citations + freshness disclosure
 - [x] **Phase 6** — Risk Assessment agent: volatility, beta (equity sleeve), VaR (historical/parametric Strategies), concentration, synthetic profiles + tolerance mismatch check
 - [x] **Phase 7** — persistent memory (SQLite checkpointer + long-term store), thread-id isolation, access-control interceptor (bonus: session isolation + data privacy)
-- [ ] Phases 8–15 — see `docs/01_claude_code_prompts.md`
+- [x] **Phase 8** — planner (complexity Strategy + decomposition), supervisor plan-walk, Chain-of-Thought synthesizer with conflict handling
+- [x] **Phase 9** — guardrail pipeline (input: PII/injection/scope; output: numeric/citation/groundedness/conflict), reflection revise-loop, safe exit
+- [ ] Phases 10–15 — see `docs/01_claude_code_prompts.md`
