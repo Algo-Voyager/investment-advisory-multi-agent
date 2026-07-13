@@ -9,6 +9,7 @@ in the graph; this file is purely presentation (MVC-lite: this is the View,
 Run: `make ui`  (streamlit run ui/streamlit_app.py)
 """
 
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -16,6 +17,17 @@ from pathlib import Path
 import streamlit as st
 from langchain_core.messages import AIMessage, HumanMessage
 from langgraph.types import Command
+
+# Streamlit Cloud's secrets manager populates `st.secrets`, NOT the process
+# environment — but `app.config.Settings` (pydantic-settings) reads from
+# `os.environ`/`.env`. Bridge them before importing `app.config` (its module-level
+# `settings = Settings()` runs at import time and needs GOOGLE_API_KEY present).
+# Local dev has no `.streamlit/secrets.toml`, so this is a no-op there (.env covers it).
+try:
+    for _key, _value in st.secrets.items():
+        os.environ.setdefault(_key, str(_value))
+except Exception:
+    pass
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # make `app` importable
 

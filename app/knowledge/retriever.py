@@ -36,6 +36,14 @@ class Retriever:
         def via_chroma():
             where = self._build_where(filters)
             hits = self._store.query(collection, text, k=k, where=where)
+            if not hits:
+                # A fresh/unseeded Chroma instance (e.g. a new deploy before ingestion
+                # has run) answers with an empty list, not an exception — Fallback only
+                # engages on exceptions, so an empty-but-successful Chroma query would
+                # otherwise never reach the keyword mirror even though it has the same
+                # content. Raise here so Fallback tries the keyword index too; a ticker
+                # with genuinely no filings anywhere still ends up honestly empty.
+                raise LookupError(f"no Chroma hits for {collection!r}")
             return [(h["document"], h["metadata"] or {}, h["distance"]) for h in hits]
 
         def via_keyword():
