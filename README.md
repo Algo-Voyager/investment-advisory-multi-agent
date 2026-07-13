@@ -37,4 +37,7 @@ make notebook                # open the per-phase notebooks (start with phase00)
 - [x] **Phase 9** — guardrail pipeline (input: PII/injection/scope; output: numeric/citation/groundedness/conflict), reflection revise-loop, safe exit
 - [x] **Phase 10** — human-in-the-loop clarification via `interrupt()`/`Command(resume=...)`, CLI prompt/resume flow
 - [x] **Phase 11** — per-adapter circuit breakers, Fallback helper (Retriever→keyword search, market adapters→yfinance), global node exception wrapping (no stack trace ever reaches the user)
-- [ ] Phases 12–15 — see `docs/01_claude_code_prompts.md`
+- [ ] Phase 12 — Optimization Agent (bonus, not yet implemented)
+- [x] **Phase 13** — Gemini-powered RAGAS evaluation suite (Faithfulness/ResponseRelevancy/LLMContextPrecision) + deterministic metrics (routing/answer/guardrail accuracy), 75-item hand-crafted dataset, markdown+chart report
+- [x] **Phase 14** — Streamlit UI: client selector, streaming turn view, portfolio panel, citations panel, human-in-the-loop clarification buttons
+- [ ] Phase 15 — see `docs/01_claude_code_prompts.md`

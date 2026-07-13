@@ -61,6 +61,7 @@ class GraphBuilder:
         self._use_guardrails = False
         self._use_clarification = False
         self._routing_strategy: RoutingStrategy | None = None
+        self._checkpointer = None  # override — see with_memory()
 
     def with_supervisor(self, strategy: RoutingStrategy | None = None) -> "GraphBuilder":
         self._use_supervisor = True
@@ -83,11 +84,19 @@ class GraphBuilder:
         self._agents.append(RiskAssessmentAgent())
         return self
 
-    def with_memory(self) -> "GraphBuilder":
+    def with_memory(self, checkpointer=None) -> "GraphBuilder":
         """Persistent memory: checkpointer (short-term, per thread_id) +
         MemoryRead/MemoryWrite nodes (long-term, per client). Requires a
-        thread_id in the invoke config."""
+        thread_id in the invoke config.
+
+        `checkpointer`: override the default sync `SqliteSaver` (used by the
+        CLI/notebooks/tests). The Streamlit UI passes an `AsyncSqliteSaver`
+        instead — `astream_events` requires an async-capable checkpointer;
+        the default sync one raises NotImplementedError under it.
+        """
         self._use_memory = True
+        if checkpointer is not None:
+            self._checkpointer = checkpointer
         return self
 
     def with_planning(self) -> "GraphBuilder":
@@ -106,14 +115,19 @@ class GraphBuilder:
         self._use_clarification = True
         return self
 
-    def with_all(self) -> "GraphBuilder":
-        """Everything built so far — what the CLI/UI/notebooks use."""
+    def with_all(self, checkpointer=None) -> "GraphBuilder":
+        """Everything built so far — what the CLI/UI/notebooks use.
+
+        `checkpointer`: forwarded to with_memory() — pass an AsyncSqliteSaver
+        here when building a graph that will be driven via astream_events()
+        (e.g. the Streamlit UI).
+        """
         return (self.with_supervisor()
                 .with_portfolio_agent()
                 .with_market_research_agent()
                 .with_securities_analysis_agent()
                 .with_risk_agent()
-                .with_memory()
+                .with_memory(checkpointer=checkpointer)
                 .with_planning()
                 .with_guardrails()
                 .with_clarification())
@@ -223,7 +237,10 @@ class GraphBuilder:
             graph.add_edge(START, first_after_entry)
 
         if needs_checkpointer:
-            from app.memory.checkpointer import get_checkpointer
+            checkpointer = self._checkpointer
+            if checkpointer is None:
+                from app.memory.checkpointer import get_checkpointer
 
-            return graph.compile(checkpointer=get_checkpointer())
+                checkpointer = get_checkpointer()
+            return graph.compile(checkpointer=checkpointer)
         return graph.compile()

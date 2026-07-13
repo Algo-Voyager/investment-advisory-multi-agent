@@ -14,6 +14,7 @@ The Template Method wraps the *invocation* of that executor — it does not
 replace the react loop.
 """
 
+import json
 import time
 from abc import ABC, abstractmethod
 
@@ -23,6 +24,8 @@ from app.graph.state import AgentState
 from app.logging import bind_context, get_logger
 
 log = get_logger(__name__)
+
+_RAG_TOOL_NAMES = {"search_filings", "search_news_archive"}
 
 
 class BaseAgent(ABC):
@@ -64,9 +67,30 @@ class BaseAgent(ABC):
         tool_results = dict(state.get("tool_results", {}))
         if tool_outputs:
             tool_results[self.name] = tool_outputs
+
+        # Surface RAG snippets into state.retrieved_context (Phase 5/9/13): tool
+        # results are JSON strings inside ToolMessage.content; only search_filings/
+        # search_news_archive carry retrieval snippets worth exposing to
+        # GroundednessGuard and the eval harness's RAGAS metrics.
+        retrieved_context = list(state.get("retrieved_context", []))
+        for m in new_messages:
+            if not (isinstance(m, ToolMessage) and m.name in _RAG_TOOL_NAMES):
+                continue
+            try:
+                payload = json.loads(m.content)
+            except (json.JSONDecodeError, TypeError):
+                continue
+            for r in payload.get("results", []):
+                snippet = r.get("snippet") or r.get("headline")
+                if snippet:
+                    retrieved_context.append(snippet)
+
         log.info("agent_done", seconds=round(elapsed, 2), new_messages=len(new_messages),
                  tool_calls=len(tool_outputs))
-        return {"messages": new_messages, "tool_results": tool_results}
+        update = {"messages": new_messages, "tool_results": tool_results}
+        if retrieved_context != state.get("retrieved_context", []):
+            update["retrieved_context"] = retrieved_context
+        return update
 
     # -- convenience ----------------------------------------------------
     def answer(self, client_id: str, query: str, session_id: str = "adhoc") -> str:

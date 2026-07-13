@@ -11,7 +11,7 @@ This is the **single source of truth for everything YOU (the developer) must pro
 | # | What you provide | Where to get it | Required? | Used for |
 |---|---|---|---|---|
 | 1 | **`GOOGLE_API_KEY`** (a Gemini API key) | [Google AI Studio](https://aistudio.google.com/apikey) → "Create API key" (free) | **REQUIRED** | Every LLM call **and** every embedding (chat, routing, planning, synthesis, reflection, LLM-as-judge, RAG embeddings, eval metrics) |
-| 2 | **`SEC_USER_AGENT`** — your name + email, e.g. `"Tejas Thombare thombaretejas44@gmail.com"` | Just your own email. No signup. | **REQUIRED for RAG (Phase 5)** | SEC EDGAR **rejects requests without a descriptive `User-Agent` containing contact info.** No key, just an email string. |
+| 2 | **`SEC_USER_AGENT`** — your name + email, e.g. `"iampkumar iampkumar03@gmail.com"` | Just your own email. No signup. | **REQUIRED for RAG (Phase 5)** | SEC EDGAR **rejects requests without a descriptive `User-Agent` containing contact info.** No key, just an email string. |
 
 **With only those two values the entire core system runs.** Market prices and news come from `yfinance`, which needs **no key at all**. Everything below is optional.
 

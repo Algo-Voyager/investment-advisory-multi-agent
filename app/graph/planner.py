@@ -91,8 +91,12 @@ class PlannerNode:
         bind_context(client_id=state.get("client_id"), session_id=state.get("session_id"),
                      agent=self.name)
         # Reset per-turn planning/synthesis scratch (persisted threads carry it over).
+        # "blocked" MUST be reset here too: on a persisted thread, a PRIOR turn's
+        # block (or an earlier failure) otherwise lingers as a stale truthy value
+        # forever, silently mislabeling later, actually-successful turns as blocked.
         reset = {"plan": None, "plan_step": 0, "final_answer": None, "revisions": 0,
-                 "route": None, "hops": 0, "visited": [], "clarification_answer": None}
+                 "route": None, "hops": 0, "visited": [], "clarification_answer": None,
+                 "blocked": None}
         query = _last_human_text(state)
 
         if not self._classifier.is_complex(query):

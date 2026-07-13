@@ -1,0 +1,30 @@
+{"id": "simple-01", "client_id": "CLT-002", "query": "What stocks do I own?", "expected_agents": ["portfolio"], "expected_substrings": ["NVDA", "MSFT", "TSLA"], "category": "holdings"}
+{"id": "simple-02", "client_id": "CLT-001", "query": "What is my VTI position worth?", "expected_agents": ["portfolio"], "expected_substrings": ["VTI"], "category": "position_value"}
+{"id": "simple-03", "client_id": "CLT-005", "query": "What is my Apple position worth?", "expected_agents": ["portfolio"], "expected_substrings": ["AAPL", "Apple"], "category": "position_value"}
+{"id": "simple-04", "client_id": "CLT-002", "query": "How has my NVDA position performed since purchase?", "expected_agents": ["portfolio"], "expected_substrings": ["NVDA"], "category": "performance"}
+{"id": "simple-05", "client_id": "CLT-005", "query": "How has my Microsoft position performed since purchase?", "expected_agents": ["portfolio"], "expected_substrings": ["MSFT", "Microsoft"], "category": "performance"}
+{"id": "simple-06", "client_id": "CLT-005", "query": "Which of my holdings has the best year-to-date return?", "expected_agents": ["portfolio"], "expected_substrings": [], "category": "ytd_return"}
+{"id": "simple-07", "client_id": "CLT-009", "query": "Which of my holdings has the best year-to-date return?", "expected_agents": ["portfolio"], "expected_substrings": [], "category": "ytd_return"}
+{"id": "simple-08", "client_id": "CLT-001", "query": "What is my cash balance?", "expected_agents": ["portfolio"], "expected_substrings": ["CASH", "160"], "category": "cash"}
+{"id": "simple-09", "client_id": "CLT-002", "query": "What is my total portfolio value?", "expected_agents": ["portfolio"], "expected_substrings": [], "category": "portfolio_value"}
+{"id": "simple-10", "client_id": "CLT-003", "query": "What do I own?", "expected_agents": ["portfolio"], "expected_substrings": ["SPY", "AGG"], "category": "holdings"}
+{"id": "simple-11", "client_id": "CLT-004", "query": "Show me my allocation by asset class", "expected_agents": ["portfolio"], "expected_substrings": [], "category": "allocation"}
+{"id": "simple-12", "client_id": "CLT-005", "query": "Show me my allocation by sector", "expected_agents": ["portfolio"], "expected_substrings": [], "category": "allocation"}
+{"id": "simple-13", "client_id": "CLT-005", "query": "Give me a breakdown of my holdings by market cap", "expected_agents": ["portfolio"], "expected_substrings": [], "category": "allocation"}
+{"id": "simple-14", "client_id": "CLT-007", "query": "What is my Berkshire Hathaway position worth?", "expected_agents": ["portfolio"], "expected_substrings": ["BRK"], "category": "position_value"}
+{"id": "simple-15", "client_id": "CLT-009", "query": "What stocks do I own?", "expected_agents": ["portfolio"], "expected_substrings": ["PLTR", "SHOP"], "category": "holdings"}
+{"id": "simple-16", "client_id": "CLT-010", "query": "What is my Tesla position worth?", "expected_agents": ["portfolio"], "expected_substrings": ["TSLA", "Tesla"], "category": "position_value"}
+{"id": "simple-17", "client_id": "CLT-006", "query": "What do I own?", "expected_agents": ["portfolio"], "expected_substrings": ["JPM", "HD"], "category": "holdings"}
+{"id": "simple-18", "client_id": "CLT-008", "query": "What do I own?", "expected_agents": ["portfolio"], "expected_substrings": ["KO", "PEP"], "category": "holdings"}
+{"id": "simple-19", "client_id": "CLT-002", "query": "What is happening in the semiconductor sector today?", "expected_agents": ["market_research"], "expected_substrings": [], "category": "market"}
+{"id": "simple-20", "client_id": "CLT-005", "query": "What is the current price of NVDA?", "expected_agents": ["market_research"], "expected_substrings": [], "category": "market"}
+{"id": "simple-21", "client_id": "CLT-007", "query": "What is my Exxon Mobil position worth?", "expected_agents": ["portfolio"], "expected_substrings": ["XOM"], "category": "position_value"}
+{"id": "simple-22", "client_id": "CLT-010", "query": "How has my Apple position performed since purchase?", "expected_agents": ["portfolio"], "expected_substrings": ["AAPL"], "category": "performance"}
+{"id": "simple-23", "client_id": "CLT-001", "query": "Show me my allocation by asset class", "expected_agents": ["portfolio"], "expected_substrings": ["ETF"], "category": "allocation"}
+{"id": "simple-24", "client_id": "CLT-009", "query": "What is my Palantir position worth?", "expected_agents": ["portfolio"], "expected_substrings": ["PLTR"], "category": "position_value"}
+{"id": "simple-25", "client_id": "CLT-006", "query": "How has my JPMorgan position performed since purchase?", "expected_agents": ["portfolio"], "expected_substrings": ["JPM"], "category": "performance"}
+{"id": "simple-26", "client_id": "CLT-003", "query": "What is my total portfolio value?", "expected_agents": ["portfolio"], "expected_substrings": [], "category": "portfolio_value"}
+{"id": "simple-27", "client_id": "CLT-005", "query": "What is happening in the technology sector today?", "expected_agents": ["market_research"], "expected_substrings": [], "category": "market"}
+{"id": "simple-28", "client_id": "CLT-004", "query": "What do I own?", "expected_agents": ["portfolio"], "expected_substrings": ["VTI", "SCHG"], "category": "holdings"}
+{"id": "simple-29", "client_id": "CLT-008", "query": "What is my cash balance?", "expected_agents": ["portfolio"], "expected_substrings": ["CASH"], "category": "cash"}
+{"id": "simple-30", "client_id": "CLT-010", "query": "What do I own?", "expected_agents": ["portfolio"], "expected_substrings": ["AAPL", "MSFT"], "category": "holdings"}

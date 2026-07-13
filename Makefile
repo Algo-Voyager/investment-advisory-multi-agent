@@ -8,8 +8,8 @@ install:
 	$(PIP) install --upgrade pip
 	$(PIP) install -e ".[dev]"
 
-run:  ## CLI chat (arrives in Phase 1)
-	@echo "CLI arrives in Phase 1: $(PY) -m app.cli --client CLT-001 'what do I own?'"
+run:  ## CLI chat
+	$(PY) -m app.cli --client CLT-001 "what do I own?"
 
 test:
 	$(PY) -m pytest -q

@@ -10,6 +10,8 @@ RAG phase (Phase 5) starts hitting SEC EDGAR — it is validated for shape here 
 only enforced as present by the EDGAR adapter.
 """
 
+import os
+
 from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -81,3 +83,10 @@ class Settings(BaseSettings):
 
 
 settings = Settings()  # the Singleton — import this, never instantiate Settings() again
+
+# LangChain's tracer reads these from the process environment directly — having
+# LANGSMITH_API_KEY as a Settings field is not enough to activate tracing.
+if settings.LANGSMITH_API_KEY:
+    os.environ.setdefault("LANGCHAIN_TRACING_V2", "true")
+    os.environ.setdefault("LANGCHAIN_API_KEY", settings.LANGSMITH_API_KEY)
+    os.environ.setdefault("LANGCHAIN_PROJECT", "xzy-investment-advisory-copilot")
