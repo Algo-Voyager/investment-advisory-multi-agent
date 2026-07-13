@@ -10,6 +10,7 @@ Run: `make ui`  (streamlit run ui/streamlit_app.py)
 """
 
 import os
+import queue
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -44,13 +45,17 @@ st.set_page_config(page_title="XZY Capital — Investment Advisory Co-Pilot", pa
                    layout="wide")
 
 
-def render_markdown(text: str) -> None:
+def _escape_dollars(text: str) -> str:
     """st.markdown() renders `$...$` as LaTeX math — every dollar-figure in a
     financial answer ("$209.07... $210.96") gets misread as a math-mode
     delimiter pair and garbled into italic Unicode (confirmed via a real
     browser check: "SMA 50: $209.07. The current price ($210.96)" rendered as
     mangled math). Escape literal `$` so it displays as plain currency."""
-    st.markdown(text.replace("$", "\\$"))
+    return text.replace("$", "\\$")
+
+
+def render_markdown(text: str) -> None:
+    st.markdown(_escape_dollars(text))
 
 NODE_LABELS = {
     "memory_read": "📖 Recalling prior context…",
@@ -211,47 +216,87 @@ def render_sidebar() -> None:
         render_citations_panel(st.session_state["last_tool_results"])
 
 
-async def stream_turn(graph, run_input, config, show_reasoning: bool) -> dict:
-    """Drive astream_events(version='v2') on the BACKGROUND loop/thread.
+def _extract_update(out) -> dict:
+    """A node's `on_chain_end` output is either a plain state-update dict, or a
+    `Command(update=...)` when Phase 11's global error wrapping is on (true for
+    every node under `with_all()`) — normalize both to a plain dict so callers
+    don't have to care which shape a given node happens to return."""
+    if out is None:
+        return {}
+    if hasattr(out, "update"):  # langgraph.types.Command
+        return out.update or {}
+    return out if isinstance(out, dict) else {}
+
+
+async def stream_turn(graph, run_input, config, show_reasoning: bool,
+                      event_queue: "queue.Queue") -> dict:
+    """Drive astream_events(version='v2') on the BACKGROUND loop/thread, pushing
+    live progress onto `event_queue` as it happens.
 
     Streamlit's `st.*` calls require the script's own execution context (a
     thread-local), and this coroutine runs on a single loop/thread SHARED
     across every user session (see async_bridge.py) — so it must never call
-    `st.*` itself. It only collects plain-data "steps"; the caller (back on
-    the Streamlit script's own thread) renders them.
+    `st.*` itself. It only puts plain-data events on the queue; the caller
+    (back on the Streamlit script's own thread) polls the queue and renders,
+    so the UI updates AS the turn progresses instead of only at the end.
     """
     final_answer = None
     plan_shown = False
-    steps: list[dict] = []
+    pending_tool_calls: dict[str, dict] = {}  # run_id -> {"name","input"}, paired at on_tool_end
 
     async for event in graph.astream_events(run_input, config, version="v2"):
         name = event.get("name", "")
         kind = event.get("event", "")
 
         if kind == "on_chain_start" and name in NODE_LABELS:
-            steps.append({"kind": "status", "label": NODE_LABELS[name]})
+            event_queue.put({"kind": "status", "label": NODE_LABELS[name]})
+            if name == "synthesizer":
+                # A reflector revision loop re-runs the synthesizer from scratch —
+                # without this, a second draft's tokens would just concatenate
+                # onto the end of the first draft's already-streamed text.
+                event_queue.put({"kind": "answer_reset"})
+
+        if kind == "on_chain_end" and name == "supervisor" and show_reasoning:
+            update = _extract_update((event.get("data") or {}).get("output"))
+            route, reason = update.get("route"), update.get("route_reason")
+            if route and route != "END" and reason:
+                event_queue.put({"kind": "route_reason", "agent": route, "text": reason})
 
         if kind == "on_chain_end" and name == "planner" and show_reasoning:
-            plan = ((event.get("data") or {}).get("output") or {})
-            plan = plan.get("plan") if isinstance(plan, dict) else None
+            update = _extract_update((event.get("data") or {}).get("output"))
+            plan = update.get("plan")
             if plan and not plan_shown:
                 plan_shown = True
-                steps.append({"kind": "plan", "plan": plan})
+                event_queue.put({"kind": "plan", "plan": plan})
+
+        if kind == "on_tool_start":
+            pending_tool_calls[event.get("run_id")] = {
+                "name": name, "input": (event.get("data") or {}).get("input")}
 
         if kind == "on_tool_end":
-            steps.append({"kind": "tool", "name": event.get("name", "tool"),
-                         "output": str((event.get("data") or {}).get("output"))[:800]})
+            call = pending_tool_calls.pop(event.get("run_id"), {"name": name, "input": None})
+            event_queue.put({"kind": "tool", "name": call["name"], "input": call["input"],
+                             "output": str((event.get("data") or {}).get("output"))[:800]})
 
         if kind == "on_chain_end" and name == "reflector" and show_reasoning:
-            out = (event.get("data") or {}).get("output")
-            events = getattr(out, "get", lambda *_: None)("guardrail_events") if out else None
+            update = _extract_update((event.get("data") or {}).get("output"))
+            events = update.get("guardrail_events")
             if events:
-                steps.append({"kind": "guardrails", "events": events[-6:]})
+                event_queue.put({"kind": "guardrails", "events": events[-6:]})
+
+        if kind == "on_chat_model_stream" and (event.get("metadata") or {}).get(
+                "langgraph_node") == "synthesizer":
+            # Gemini chunk content is a list of blocks, e.g. [{"type":"text","text":"..."}] —
+            # _text() (app.agents.base) already knows how to flatten that shape.
+            chunk = (event.get("data") or {}).get("chunk")
+            delta = _text(getattr(chunk, "content", "") or "") if chunk is not None else ""
+            if delta:
+                event_queue.put({"kind": "token", "text": delta})
 
         if kind == "on_chain_end" and name in ("synthesizer", "safe_exit"):
-            out = (event.get("data") or {}).get("output") or {}
-            if isinstance(out, dict) and out.get("final_answer"):
-                final_answer = out["final_answer"]
+            update = _extract_update((event.get("data") or {}).get("output"))
+            if update.get("final_answer"):
+                final_answer = update["final_answer"]
 
     # aget_state, not get_state: we're running ON the checkpointer's own
     # background loop here — AsyncSqliteSaver explicitly forbids its sync
@@ -261,42 +306,14 @@ async def stream_turn(graph, run_input, config, show_reasoning: bool) -> dict:
     if state.next:  # paused — an interrupt is pending
         for task in state.tasks:
             if task.interrupts:
-                return {"interrupt": task.interrupts[0].value, "steps": steps}
+                return {"interrupt": task.interrupts[0].value}
     if not final_answer:
         for m in reversed(state.values.get("messages", [])):
             if isinstance(m, AIMessage) and m.content:
                 final_answer = _text(m.content)
                 break
     return {"final_answer": final_answer or "(no answer produced)",
-           "tool_results": state.values.get("tool_results", {}), "steps": steps}
-
-
-def run_turn_sync(graph, run_input, config) -> dict:
-    # Dispatch onto the SAME persistent background loop the checkpointer is bound
-    # to (see get_graph()) — a fresh asyncio.run() here would create a different
-    # loop each rerun and break AsyncSqliteSaver's loop affinity. stream_turn does
-    # no st.* rendering itself (see its docstring) — this call blocks the current
-    # (Streamlit script) thread until the whole turn finishes, then we render.
-    bg = get_background_loop()
-    return bg.run(stream_turn(graph, run_input, config, st.session_state["show_reasoning"]))
-
-
-def _render_steps(steps: list[dict]) -> None:
-    """Render the collected steps — called on the Streamlit script's own thread."""
-    for step in steps:
-        if step["kind"] == "status":
-            st.caption(step["label"])
-        elif step["kind"] == "plan":
-            with st.expander("🗺️ Plan", expanded=True):
-                for i, s in enumerate(step["plan"], 1):
-                    st.write(f"{i}. **{s['agent']}** — {s['goal']}")
-        elif step["kind"] == "tool":
-            with st.expander(f"🔧 {step['name']}", expanded=False):
-                st.code(step["output"], language="json")
-        elif step["kind"] == "guardrails":
-            with st.expander("🧠 Guardrail checks", expanded=False):
-                for ev in step["events"]:
-                    st.write(f"- `{ev['guard']}` → **{ev['action']}** {ev.get('reason', '')}")
+           "tool_results": state.values.get("tool_results", {})}
 
 
 def handle_query(query: str) -> None:
@@ -323,15 +340,70 @@ def handle_resume(answer: str) -> None:
 
 
 def _drive_graph(graph, run_input, config) -> None:
+    """Kick the turn off on the background loop WITHOUT blocking (bg.submit, not
+    bg.run), then poll the queue stream_turn is writing to and render live: a
+    `st.status` box grows with each step (routing reasoning, plan, tool calls,
+    guardrail checks) while the answer streams token-by-token into its own
+    placeholder below it — instead of the UI going blank until the whole turn
+    finishes and dumping everything at once.
+    """
+    show_reasoning = st.session_state["show_reasoning"]
     with st.chat_message("assistant"):
-        with st.spinner("Working…"):
-            result = run_turn_sync(graph, run_input, config)
-        _render_steps(result.get("steps", []))
+        event_queue: "queue.Queue" = queue.Queue()
+        bg = get_background_loop()
+        future = bg.submit(stream_turn(graph, run_input, config, show_reasoning, event_queue))
+
+        status_box = st.status("Working…", expanded=show_reasoning)
+        answer_placeholder = st.empty()
+        answer_text = ""
+
+        while True:
+            try:
+                item = event_queue.get(timeout=0.05)
+            except queue.Empty:
+                if future.done():
+                    break
+                continue
+
+            kind = item["kind"]
+            if kind == "status":
+                status_box.update(label=item["label"])
+            elif kind == "answer_reset":
+                answer_text = ""
+                answer_placeholder.empty()
+            elif kind == "token":
+                answer_text += item["text"]
+                answer_placeholder.markdown(_escape_dollars(answer_text) + "▌")
+            elif kind == "route_reason":
+                with status_box:
+                    st.write(f"🧭 Routing to **{item['agent']}** — {item['text']}")
+            elif kind == "plan":
+                with status_box:
+                    st.write("**🗺️ Plan:**")
+                    for i, s in enumerate(item["plan"], 1):
+                        st.write(f"{i}. **{s['agent']}** — {s['goal']}")
+            elif kind == "tool":
+                with status_box, st.expander(f"🔧 {item['name']}", expanded=False):
+                    if item.get("input") is not None:
+                        st.caption("Called with:")
+                        st.code(str(item["input"]), language="json")
+                    st.caption("Result:")
+                    st.code(item["output"], language="json")
+            elif kind == "guardrails":
+                with status_box:
+                    st.write("**🧠 Guardrail checks:**")
+                    for ev in item["events"]:
+                        st.write(f"- `{ev['guard']}` → **{ev['action']}** {ev.get('reason', '')}")
+
+        result = future.result()  # propagates any exception the turn hit, same as before
+        status_box.update(label="✅ Done", state="complete", expanded=show_reasoning)
+
         if "interrupt" in result:
+            answer_placeholder.empty()
             st.session_state["pending_interrupt"] = result["interrupt"]
             st.warning(f"⚠️ Clarification needed: {result['interrupt']['question']}")
         else:
-            render_markdown(result["final_answer"])
+            answer_placeholder.markdown(_escape_dollars(result["final_answer"]))
             st.session_state["messages"].append({"role": "assistant", "content": result["final_answer"]})
             st.session_state["last_tool_results"] = result.get("tool_results", {})
 

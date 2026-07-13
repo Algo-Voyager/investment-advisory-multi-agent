@@ -28,5 +28,13 @@ class BackgroundLoop:
         self.loop.run_forever()
 
     def run(self, coro):
-        """Run `coro` on the background loop from any (sync) calling thread."""
+        """Run `coro` on the background loop from any (sync) calling thread, BLOCKING
+        until it finishes."""
         return asyncio.run_coroutine_threadsafe(coro, self.loop).result()
+
+    def submit(self, coro):
+        """Start `coro` on the background loop and return immediately with a
+        `concurrent.futures.Future` — for callers that want to poll something
+        else (e.g. a queue the coroutine is writing to) while it runs, instead
+        of blocking. Call `.result()` on the returned Future to get the outcome."""
+        return asyncio.run_coroutine_threadsafe(coro, self.loop)

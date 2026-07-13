@@ -16,6 +16,8 @@ class AgentState(TypedDict, total=False):
     client_id: str    # raw "CLT-XXX" — set from the authenticated selection, NEVER from chat input
     session_id: str
     route: Optional[str]              # supervisor's routing decision (Phase 2)
+    route_reason: Optional[str]       # why that agent was picked — plan step's goal, or the
+                                       # LLM/keyword router's rationale (UI "chain of thought")
     hops: int                         # agent turns taken this run — supervisor's loop guard (Phase 2)
     visited: list[str]                # agents already dispatched this run — one turn each in simple mode
     plan: Optional[list[dict]]        # planner's sub-goals: [{"agent","goal"}] (Phase 8)

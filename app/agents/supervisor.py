@@ -55,14 +55,15 @@ class SupervisorAgent:
                 log.info("supervisor_plan_done", steps=len(plan))
                 return Command(goto=self._end, update={"route": END_ROUTE})
             agent = plan[step]["agent"]
+            goal = plan[step]["goal"]
             log.info("supervisor_plan_step", step=step + 1, of=len(plan), agent=agent,
-                     goal=plan[step]["goal"][:60])
+                     goal=goal[:60])
             # Feed the step's sub-goal to the agent as a focused instruction.
             return Command(goto=agent, update={
-                "route": agent, "hops": hops + 1, "plan_step": step + 1,
+                "route": agent, "route_reason": goal, "hops": hops + 1, "plan_step": step + 1,
                 "visited": state.get("visited", []) + [agent],
                 "messages": [SystemMessage(
-                    content=f"PLAN STEP {step + 1}/{len(plan)} — focus only on: {plan[step]['goal']}")],
+                    content=f"PLAN STEP {step + 1}/{len(plan)} — focus only on: {goal}")],
             })
 
         # -- SIMPLE mode: strategy routing, one turn per specialist ------------
@@ -72,6 +73,7 @@ class SupervisorAgent:
 
         visited = state.get("visited", [])
         decision = self._strategy.route(state, self._specs)
+        reason = getattr(self._strategy, "last_reason", None)
         if decision in visited:
             # Each specialist gets ONE turn per run (multi-step plans arrive with the
             # Phase 8 planner). A router that re-picks a finished agent is looping.
@@ -83,8 +85,10 @@ class SupervisorAgent:
             # memory_read injected prior context that reads like an answer. But no
             # agent has produced a reply THIS turn, so fall back to a deterministic
             # pick (defaults to portfolio) and let it compose one.
-            fallback = KeywordRoutingStrategy().route(state, self._specs)
+            fallback_strategy = KeywordRoutingStrategy()
+            fallback = fallback_strategy.route(state, self._specs)
             decision = fallback if fallback != END_ROUTE else self._specs[0].name
+            reason = fallback_strategy.last_reason or "router ended before any agent ran"
             log.info("supervisor_forced_dispatch", agent=decision,
                      reason="router ended before any agent ran")
         if decision == END_ROUTE:
@@ -93,5 +97,5 @@ class SupervisorAgent:
 
         log.info("supervisor_dispatch", next_agent=decision, hop=hops + 1)
         return Command(goto=decision,
-                       update={"route": decision, "hops": hops + 1,
+                       update={"route": decision, "route_reason": reason, "hops": hops + 1,
                                "visited": visited + [decision]})

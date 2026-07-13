@@ -95,8 +95,8 @@ class PlannerNode:
         # block (or an earlier failure) otherwise lingers as a stale truthy value
         # forever, silently mislabeling later, actually-successful turns as blocked.
         reset = {"plan": None, "plan_step": 0, "final_answer": None, "revisions": 0,
-                 "route": None, "hops": 0, "visited": [], "clarification_answer": None,
-                 "blocked": None}
+                 "route": None, "route_reason": None, "hops": 0, "visited": [],
+                 "clarification_answer": None, "blocked": None}
         query = _last_human_text(state)
 
         if not self._classifier.is_complex(query):

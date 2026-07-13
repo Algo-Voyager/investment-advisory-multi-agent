@@ -12,6 +12,7 @@ Swapping strategies (or A/B-ing them in the Phase 13 evals) never touches the
 supervisor or the graph.
 """
 
+import json
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 
@@ -53,6 +54,9 @@ class KeywordRoutingStrategy(RoutingStrategy):
                      "concentr", "diversif", "tolerance", "exposure", "compliance",
                      "regulatory", "wash sale")
 
+    def __init__(self):
+        self.last_reason: str | None = None  # why route() picked what it picked — UI "chain of thought"
+
     def route(self, state: AgentState, agents: list[AgentSpec]) -> str:
         query = _last_human_text(state).lower()
         ran = set(state.get("tool_results", {}))  # agents that already contributed
@@ -64,18 +68,25 @@ class KeywordRoutingStrategy(RoutingStrategy):
         wants_market = any(k in query for k in self.MARKET_KEYWORDS)
         if not (wants_portfolio or wants_market or wants_securities or wants_risk):
             wants_portfolio = True  # client questions default to their portfolio
+            self.last_reason = "no specialist keywords matched — defaulting to portfolio"
 
         # Specialist buckets outrank the generic portfolio bucket: "technical analysis
         # of my NVDA position" / "risk exposure of my portfolio" contain portfolio
         # words too, but the specialist ask is the point of the query.
         if wants_securities and "securities_analysis" in names and "securities_analysis" not in ran:
+            self.last_reason = "query mentions technical/indicator keywords"
             return "securities_analysis"
         if wants_risk and "risk" in names and "risk" not in ran:
+            self.last_reason = "query mentions risk/volatility keywords"
             return "risk"
         if wants_portfolio and "portfolio" in names and "portfolio" not in ran:
+            if self.last_reason is None:
+                self.last_reason = "query mentions holdings/portfolio keywords"
             return "portfolio"
         if wants_market and "market_research" in names and "market_research" not in ran:
+            self.last_reason = "query mentions market/news keywords"
             return "market_research"
+        self.last_reason = "every relevant specialist has already answered"
         return END_ROUTE  # every relevant specialist has already answered
 
 
@@ -84,6 +95,7 @@ class LLMRoutingStrategy(RoutingStrategy):
 
     def __init__(self):
         self._fallback = KeywordRoutingStrategy()
+        self.last_reason: str | None = None  # why route() picked what it picked — UI "chain of thought"
 
     def route(self, state: AgentState, agents: list[AgentSpec]) -> str:
         menu = "\n".join(f"- {a.name}: {a.description}" for a in agents)
@@ -94,20 +106,27 @@ class LLMRoutingStrategy(RoutingStrategy):
             f"Conversation so far:\n{transcript}\n\n"
             "Decide who should act NEXT to finish answering the user's question. "
             "If the conversation already contains a complete answer to every part "
-            f"of the user's question, reply {END_ROUTE}.\n"
-            f"Reply with exactly one word: {', '.join(a.name for a in agents)}, or {END_ROUTE}."
+            f"of the user's question, the agent is {END_ROUTE}.\n"
+            "Reply ONLY as JSON: {\"agent\": <one of: "
+            f"{', '.join(a.name for a in agents)}, {END_ROUTE}>, "
+            '"reason": <one short sentence explaining the choice>}'
         )
         try:
-            raw = _text(get_llm().invoke(prompt).content).strip().strip('."`').lower()
+            raw = _text(get_llm().invoke(prompt).content).strip()
+            raw = raw.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+            parsed = json.loads(raw)
+            agent = str(parsed.get("agent", "")).strip().strip('."`').lower()
             valid = {a.name for a in agents} | {END_ROUTE.lower()}
-            if raw in valid:
-                decision = END_ROUTE if raw == END_ROUTE.lower() else raw
+            if agent in valid:
+                decision = END_ROUTE if agent == END_ROUTE.lower() else agent
+                self.last_reason = str(parsed.get("reason", "")).strip()[:200] or None
                 log.info("route_decision", strategy="llm", decision=decision)
                 return decision
             log.warning("route_unparseable", raw=raw[:80])
-        except Exception as exc:  # LLM down / rate-limited → deterministic fallback
+        except Exception as exc:  # LLM down / rate-limited / bad JSON → deterministic fallback
             log.warning("route_llm_failed", error=str(exc)[:120])
         decision = self._fallback.route(state, agents)
+        self.last_reason = self._fallback.last_reason
         log.info("route_decision", strategy="keyword_fallback", decision=decision)
         return decision
 
