@@ -37,7 +37,9 @@ def main() -> None:
     session_id = args.session or f"sess-{datetime.now():%Y%m%d-%H%M%S}"
     # THE data-isolation key: client prefix keeps threads disjoint per client.
     thread_id = f"{args.client}-{session_id}"
-    config = {"configurable": {"thread_id": thread_id}}
+    # run_name: LangSmith's root-run display name — without it every trace shows up
+    # as generic "LangGraph"; this makes the Threads/Traces list thread-identifiable.
+    config = {"configurable": {"thread_id": thread_id}, "run_name": thread_id}
 
     graph = GraphBuilder().with_all().build()
 

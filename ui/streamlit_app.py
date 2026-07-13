@@ -303,7 +303,10 @@ def handle_query(query: str) -> None:
     st.session_state["messages"].append({"role": "user", "content": query})
     graph = get_graph()
     client_id, session_id = st.session_state["client_id"], st.session_state["session_id"]
-    config = {"configurable": {"thread_id": f"{client_id}-{session_id}"}}
+    thread_id = f"{client_id}-{session_id}"
+    # run_name: LangSmith's root-run display name — without it every trace shows up
+    # as generic "LangGraph"; this makes the Threads/Traces list thread-identifiable.
+    config = {"configurable": {"thread_id": thread_id}, "run_name": thread_id}
     run_input = {"messages": [HumanMessage(content=query)], "client_id": client_id,
                 "session_id": session_id}
     _drive_graph(graph, run_input, config)
@@ -313,7 +316,8 @@ def handle_resume(answer: str) -> None:
     st.session_state["messages"].append({"role": "user", "content": f"*(clarification)* {answer}"})
     graph = get_graph()
     client_id, session_id = st.session_state["client_id"], st.session_state["session_id"]
-    config = {"configurable": {"thread_id": f"{client_id}-{session_id}"}}
+    thread_id = f"{client_id}-{session_id}"
+    config = {"configurable": {"thread_id": thread_id}, "run_name": thread_id}
     st.session_state["pending_interrupt"] = None
     _drive_graph(graph, Command(resume=answer), config)
 
